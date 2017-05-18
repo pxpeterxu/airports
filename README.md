@@ -10,7 +10,7 @@ with the important information. **It should only be used server-side, as it's hu
 ```
 var airports = require('myrtlelime-airports');
 
-console.log(airports.list);
+console.log(airports.airports);
 
 // Prints
 // [
@@ -28,7 +28,7 @@ console.log(airports.list);
 //   },
 //   ...
 
-console.log(airports.keyed);
+console.log(airports.airportsKeyed);
 // Prints
 // {
 //   "369": {
