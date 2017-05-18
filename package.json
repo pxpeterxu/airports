@@ -1,0 +1,32 @@
+{
+  "name": "myrtlelime-airports",
+  "version": "1.0.0",
+  "description": "Airports data collected from various sources for completeness",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxpeterxu/airports.git"
+  },
+  "keywords": [
+    "airports",
+    "data",
+    "airport"
+  ],
+  "author": "Peter Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxpeterxu/airports/issues"
+  },
+  "scripts": {
+    "build": "node makeAirports.js > dist/airports.js && node makeAirports.js --object > dist/airportsKeyed.js"
+  },
+  "homepage": "https://github.com/pxpeterxu/airports#readme",
+  "devDependencies": {
+    "csv-parse": "^1.2.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "lodash": "^4.17.4",
+    "readline-sync": "^1.4.7"
+  }
+}

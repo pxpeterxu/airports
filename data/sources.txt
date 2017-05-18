@@ -1,0 +1,17 @@
+Sources:
+
+airports.dat
+https://github.com/jpatokal/openflights/master/data/airports.dat
+
+iata_airport_list_20160428.csv
+https://github.com/opentraveldata/opentraveldata/blob/master/data/IATA/iata_airport_list_20160428.csv
+
+iata.tzmap
+https://github.com/hroptatyr/dateutils/tzmaps/iata.tzmap
+
+airports.csv
+http://ourairports.com/data/
+
+airports.json
+https://gist.github.com/tdreyno/4278655
+(minor modifications: "Congo" is one country, so changed some "Congo" to "Congo (Kinshasa)" and "Congo (Brazzaville)"
