@@ -262,13 +262,13 @@ module.exports = [
   {
     "iata": "TKI",
     "timezone": "America/Chicago",
-    "name": "Collin County Regional At Mc Kinney Airport",
-    "city": "Dallas",
+    "name": "Tokeen Seaplane Base",
+    "city": "Tokeen",
     "countryName": "United States",
-    "latitude": 33.1779,
-    "longitude": -96.5905,
-    "icao": "KTKI",
-    "state": "TX",
+    "latitude": 55.9371,
+    "longitude": -133.327,
+    "icao": "57A",
+    "state": "AK",
     "country": "us",
     "hasScheduledService": false
   },
@@ -312,15 +312,15 @@ module.exports = [
     "countryName": "United States"
   },
   {
-    "iata": "BFK",
+    "iata": "BKF",
     "timezone": "America/Denver",
-    "name": "Buckley Air Force Base",
-    "city": "Aurora",
+    "name": "Lake Brooks Seaplane Base",
+    "city": "Katmai National Park",
     "countryName": "United States",
-    "latitude": 39.7017,
-    "longitude": -104.752,
-    "icao": "KBKF",
-    "state": "CO",
+    "latitude": 58.5548,
+    "longitude": -155.77699,
+    "icao": "5Z9",
+    "state": "AK",
     "country": "us",
     "hasScheduledService": false
   },
@@ -470,14 +470,14 @@ module.exports = [
   {
     "iata": "CHU",
     "timezone": "America/Anchorage",
-    "name": "Houston County Airport",
-    "city": "Caledonia",
+    "name": "Chuathbaluk Airport",
+    "city": "Chuathbaluk",
     "countryName": "United States",
-    "latitude": 43.5964,
-    "longitude": -91.5039,
-    "hasScheduledService": false,
-    "icao": "KCHU",
-    "state": "MN",
+    "latitude": 61.5791,
+    "longitude": -159.216,
+    "hasScheduledService": true,
+    "icao": "9A3",
+    "state": "AK",
     "country": "us"
   },
   {
@@ -548,13 +548,13 @@ module.exports = [
   {
     "iata": "KCQ",
     "timezone": "America/Anchorage",
-    "name": "Chignik Airport",
-    "city": "Chignik",
+    "name": "Chignik Lake Airport",
+    "city": "Chignik Lake",
     "countryName": "United States",
-    "latitude": 56.3115,
-    "longitude": -158.373,
-    "hasScheduledService": false,
-    "icao": "PAJC",
+    "latitude": 56.255,
+    "longitude": -158.77499,
+    "hasScheduledService": true,
+    "icao": "A79",
     "state": "AK",
     "country": "us"
   },
@@ -704,15 +704,15 @@ module.exports = [
   },
   {
     "iata": "AKS",
-    "timezone": "Africa/Johannesburg",
-    "name": "Kroonstad Airport",
-    "city": "Kroonstad",
-    "countryName": "South Africa",
-    "latitude": -27.6606,
-    "longitude": 27.3158,
-    "hasScheduledService": false,
-    "icao": "FAKS",
-    "country": "za"
+    "timezone": "Pacific/Guadalcanal",
+    "name": "Auki Airport",
+    "city": "Auki",
+    "countryName": "Solomon Islands",
+    "latitude": -8.70257,
+    "longitude": 160.68201,
+    "hasScheduledService": true,
+    "icao": "AGGA",
+    "country": "sb"
   },
   {
     "iata": "BNY",
@@ -1280,13 +1280,13 @@ module.exports = [
   {
     "iata": "PPE",
     "timezone": "America/Hermosillo",
-    "name": "Puerto Peñasco International Airport",
+    "name": "Mar de Cortés International Airport",
     "city": "Puerto Peñasco",
     "countryName": "Mexico",
-    "latitude": 31.3562,
-    "longitude": -113.52568,
-    "hasScheduledService": false,
-    "icao": "MMPE",
+    "latitude": 31.35162,
+    "longitude": -113.30586,
+    "hasScheduledService": true,
+    "icao": "AMC",
     "country": "mx"
   },
   {
@@ -1833,13 +1833,13 @@ module.exports = [
   {
     "iata": "HIS",
     "timezone": "Australia/Brisbane",
-    "name": "Hayman Island Heliport",
-    "city": "Hayman Island Resort",
+    "name": "Hayman Island Resort Seaplane Base",
+    "city": "Hayman Island",
     "countryName": "Australia",
-    "latitude": -20.0599,
-    "longitude": 148.8834,
-    "hasScheduledService": false,
-    "icao": "YHYN",
+    "latitude": -20.06,
+    "longitude": 148.881,
+    "hasScheduledService": true,
+    "icao": "AU-HIS",
     "country": "au"
   },
   {
@@ -1963,17 +1963,16 @@ module.exports = [
     "countryName": "Australia"
   },
   {
-    "iata": "OCN",
+    "iata": "OKB",
     "timezone": "Australia/Brisbane",
-    "name": "Oceanside Municipal Airport",
-    "city": "Oceanside",
-    "countryName": "United States",
-    "latitude": 33.2173,
-    "longitude": -117.354,
-    "icao": "KOKB",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "CA"
+    "name": "Orchid Beach Airport",
+    "city": "Orchid Beach",
+    "countryName": "Australia",
+    "latitude": -24.9594,
+    "longitude": 153.315,
+    "icao": "AU-OKB",
+    "country": "au",
+    "hasScheduledService": false
   },
   {
     "iata": "PEP",
@@ -2421,17 +2420,16 @@ module.exports = [
     "countryName": "Papua New Guinea"
   },
   {
-    "iata": "PIP",
-    "timezone": "America/Anchorage",
-    "name": "Pilot Point Airport",
-    "city": "Pilot Point",
-    "countryName": "United States",
-    "latitude": 57.5804,
-    "longitude": -157.57201,
-    "hasScheduledService": false,
-    "icao": "PAPN",
-    "country": "us",
-    "state": "AK"
+    "iata": "PNP",
+    "timezone": "Pacific/Port_Moresby",
+    "name": "Girua Airport",
+    "city": "Popondetta",
+    "countryName": "Papua New Guinea",
+    "latitude": -8.80454,
+    "longitude": 148.30901,
+    "hasScheduledService": true,
+    "icao": "AYGR",
+    "country": "pg"
   },
   {
     "iata": "GBC",
@@ -3420,14 +3418,14 @@ module.exports = [
   {
     "iata": "HAE",
     "timezone": "Asia/Pyongyang",
-    "name": "Hannibal Regional Airport",
-    "city": "Hannibal",
+    "name": "Lava Falls Heliport",
+    "city": "Supai Village",
     "countryName": "United States",
-    "latitude": 39.7245,
-    "longitude": -91.4437,
+    "latitude": 36.1916,
+    "longitude": -113.092,
     "hasScheduledService": false,
-    "icao": "KHAE",
-    "state": "MO",
+    "icao": "AZ15",
+    "state": "AZ",
     "country": "us"
   },
   {
@@ -3530,16 +3528,16 @@ module.exports = [
     "countryName": "Papua New Guinea"
   },
   {
-    "iata": "SXF",
+    "iata": "BER",
     "timezone": "Europe/Berlin",
-    "name": "Berlin-Schönefeld International Airport",
+    "name": "Berlin Brandenburg Airport (U.C.)",
     "city": "Berlin",
     "countryName": "Germany",
-    "latitude": 52.38,
-    "longitude": 13.5225,
-    "icao": "EDDB",
+    "latitude": 52.35139,
+    "longitude": 13.49389,
+    "icao": "BER",
     "country": "de",
-    "hasScheduledService": true
+    "hasScheduledService": false
   },
   {
     "iata": "HKV",
@@ -3592,15 +3590,14 @@ module.exports = [
   {
     "iata": "LLU",
     "timezone": "America/Godthab",
-    "name": "Lamar Municipal Airport",
-    "city": "Lamar",
-    "countryName": "United States",
-    "latitude": 37.4895,
-    "longitude": -94.3115,
-    "hasScheduledService": false,
-    "icao": "KLLU",
-    "country": "us",
-    "state": "MO"
+    "name": "Alluitsup Paa Heliport",
+    "city": "Alluitsup Paa",
+    "countryName": "Greenland",
+    "latitude": 60.46445,
+    "longitude": -45.56917,
+    "hasScheduledService": true,
+    "icao": "BGAP",
+    "country": "gl"
   },
   {
     "iata": "QUV",
@@ -3653,15 +3650,14 @@ module.exports = [
   {
     "iata": "CNP",
     "timezone": "America/Scoresbysund",
-    "name": "Billy G Ray Field",
-    "city": "Chappell",
-    "countryName": "United States",
-    "latitude": 41.0775,
-    "longitude": -102.464,
-    "hasScheduledService": false,
-    "icao": "KCNP",
-    "country": "us",
-    "state": "NE"
+    "name": "Neerlerit Inaat Airport",
+    "city": "Neerlerit Inaat",
+    "countryName": "Greenland",
+    "latitude": 70.7431,
+    "longitude": -22.6505,
+    "hasScheduledService": true,
+    "icao": "BGCO",
+    "country": "gl"
   },
   {
     "iata": "DUN",
@@ -3760,15 +3756,15 @@ module.exports = [
     "countryName": "Greenland"
   },
   {
-    "iata": "QQT",
+    "iata": "JJU",
     "timezone": "America/Godthab",
-    "name": "Qeqertaq Heliport",
-    "city": "Qeqertaq",
+    "name": "Qaqortoq Heliport",
+    "city": "Qaqortoq",
     "countryName": "Greenland",
-    "latitude": 69.99586,
-    "longitude": -51.30092,
+    "latitude": 60.71568,
+    "longitude": -46.02992,
     "hasScheduledService": true,
-    "icao": "BGQE",
+    "icao": "BGJH",
     "country": "gl"
   },
   {
@@ -3882,13 +3878,13 @@ module.exports = [
   {
     "iata": "JFR",
     "timezone": "America/Godthab",
-    "name": "Paamiut Heliport",
+    "name": "Paamiut Airport",
     "city": "Paamiut",
     "countryName": "Greenland",
-    "latitude": 61.9922,
-    "longitude": -49.6625,
-    "hasScheduledService": false,
-    "icao": "BGFH",
+    "latitude": 62.01474,
+    "longitude": -49.67094,
+    "hasScheduledService": true,
+    "icao": "BGPT",
     "country": "gl"
   },
   {
@@ -4518,15 +4514,13 @@ module.exports = [
   {
     "iata": "PRN",
     "timezone": "Europe/Belgrade",
-    "name": "Mac Crenshaw Memorial Airport",
-    "city": "Greenville",
-    "countryName": "United States",
-    "latitude": 31.8457,
-    "longitude": -86.6107,
-    "hasScheduledService": false,
-    "icao": "KPRN",
-    "country": "us",
-    "state": "AL"
+    "name": "Priština International Airport",
+    "city": "Prishtina",
+    "latitude": 42.5728,
+    "longitude": 21.0358,
+    "hasScheduledService": true,
+    "icao": "BKPR",
+    "country": "xk"
   },
   {
     "iata": "BLW",
@@ -4556,15 +4550,14 @@ module.exports = [
   {
     "iata": "BMQ",
     "timezone": "Africa/Nairobi",
-    "name": "Burnet Municipal Kate Craddock Field",
-    "city": "Burnet",
-    "countryName": "United States",
-    "latitude": 30.7389,
-    "longitude": -98.2386,
-    "icao": "KBMQ",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "TX"
+    "name": "Bamburi Airport",
+    "city": "Bamburi",
+    "countryName": "Kenya",
+    "latitude": -3.98191,
+    "longitude": 39.73077,
+    "icao": "BMQ",
+    "country": "ke",
+    "hasScheduledService": true
   },
   {
     "iata": "BMZ",
@@ -5028,14 +5021,14 @@ module.exports = [
   },
   {
     "name": "Santa Cruz Airport",
-    "city": "Rio De Janeiro",
-    "countryName": "Brazil",
-    "iata": "SNZ",
-    "latitude": -22.9324,
-    "longitude": -43.7191,
+    "city": "Santa Cruz",
+    "countryName": "Belize",
+    "iata": "STU",
+    "latitude": 18.2721,
+    "longitude": -88.4563,
     "timezone": "America/Sao_Paulo",
-    "icao": "SBSC",
-    "country": "br",
+    "icao": "BZ-STU",
+    "country": "bz",
     "hasScheduledService": false
   },
   {
@@ -5165,16 +5158,16 @@ module.exports = [
     "icao": "CA-0446"
   },
   {
-    "city": "Calgary",
+    "city": "Bedwell Harbour",
     "countryName": "Canada",
     "iata": "YBW",
-    "latitude": 51.1031,
-    "longitude": -114.374,
+    "latitude": 48.75,
+    "longitude": -123.233,
     "timezone": "America/Edmonton",
-    "hasScheduledService": false,
-    "name": "Calgary / Springbank Airport",
-    "icao": "CYBW",
-    "state": "AB",
+    "hasScheduledService": true,
+    "name": "Bedwell Harbour Seaplane Base",
+    "icao": "CAB3",
+    "state": "BC",
     "country": "ca"
   },
   {
@@ -5412,15 +5405,15 @@ module.exports = [
     "icao": "CAV7"
   },
   {
-    "name": "Winnipeg / St. Andrews Airport",
-    "city": "Winnipeg",
+    "name": "Mayne Island Seaplane Base",
+    "city": "Miners Bay",
     "countryName": "Canada",
     "iata": "YAV",
-    "latitude": 50.0564,
-    "longitude": -97.0325,
+    "latitude": 48.8667,
+    "longitude": -123.3,
     "timezone": "America/Winnipeg",
-    "icao": "CYAV",
-    "state": "MB",
+    "icao": "CAW7",
+    "state": "BC",
     "country": "ca",
     "hasScheduledService": false
   },
@@ -5453,13 +5446,13 @@ module.exports = [
   {
     "iata": "ZEL",
     "timezone": "America/Vancouver",
-    "name": "Denny Island Airport",
+    "name": "Bella Bella (Campbell Island) Airport",
     "city": "Bella Bella",
     "countryName": "Canada",
-    "latitude": 52.1397,
-    "longitude": -128.064,
-    "hasScheduledService": false,
-    "icao": "CYJQ",
+    "latitude": 52.185,
+    "longitude": -128.15699,
+    "hasScheduledService": true,
+    "icao": "CBBC",
     "state": "BC",
     "country": "ca"
   },
@@ -5672,15 +5665,15 @@ module.exports = [
     "countryName": "Canada"
   },
   {
-    "name": "Princeton Airport",
-    "city": "Town of Princeton",
+    "name": "Drayton Valley Industrial Airport",
+    "city": "Drayton Valley",
     "countryName": "Canada",
     "iata": "YDC",
-    "latitude": 49.4681,
-    "longitude": -120.511,
+    "latitude": 53.2658,
+    "longitude": -114.96,
     "timezone": "America/Vancouver",
-    "icao": "CYDC",
-    "state": "BC",
+    "icao": "CER3",
+    "state": "AB",
     "country": "ca",
     "hasScheduledService": false
   },
@@ -5816,15 +5809,14 @@ module.exports = [
   {
     "iata": "CGC",
     "timezone": "America/New_York",
-    "name": "Crystal River Airport",
-    "city": "Crystal River",
-    "countryName": "United States",
-    "latitude": 28.8673,
-    "longitude": -82.5713,
-    "icao": "KCGC",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "FL"
+    "name": "Cape Gloucester Airport",
+    "city": "Cape Gloucester",
+    "countryName": "Papua New Guinea",
+    "latitude": -5.45896,
+    "longitude": 148.43242,
+    "icao": "CGC",
+    "country": "pg",
+    "hasScheduledService": false
   },
   {
     "iata": "CGT",
@@ -5971,14 +5963,14 @@ module.exports = [
   {
     "iata": "YAX",
     "timezone": "America/Winnipeg",
-    "name": "Lac Du Bonnet Airport",
-    "city": "Lac Du Bonnet",
+    "name": "Wapekeka Airport",
+    "city": "Angling Lake",
     "countryName": "Canada",
-    "latitude": 50.2944,
-    "longitude": -96.01,
+    "latitude": 53.8492,
+    "longitude": -89.5794,
     "hasScheduledService": true,
-    "icao": "CYAX",
-    "state": "MB",
+    "icao": "CKB6",
+    "state": "ON",
     "country": "ca"
   },
   {
@@ -6317,15 +6309,14 @@ module.exports = [
   {
     "iata": "YZY",
     "timezone": "America/Vancouver",
-    "name": "Mackenzie Airport",
-    "city": "Mackenzie",
-    "countryName": "Canada",
-    "latitude": 55.3044,
-    "longitude": -123.132,
-    "icao": "CYZY",
-    "country": "ca",
-    "hasScheduledService": false,
-    "state": "BC"
+    "name": "Zhangye Ganzhou Airport",
+    "city": "Zhangye",
+    "countryName": "China",
+    "latitude": 38.8019,
+    "longitude": 100.675,
+    "icao": "CN-0143",
+    "country": "cn",
+    "hasScheduledService": true
   },
   {
     "iata": "DDG",
@@ -6554,15 +6545,15 @@ module.exports = [
     "countryName": "Canada"
   },
   {
-    "iata": "YLK",
+    "iata": "YLS",
     "timezone": "America/Toronto",
-    "name": "Barrie-Orillia (Lake Simcoe Regional Airport)",
-    "city": "Barrie-Orillia",
+    "name": "Lebel-sur-Quevillon Airport",
+    "city": "Lebel-sur-Quévillon",
     "countryName": "Canada",
-    "latitude": 44.4853,
-    "longitude": -79.5556,
-    "icao": "CYLS",
-    "state": "ON",
+    "latitude": 49.0303,
+    "longitude": -77.0172,
+    "icao": "CSH4",
+    "state": "QC",
     "country": "ca",
     "hasScheduledService": false
   },
@@ -6761,15 +6752,15 @@ module.exports = [
   {
     "iata": "YAB",
     "timezone": "America/Winnipeg",
-    "name": "Old Arctic Bay Airport",
+    "name": "Arctic Bay Airport",
     "city": "Arctic Bay",
     "countryName": "Canada",
-    "latitude": 73.00589,
-    "longitude": -85.03255,
-    "icao": "CJX7",
+    "latitude": 73.00577,
+    "longitude": -85.04251,
+    "icao": "CYAB",
     "state": "NU",
     "country": "ca",
-    "hasScheduledService": false
+    "hasScheduledService": true
   },
   {
     "iata": "YAC",
@@ -6941,17 +6932,17 @@ module.exports = [
     "countryName": "Canada"
   },
   {
-    "iata": "GRK",
-    "timezone": "America/Chicago",
-    "name": "Robert Gray  Army Air Field Airport",
-    "city": "Fort Hood/Killeen",
-    "countryName": "United States",
-    "latitude": 31.0672,
-    "longitude": -97.8289,
+    "iata": "YBB",
+    "timezone": "America/Edmonton",
+    "name": "Kugaaruk Airport",
+    "city": "Kugaaruk",
+    "countryName": "Canada",
+    "latitude": 68.5344,
+    "longitude": -89.8081,
     "hasScheduledService": true,
-    "icao": "KGRK",
-    "state": "TX",
-    "country": "us"
+    "icao": "CYBB",
+    "state": "NU",
+    "country": "ca"
   },
   {
     "iata": "YBC",
@@ -8568,14 +8559,14 @@ module.exports = [
   {
     "iata": "YLK",
     "timezone": "Asia/Calcutta",
-    "name": "Yelahanka Air Force Station",
-    "city": "Yelahanka",
-    "countryName": "India",
-    "latitude": 13.1355,
-    "longitude": 77.606,
-    "icao": "VOYK",
+    "name": "Barrie-Orillia (Lake Simcoe Regional Airport)",
+    "city": "Barrie-Orillia",
+    "countryName": "Canada",
+    "latitude": 44.4853,
+    "longitude": -79.5556,
+    "icao": "CYLS",
     "state": "ON",
-    "country": "in",
+    "country": "ca",
     "hasScheduledService": false
   },
   {
@@ -10102,13 +10093,13 @@ module.exports = [
   {
     "iata": "YCK",
     "timezone": "America/Edmonton",
-    "name": "Colville Lake Airport",
+    "name": "Tommy Kochon Airport",
     "city": "Colville Lake",
     "countryName": "Canada",
-    "latitude": 67.0392,
-    "longitude": -126.08,
-    "hasScheduledService": false,
-    "icao": "CEB3",
+    "latitude": 67.02,
+    "longitude": -126.126,
+    "hasScheduledService": true,
+    "icao": "CYVL",
     "state": "NT",
     "country": "ca"
   },
@@ -11650,16 +11641,15 @@ module.exports = [
   },
   {
     "iata": "CZL",
-    "timezone": "America/New_York",
-    "name": "Tom B. David Field",
-    "city": "Calhoun",
-    "countryName": "United States",
-    "latitude": 34.4554,
-    "longitude": -84.9392,
-    "hasScheduledService": false,
-    "icao": "KCZL",
-    "country": "us",
-    "state": "GA"
+    "timezone": "Africa/Algiers",
+    "name": "Mohamed Boudiaf International Airport",
+    "city": "Constantine",
+    "countryName": "Algeria",
+    "latitude": 36.276,
+    "longitude": 6.62039,
+    "hasScheduledService": true,
+    "icao": "DABC",
+    "country": "dz"
   },
   {
     "iata": "SKI",
@@ -13228,15 +13218,14 @@ module.exports = [
   {
     "iata": "GAF",
     "timezone": "Africa/Tunis",
-    "name": "Hutson Field",
-    "city": "Grafton",
-    "countryName": "United States",
-    "latitude": 48.4047,
-    "longitude": -97.3709,
-    "hasScheduledService": false,
-    "icao": "KGAF",
-    "country": "us",
-    "state": "ND"
+    "name": "Gafsa Ksar International Airport",
+    "city": "Gafsa",
+    "countryName": "Tunisia",
+    "latitude": 34.422,
+    "longitude": 8.8225,
+    "hasScheduledService": true,
+    "icao": "DTTF",
+    "country": "tn"
   },
   {
     "iata": "GAE",
@@ -13987,15 +13976,14 @@ module.exports = [
   {
     "iata": "BFE",
     "timezone": "Europe/Berlin",
-    "name": "Terry County Airport",
-    "city": "Brownfield",
-    "countryName": "United States",
-    "latitude": 33.1731,
-    "longitude": -102.193,
+    "name": "Bielefeld Airport",
+    "city": "Bielefeld",
+    "countryName": "Germany",
+    "latitude": 51.96472,
+    "longitude": 8.54444,
     "hasScheduledService": false,
-    "icao": "KBFE",
-    "country": "us",
-    "state": "TX"
+    "icao": "EDLI",
+    "country": "de"
   },
   {
     "iata": "MGL",
@@ -14024,15 +14012,14 @@ module.exports = [
   {
     "iata": "NRN",
     "timezone": "Europe/Berlin",
-    "name": "Norton Municipal Airport",
-    "city": "Norton",
-    "countryName": "United States",
-    "latitude": 39.8504,
-    "longitude": -99.8947,
-    "hasScheduledService": false,
-    "icao": "KNRN",
-    "country": "us",
-    "state": "KS"
+    "name": "Weeze Airport",
+    "city": "Weeze",
+    "countryName": "Germany",
+    "latitude": 51.6024,
+    "longitude": 6.14217,
+    "hasScheduledService": true,
+    "icao": "EDLV",
+    "country": "de"
   },
   {
     "iata": "DTM",
@@ -14073,15 +14060,14 @@ module.exports = [
   {
     "iata": "RBM",
     "timezone": "America/Chicago",
-    "name": "Robinson Army Air Field",
-    "city": "Camp Robinson/Little Rock",
-    "countryName": "United States",
-    "latitude": 34.8501,
-    "longitude": -92.3002,
-    "icao": "KRBM",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "AR"
+    "name": "Straubing Airport",
+    "city": "Straubing",
+    "countryName": "Germany",
+    "latitude": 48.90083,
+    "longitude": 12.51667,
+    "icao": "EDMS",
+    "country": "de",
+    "hasScheduledService": false
   },
   {
     "iata": "FDH",
@@ -14158,12 +14144,12 @@ module.exports = [
   {
     "iata": "GHF",
     "timezone": "Europe/Berlin",
-    "name": "[Duplicate] Giebelstadt Army Air Field",
+    "name": "Giebelstadt Airport",
     "city": "Giebelstadt",
     "countryName": "Germany",
-    "latitude": 49.6481,
-    "longitude": 9.96649,
-    "icao": "ETEU",
+    "latitude": 49.64806,
+    "longitude": 9.96639,
+    "icao": "EDQG",
     "country": "de",
     "hasScheduledService": false
   },
@@ -14182,12 +14168,12 @@ module.exports = [
   {
     "iata": "BBJ",
     "timezone": "Europe/Berlin",
-    "name": "Bautzen Airport",
-    "city": "Bautzen",
+    "name": "Bitburg Airport",
+    "city": "Bitburg",
     "countryName": "Germany",
-    "latitude": 51.19361,
-    "longitude": 14.51972,
-    "icao": "EDAB",
+    "latitude": 49.94528,
+    "longitude": 6.565,
+    "icao": "EDRB",
     "country": "de",
     "hasScheduledService": false
   },
@@ -14410,15 +14396,14 @@ module.exports = [
   {
     "iata": "HEI",
     "timezone": "Europe/Berlin",
-    "name": "Hettinger Municipal Airport",
-    "city": "Hettinger",
-    "countryName": "United States",
-    "latitude": 46.0149,
-    "longitude": -102.656,
-    "hasScheduledService": false,
-    "icao": "KHEI",
-    "country": "us",
-    "state": "ND"
+    "name": "Heide-Büsum Airport",
+    "city": "Büsum",
+    "countryName": "Germany",
+    "latitude": 54.15333,
+    "longitude": 8.90167,
+    "hasScheduledService": true,
+    "icao": "EDXB",
+    "country": "de"
   },
   {
     "iata": "FLF",
@@ -14459,15 +14444,14 @@ module.exports = [
   {
     "iata": "NDZ",
     "timezone": "Europe/Berlin",
-    "name": "Whiting Field Naval Air Station South Airport",
-    "city": "Milton",
-    "countryName": "United States",
-    "latitude": 30.7044,
-    "longitude": -87.023,
-    "icao": "KNDZ",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "FL"
+    "name": "Nordholz-Spieka Airport",
+    "city": "Cuxhaven",
+    "countryName": "Germany",
+    "latitude": 53.76722,
+    "longitude": 8.64361,
+    "icao": "EDXN",
+    "country": "de",
+    "hasScheduledService": false
   },
   {
     "iata": "PSH",
@@ -15067,8 +15051,8 @@ module.exports = [
     "longitude": -2.27495,
     "hasScheduledService": true,
     "icao": "EGCC",
-    "state": "ID",
-    "country": "gb"
+    "country": "gb",
+    "state": "ID"
   },
   {
     "iata": "DSA",
@@ -15505,15 +15489,14 @@ module.exports = [
   {
     "iata": "JER",
     "timezone": "Europe/Jersey",
-    "name": "Jerome County Airport",
-    "city": "Jerome",
-    "countryName": "United States",
-    "latitude": 42.7267,
-    "longitude": -114.457,
-    "hasScheduledService": false,
-    "icao": "KJER",
-    "country": "us",
-    "state": "ID"
+    "name": "Jersey Airport",
+    "city": "Saint Helier",
+    "countryName": "Jersey",
+    "latitude": 49.2079,
+    "longitude": -2.19551,
+    "hasScheduledService": true,
+    "icao": "EGJJ",
+    "country": "je"
   },
   {
     "iata": "ESH",
@@ -16346,15 +16329,14 @@ module.exports = [
   {
     "iata": "HRT",
     "timezone": "America/Chicago",
-    "name": "Hurlburt Field",
-    "city": "Mary Esther",
-    "countryName": "United States",
-    "latitude": 30.4278,
-    "longitude": -86.6893,
+    "name": "RAF Linton-On-Ouse",
+    "city": "Linton-On-Ouse",
+    "countryName": "United Kingdom",
+    "latitude": 54.0489,
+    "longitude": -1.25275,
     "hasScheduledService": false,
-    "icao": "KHRT",
-    "country": "us",
-    "state": "FL"
+    "icao": "EGXU",
+    "country": "gb"
   },
   {
     "iata": "WTN",
@@ -17558,14 +17540,14 @@ module.exports = [
   },
   {
     "iata": "SRP",
-    "timezone": "Arctic/Longyearbyen",
-    "name": "Svea Airport",
-    "city": "Svea",
+    "timezone": "Europe/Oslo",
+    "name": "Stord Airport",
+    "city": "Leirvik",
     "countryName": "Norway",
-    "latitude": 77.9,
-    "longitude": 16.6833,
-    "hasScheduledService": false,
-    "icao": "ENSA",
+    "latitude": 59.7919,
+    "longitude": 5.34085,
+    "hasScheduledService": true,
+    "icao": "ENSO",
     "country": "no"
   },
   {
@@ -17691,13 +17673,13 @@ module.exports = [
   {
     "iata": "BZG",
     "timezone": "Europe/Warsaw",
-    "name": "Bydgoszcz-Biedaszkowo Airport",
+    "name": "Bydgoszcz Ignacy Jan Paderewski Airport",
     "city": "Bydgoszcz",
     "countryName": "Poland",
-    "latitude": 53.1031,
-    "longitude": 17.9556,
-    "hasScheduledService": false,
-    "icao": "EPBD",
+    "latitude": 53.0968,
+    "longitude": 17.9777,
+    "hasScheduledService": true,
+    "icao": "EPBY",
     "country": "pl"
   },
   {
@@ -18123,15 +18105,14 @@ module.exports = [
   {
     "iata": "GEV",
     "timezone": "Europe/Stockholm",
-    "name": "Ashe County Airport",
-    "city": "Jefferson",
-    "countryName": "United States",
-    "latitude": 36.4324,
-    "longitude": -81.4197,
-    "hasScheduledService": false,
-    "icao": "KGEV",
-    "country": "us",
-    "state": "NC"
+    "name": "Gällivare Airport",
+    "city": "Gällivare",
+    "countryName": "Sweden",
+    "latitude": 67.1324,
+    "longitude": 20.8146,
+    "hasScheduledService": true,
+    "icao": "ESNG",
+    "country": "se"
   },
   {
     "iata": "HUV",
@@ -18170,17 +18151,16 @@ module.exports = [
     "country": "se"
   },
   {
-    "iata": "SCF",
-    "timezone": "America/Phoenix",
-    "name": "Scottsdale Airport",
-    "city": "Scottsdale",
-    "countryName": "United States",
-    "latitude": 33.6229,
-    "longitude": -111.911,
-    "hasScheduledService": false,
-    "icao": "KSDL",
-    "country": "us",
-    "state": "AZ"
+    "iata": "SDL",
+    "timezone": "Europe/Stockholm",
+    "name": "Sundsvall-Härnösand Airport",
+    "city": "Sundsvall/ Härnösand",
+    "countryName": "Sweden",
+    "latitude": 62.5281,
+    "longitude": 17.4439,
+    "hasScheduledService": true,
+    "icao": "ESNN",
+    "country": "se"
   },
   {
     "iata": "OER",
@@ -18281,15 +18261,14 @@ module.exports = [
   {
     "iata": "ORB",
     "timezone": "Europe/Stockholm",
-    "name": "Orr Regional Airport",
-    "city": "Orr",
-    "countryName": "United States",
-    "latitude": 48.0159,
-    "longitude": -92.8561,
-    "hasScheduledService": false,
-    "icao": "KORB",
-    "country": "us",
-    "state": "MN"
+    "name": "Örebro Airport",
+    "city": "Örebro",
+    "countryName": "Sweden",
+    "latitude": 59.2237,
+    "longitude": 15.038,
+    "hasScheduledService": true,
+    "icao": "ESOE",
+    "country": "se"
   },
   {
     "iata": "HFS",
@@ -19270,13 +19249,13 @@ module.exports = [
   {
     "iata": "DUR",
     "timezone": "Africa/Johannesburg",
-    "name": "Air Force Base Durban",
+    "name": "King Shaka International Airport",
     "city": "Durban",
     "countryName": "South Africa",
-    "latitude": -29.9701,
-    "longitude": 30.9505,
-    "hasScheduledService": false,
-    "icao": "FADN",
+    "latitude": -29.61444,
+    "longitude": 31.11972,
+    "hasScheduledService": true,
+    "icao": "FALE",
     "country": "za"
   },
   {
@@ -19354,12 +19333,12 @@ module.exports = [
   {
     "iata": "MEZ",
     "timezone": "Africa/Johannesburg",
-    "name": "Morningside Farm Airport",
-    "city": "Silveroaks",
+    "name": "Musina(Messina) Airport",
+    "city": "Musina",
     "countryName": "South Africa",
-    "latitude": -25.7045,
-    "longitude": 26.909,
-    "icao": "FAMS",
+    "latitude": -22.356,
+    "longitude": 29.9862,
+    "icao": "FAMH",
     "country": "za",
     "hasScheduledService": false
   },
@@ -19558,13 +19537,13 @@ module.exports = [
   {
     "iata": "PTG",
     "timezone": "Africa/Johannesburg",
-    "name": "Pietersburg Municipal Airport",
+    "name": "Polokwane International Airport",
     "city": "Polokwane",
     "countryName": "South Africa",
-    "latitude": -23.9261,
-    "longitude": 29.4844,
+    "latitude": -23.84527,
+    "longitude": 29.45862,
     "hasScheduledService": true,
-    "icao": "FAPI",
+    "icao": "FAPP",
     "country": "za"
   },
   {
@@ -20386,15 +20365,14 @@ module.exports = [
   {
     "iata": "BIV",
     "timezone": "America/New_York",
-    "name": "Tulip City Airport",
-    "city": "Holland",
-    "countryName": "United States",
-    "latitude": 42.7429,
-    "longitude": -86.1074,
-    "icao": "KBIV",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "MI"
+    "name": "Bria Airport",
+    "city": "Bria",
+    "countryName": "Central African Republic",
+    "latitude": 6.52778,
+    "longitude": 21.9894,
+    "icao": "FEFR",
+    "country": "cf",
+    "hasScheduledService": false
   },
   {
     "iata": "BSN",
@@ -20879,16 +20857,15 @@ module.exports = [
   },
   {
     "iata": "NSI",
-    "timezone": "America/Los_Angeles",
-    "name": "San Nicolas Island Nolf Airport",
-    "city": "San Nicolas Island",
-    "countryName": "United States",
-    "latitude": 33.2398,
-    "longitude": -119.458,
-    "hasScheduledService": false,
-    "icao": "KNSI",
-    "country": "us",
-    "state": "CA"
+    "timezone": "Africa/Douala",
+    "name": "Yaoundé Nsimalen International Airport",
+    "city": "Yaoundé",
+    "countryName": "Cameroon",
+    "latitude": 3.72256,
+    "longitude": 11.5533,
+    "hasScheduledService": true,
+    "icao": "FKYS",
+    "country": "cm"
   },
   {
     "iata": "MMQ",
@@ -21134,15 +21111,14 @@ module.exports = [
   {
     "iata": "SLI",
     "timezone": "Africa/Lusaka",
-    "city": "Los Alamitos",
-    "countryName": "United States",
-    "latitude": 33.79,
-    "longitude": -118.052,
-    "hasScheduledService": false,
-    "icao": "KSLI",
-    "name": "Los Alamitos Army Air Field",
-    "country": "us",
-    "state": "CA"
+    "city": "Solwesi",
+    "countryName": "Zambia",
+    "latitude": -12.1737,
+    "longitude": 26.3651,
+    "hasScheduledService": true,
+    "icao": "FLSW",
+    "name": "Solwesi Airport",
+    "country": "zm"
   },
   {
     "iata": "BBZ",
@@ -21385,17 +21361,16 @@ module.exports = [
     "hasScheduledService": true
   },
   {
-    "iata": "SUM",
+    "iata": "SMS",
     "timezone": "Indian/Antananarivo",
-    "name": "Sumter Airport",
-    "city": "Sumter",
-    "countryName": "United States",
-    "latitude": 33.995,
-    "longitude": -80.3613,
-    "hasScheduledService": false,
-    "icao": "KSMS",
-    "country": "us",
-    "state": "SC"
+    "name": "Sainte Marie Airport",
+    "city": "Sainte Marie",
+    "countryName": "Madagascar",
+    "latitude": -17.0939,
+    "longitude": 49.8158,
+    "hasScheduledService": true,
+    "icao": "FMMS",
+    "country": "mg"
   },
   {
     "iata": "TMM",
@@ -21700,14 +21675,14 @@ module.exports = [
   {
     "iata": "IVA",
     "timezone": "Indian/Antananarivo",
-    "name": "Ambanja Airport",
+    "name": "Ampampamena Airport",
     "city": "Ambanja",
     "countryName": "Madagascar",
-    "latitude": -13.6457,
-    "longitude": 48.45943,
-    "icao": "FMNJ",
+    "latitude": -13.48482,
+    "longitude": 48.6327,
+    "icao": "FMNZ",
     "country": "mg",
-    "hasScheduledService": true
+    "hasScheduledService": false
   },
   {
     "iata": "WBO",
@@ -22298,16 +22273,16 @@ module.exports = [
     "countryName": "Angola"
   },
   {
-    "iata": "NZC",
+    "iata": "NZA",
     "timezone": "America/Lima",
-    "name": "Maria Reiche Neuman Airport",
-    "city": "Nazca",
-    "countryName": "Peru",
-    "latitude": -14.854,
-    "longitude": -74.9615,
-    "icao": "SPZA",
-    "country": "pe",
-    "hasScheduledService": true
+    "name": "Nzagi Airport",
+    "city": "Nzagi",
+    "countryName": "Angola",
+    "latitude": -7.71694,
+    "longitude": 21.3582,
+    "icao": "FNZG",
+    "country": "ao",
+    "hasScheduledService": false
   },
   {
     "iata": "BGB",
@@ -22864,13 +22839,13 @@ module.exports = [
   {
     "iata": "BVE",
     "timezone": "Europe/Paris",
-    "name": "Toul Rosières Air Base",
-    "city": "St Dizier",
+    "name": "Brive Souillac Airport",
+    "city": "Brive",
     "countryName": "France",
-    "latitude": 48.78,
-    "longitude": 5.98,
-    "hasScheduledService": false,
-    "icao": "LFSL",
+    "latitude": 45.03972,
+    "longitude": 1.48556,
+    "hasScheduledService": true,
+    "icao": "FR-0321",
     "country": "fr"
   },
   {
@@ -23320,15 +23295,14 @@ module.exports = [
   {
     "iata": "DWA",
     "timezone": "America/Los_Angeles",
-    "name": "Yolo County Davis Woodland Winters Airport",
-    "city": "Davis/Woodland/Winters",
-    "countryName": "United States",
-    "latitude": 38.5791,
-    "longitude": -121.857,
-    "icao": "KDWA",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "CA"
+    "name": "Dwangwa Airport",
+    "city": "Dwangwa",
+    "countryName": "Malawi",
+    "latitude": -12.5183,
+    "longitude": 34.1319,
+    "icao": "FWDW",
+    "country": "mw",
+    "hasScheduledService": false
   },
   {
     "iata": "KGJ",
@@ -23730,15 +23704,14 @@ module.exports = [
   {
     "iata": "LUD",
     "timezone": "Africa/Windhoek",
-    "name": "Decatur Municipal Airport",
-    "city": "Decatur",
-    "countryName": "United States",
-    "latitude": 33.2546,
-    "longitude": -97.5806,
-    "hasScheduledService": false,
-    "icao": "KLUD",
-    "country": "us",
-    "state": "TX"
+    "name": "Luderitz Airport",
+    "city": "Luderitz",
+    "countryName": "Namibia",
+    "latitude": -26.6874,
+    "longitude": 15.2429,
+    "hasScheduledService": true,
+    "icao": "FYLZ",
+    "country": "na"
   },
   {
     "iata": "MJO",
@@ -24247,13 +24220,13 @@ module.exports = [
   {
     "iata": "FKI",
     "timezone": "Africa/Lubumbashi",
-    "name": "Kisangani Simisini Airport",
+    "name": "Bangoka International Airport",
     "city": "Kisangani",
     "countryName": "Congo (Kinshasa)",
-    "latitude": 0.5175,
-    "longitude": 25.155,
-    "hasScheduledService": false,
-    "icao": "FZIA",
+    "latitude": 0.48164,
+    "longitude": 25.338,
+    "hasScheduledService": true,
+    "icao": "FZIC",
     "country": "cd"
   },
   {
@@ -25207,17 +25180,16 @@ module.exports = [
     "countryName": "Guinea-Bissau"
   },
   {
-    "iata": "OCE",
+    "iata": "OXB",
     "timezone": "Africa/Bissau",
-    "name": "Ocean City Municipal Airport",
-    "city": "Ocean City",
-    "countryName": "United States",
-    "latitude": 38.3104,
-    "longitude": -75.124,
-    "hasScheduledService": false,
-    "icao": "KOXB",
-    "country": "us",
-    "state": "MD"
+    "name": "Osvaldo Vieira International Airport",
+    "city": "Bissau",
+    "countryName": "Guinea-Bissau",
+    "latitude": 11.8948,
+    "longitude": -15.6537,
+    "hasScheduledService": true,
+    "icao": "GGOV",
+    "country": "gw"
   },
   {
     "iata": "GHE",
@@ -25390,15 +25362,14 @@ module.exports = [
   {
     "iata": "TTA",
     "timezone": "Africa/Casablanca",
-    "name": "Sanford-Lee County Regional Airport",
-    "city": "Sanford",
-    "countryName": "United States",
-    "latitude": 35.5837,
-    "longitude": -79.1008,
-    "hasScheduledService": false,
-    "icao": "KTTA",
-    "country": "us",
-    "state": "NC"
+    "name": "Tan Tan Airport",
+    "city": "Tan Tan",
+    "countryName": "Morocco",
+    "latitude": 28.4482,
+    "longitude": -11.1613,
+    "hasScheduledService": true,
+    "icao": "GMAT",
+    "country": "ma"
   },
   {
     "iata": "OZG",
@@ -27073,16 +27044,16 @@ module.exports = [
     "countryName": "Burundi"
   },
   {
-    "iata": "KMC",
+    "iata": "HBT",
     "timezone": "Asia/Riyadh",
-    "name": "King Khaled Military City Airport",
-    "city": "King Khaled Military City",
-    "countryName": "Saudi Arabia",
-    "latitude": 27.9009,
-    "longitude": 45.5282,
+    "name": "Hambantota Seaplane Base",
+    "city": "Hambantota",
+    "countryName": "Sri Lanka",
+    "latitude": 6.12404,
+    "longitude": 81.103,
     "hasScheduledService": true,
-    "icao": "OEKK",
-    "country": "sa"
+    "icao": "HBT",
+    "country": "lk"
   },
   {
     "iata": "ALU",
@@ -27761,13 +27732,13 @@ module.exports = [
   {
     "iata": "HKB",
     "timezone": "America/Anchorage",
-    "name": "Healy River Airport",
-    "city": "Healy",
+    "name": "Healy Lake Airport",
+    "city": "Healy Lake",
     "countryName": "United States",
-    "latitude": 63.8662,
-    "longitude": -148.96899,
-    "hasScheduledService": false,
-    "icao": "PAHV",
+    "latitude": 63.9958,
+    "longitude": -144.6926,
+    "hasScheduledService": true,
+    "icao": "HKB",
     "state": "AK",
     "country": "us"
   },
@@ -29071,12 +29042,12 @@ module.exports = [
   {
     "iata": "PAF",
     "timezone": "Africa/Kampala",
-    "name": "Bugungu Airport",
+    "name": "Pakuba Airfield",
     "city": "Kabalega Falls",
     "countryName": "Uganda",
-    "latitude": 2.2,
-    "longitude": 31.55,
-    "icao": "HUPA",
+    "latitude": 2.32639,
+    "longitude": 31.4978,
+    "icao": "HUKF",
     "country": "ug",
     "hasScheduledService": false
   },
@@ -29514,15 +29485,15 @@ module.exports = [
     "countryName": "Indonesia"
   },
   {
-    "iata": "0",
+    "iata": "MSI",
     "timezone": "Indian/Maldives",
-    "name": "São Pedro da Aldeia Airport",
-    "city": "São Pedro Da Aldeia",
-    "countryName": "Brazil",
-    "latitude": -22.8129,
-    "longitude": -42.0926,
-    "icao": "SBES",
-    "country": "br",
+    "name": "Masalembo Airport",
+    "city": "Masalembo Island",
+    "countryName": "Indonesia",
+    "latitude": -5.58333,
+    "longitude": 114.433,
+    "icao": "ID-MSI",
+    "country": "id",
     "hasScheduledService": false
   },
   {
@@ -30237,13 +30208,13 @@ module.exports = [
   {
     "iata": "SBO",
     "timezone": "America/New_York",
-    "name": "Emanuel County Airport",
-    "city": "Swainsboro",
+    "name": "Salina Gunnison Airport",
+    "city": "Salina",
     "countryName": "United States",
-    "latitude": 32.6091,
-    "longitude": -82.3699,
-    "icao": "KSBO",
-    "state": "GA",
+    "latitude": 39.0291,
+    "longitude": -111.838,
+    "icao": "K44U",
+    "state": "UT",
     "country": "us",
     "hasScheduledService": false
   },
@@ -31418,12 +31389,12 @@ module.exports = [
   {
     "iata": "BFT",
     "timezone": "America/New_York",
-    "name": "Beaufort MCAS - Merritt Field",
+    "name": "Beaufort County Airport",
     "city": "Beaufort",
     "countryName": "United States",
-    "latitude": 32.4774,
-    "longitude": -80.7232,
-    "icao": "KNBC",
+    "latitude": 32.4122,
+    "longitude": -80.6344,
+    "icao": "KARW",
     "state": "SC",
     "country": "us",
     "hasScheduledService": false
@@ -31444,13 +31415,13 @@ module.exports = [
   {
     "iata": "SPZ",
     "timezone": "America/Los_Angeles",
-    "name": "Silver Springs Airport",
-    "city": "Silver Springs",
+    "name": "Springdale Municipal Airport",
+    "city": "Springdale",
     "countryName": "United States",
-    "latitude": 39.403,
-    "longitude": -119.251,
-    "icao": "KSPZ",
-    "state": "NV",
+    "latitude": 36.1764,
+    "longitude": -94.1193,
+    "icao": "KASG",
+    "state": "AR",
     "country": "us",
     "hasScheduledService": false
   },
@@ -35110,13 +35081,13 @@ module.exports = [
   {
     "iata": "DLL",
     "timezone": "America/Chicago",
-    "name": "Baraboo Wisconsin Dells Airport",
-    "city": "Baraboo",
+    "name": "Dillon County Airport",
+    "city": "Dillon",
     "countryName": "United States",
-    "latitude": 43.5227,
-    "longitude": -89.7702,
-    "icao": "KDLL",
-    "state": "WI",
+    "latitude": 34.4491,
+    "longitude": -79.3686,
+    "icao": "KDLC",
+    "state": "SC",
     "country": "us",
     "hasScheduledService": false
   },
@@ -36137,16 +36108,16 @@ module.exports = [
     "countryName": "United States"
   },
   {
-    "name": "Naypyidaw Airport",
-    "city": "Pyinmana",
-    "countryName": "Burma",
-    "iata": "NYT",
-    "latitude": 19.6235,
-    "longitude": 96.201,
+    "name": "Eagle Lake Airport",
+    "city": "Eagle Lake",
+    "countryName": "United States",
+    "iata": "ELA",
+    "latitude": 29.6006,
+    "longitude": -96.3219,
     "timezone": "Asia/Rangoon",
-    "icao": "VYEL",
+    "icao": "KELA",
     "state": "TX",
-    "country": "mm",
+    "country": "us",
     "hasScheduledService": false
   },
   {
@@ -36605,17 +36576,16 @@ module.exports = [
     "country": "us"
   },
   {
-    "iata": "EMP",
+    "iata": "KEX",
     "timezone": "Europe/Berlin",
-    "name": "Emporia Municipal Airport",
-    "city": "Emporia",
-    "countryName": "United States",
-    "latitude": 38.3321,
-    "longitude": -96.1912,
-    "icao": "KEMP",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "KS"
+    "name": "Kanabea Airport",
+    "city": "Kanabea",
+    "countryName": "Papua New Guinea",
+    "latitude": -7.53889,
+    "longitude": 145.905,
+    "icao": "KEX",
+    "country": "pg",
+    "hasScheduledService": false
   },
   {
     "iata": "EYW",
@@ -40853,14 +40823,14 @@ module.exports = [
   {
     "iata": "LHC",
     "timezone": "America/Lima",
-    "name": "Caballococha Airport",
-    "city": "Caballococha",
-    "countryName": "Peru",
-    "latitude": -3.91686,
-    "longitude": -70.5082,
-    "icao": "SPBC",
+    "name": "Arlington Municipal Airport",
+    "city": "Arlington",
+    "countryName": "United States",
+    "latitude": 35.2831,
+    "longitude": -89.6725,
+    "icao": "KLHC",
     "state": "TN",
-    "country": "pe",
+    "country": "us",
     "hasScheduledService": false
   },
   {
@@ -42463,13 +42433,13 @@ module.exports = [
   {
     "iata": "RMY",
     "timezone": "America/New_York",
-    "name": "Brooks Field",
-    "city": "Marshall",
+    "name": "Mariposa Yosemite Airport",
+    "city": "Mariposa",
     "countryName": "United States",
-    "latitude": 42.2512,
-    "longitude": -84.9555,
-    "icao": "KRMY",
-    "state": "MI",
+    "latitude": 37.5109,
+    "longitude": -120.04,
+    "icao": "KMPI",
+    "state": "CA",
     "country": "us",
     "hasScheduledService": false
   },
@@ -48208,17 +48178,17 @@ module.exports = [
     "countryName": "United States"
   },
   {
-    "iata": "NRR",
+    "iata": "RVR",
     "timezone": "America/Puerto_Rico",
-    "name": "José Aponte de la Torre Airport",
-    "city": "Ceiba",
-    "countryName": "Puerto Rico",
-    "latitude": 18.2453,
-    "longitude": -65.6434,
-    "icao": "TJRV",
+    "name": "Green River Municipal Airport",
+    "city": "Green River",
+    "countryName": "United States",
+    "latitude": 38.9614,
+    "longitude": -110.227,
+    "icao": "KU34",
     "state": "UT",
-    "country": "pr",
-    "hasScheduledService": true
+    "country": "us",
+    "hasScheduledService": false
   },
   {
     "iata": "ICS",
@@ -48975,13 +48945,13 @@ module.exports = [
   {
     "iata": "KWK",
     "timezone": "America/Anchorage",
-    "name": "Kwigillingok Airport",
+    "name": "Kwigillingok Seaplane Base",
     "city": "Kwigillingok",
     "countryName": "United States",
-    "latitude": 59.8765,
-    "longitude": -163.16901,
+    "latitude": 59.8367,
+    "longitude": -163.14,
     "hasScheduledService": false,
-    "icao": "PAGG",
+    "icao": "KWK",
     "state": "AK",
     "country": "us"
   },
@@ -49284,13 +49254,13 @@ module.exports = [
   {
     "iata": "TDK",
     "timezone": "Asia/Qyzylorda",
-    "name": "Ak Bashat Airport",
-    "city": "Ak Bashat village",
-    "countryName": "Kyrgyzstan",
-    "latitude": 42.88958,
-    "longitude": 73.602,
-    "icao": "UAAT",
-    "country": "kg",
+    "name": "Taldykorgan Airport",
+    "city": "Taldy Kurgan",
+    "countryName": "Kazakhstan",
+    "latitude": 45.1262,
+    "longitude": 78.447,
+    "icao": "KZ-0016",
+    "country": "kz",
     "hasScheduledService": false
   },
   {
@@ -50041,17 +50011,16 @@ module.exports = [
     "country": "es"
   },
   {
-    "iata": "PWY",
+    "iata": "PNA",
     "timezone": "Europe/Madrid",
-    "name": "Ralph Wenz Field",
-    "city": "Pinedale",
-    "countryName": "United States",
-    "latitude": 42.7955,
-    "longitude": -109.807,
-    "hasScheduledService": false,
-    "icao": "KPNA",
-    "country": "us",
-    "state": "WY"
+    "name": "Pamplona Airport",
+    "city": "Pamplona",
+    "countryName": "Spain",
+    "latitude": 42.77,
+    "longitude": -1.64633,
+    "hasScheduledService": true,
+    "icao": "LEPP",
+    "country": "es"
   },
   {
     "iata": "CQM",
@@ -50164,15 +50133,14 @@ module.exports = [
   {
     "iata": "VLL",
     "timezone": "Europe/Madrid",
-    "name": "Oakland Troy Airport",
-    "city": "Troy",
-    "countryName": "United States",
-    "latitude": 42.5429,
-    "longitude": -83.1779,
-    "hasScheduledService": false,
-    "icao": "KVLL",
-    "country": "us",
-    "state": "MI"
+    "name": "Valladolid Airport",
+    "city": "Valladolid",
+    "countryName": "Spain",
+    "latitude": 41.7061,
+    "longitude": -4.85194,
+    "hasScheduledService": true,
+    "icao": "LEVD",
+    "country": "es"
   },
   {
     "iata": "VIT",
@@ -50741,13 +50709,13 @@ module.exports = [
   {
     "iata": "ANE",
     "timezone": "Europe/Paris",
-    "name": "Angers Avrille Airport",
-    "city": "Angers",
+    "name": "Angers-Loire Airport",
+    "city": "Angers/Marcé",
     "countryName": "France",
-    "latitude": 47.4992,
-    "longitude": -0.57278,
-    "hasScheduledService": false,
-    "icao": "LFRA",
+    "latitude": 47.5603,
+    "longitude": -0.31222,
+    "hasScheduledService": true,
+    "icao": "LFJR",
     "country": "fr"
   },
   {
@@ -50993,15 +50961,14 @@ module.exports = [
   {
     "iata": "GNB",
     "timezone": "Europe/Paris",
-    "name": "Granby Grand County Airport",
-    "city": "Granby",
-    "countryName": "United States",
-    "latitude": 40.0897,
-    "longitude": -105.917,
-    "hasScheduledService": false,
-    "icao": "KGNB",
-    "country": "us",
-    "state": "CO"
+    "name": "Grenoble-Isère Airport",
+    "city": "Grenoble/Saint-Geoirs",
+    "countryName": "France",
+    "latitude": 45.3629,
+    "longitude": 5.32937,
+    "hasScheduledService": true,
+    "icao": "LFLS",
+    "country": "fr"
   },
   {
     "iata": "VAF",
@@ -52302,15 +52269,14 @@ module.exports = [
   {
     "iata": "JKL",
     "timezone": "Europe/Athens",
-    "name": "Julian Carroll Airport",
-    "city": "Jackson",
-    "countryName": "United States",
-    "latitude": 37.5939,
-    "longitude": -83.3173,
-    "hasScheduledService": false,
-    "icao": "KJKL",
-    "country": "us",
-    "state": "KY"
+    "name": "Kalymnos Airport",
+    "city": "Kalymnos Island",
+    "countryName": "Greece",
+    "latitude": 36.9633,
+    "longitude": 26.9406,
+    "hasScheduledService": true,
+    "icao": "LGKY",
+    "country": "gr"
   },
   {
     "iata": "KZI",
@@ -52411,15 +52377,14 @@ module.exports = [
   {
     "iata": "JNX",
     "timezone": "Europe/Athens",
-    "name": "Johnston County Airport",
-    "city": "Smithfield",
-    "countryName": "United States",
-    "latitude": 35.5409,
-    "longitude": -78.3903,
-    "hasScheduledService": false,
-    "icao": "KJNX",
-    "country": "us",
-    "state": "NC"
+    "name": "Naxos Airport",
+    "city": "Naxos Island",
+    "countryName": "Greece",
+    "latitude": 37.0811,
+    "longitude": 25.3681,
+    "hasScheduledService": true,
+    "icao": "LGNX",
+    "country": "gr"
   },
   {
     "iata": "PAS",
@@ -52676,15 +52641,14 @@ module.exports = [
   {
     "iata": "TZR",
     "timezone": "America/New_York",
-    "name": "Bolton Field",
-    "city": "Columbus",
-    "countryName": "United States",
-    "latitude": 39.9012,
-    "longitude": -83.1369,
-    "icao": "KTZR",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "OH"
+    "name": "Taszár Air Base",
+    "city": "Taszár",
+    "countryName": "Hungary",
+    "latitude": 46.3931,
+    "longitude": 17.9175,
+    "icao": "LHTA",
+    "country": "hu",
+    "hasScheduledService": false
   },
   {
     "iata": "QAQ",
@@ -52951,17 +52915,16 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "iata": "CIG",
+    "iata": "CAG",
     "timezone": "Europe/Rome",
-    "name": "Craig Moffat Airport",
-    "city": "Craig",
-    "countryName": "United States",
-    "latitude": 40.4952,
-    "longitude": -107.522,
-    "hasScheduledService": false,
-    "icao": "KCAG",
-    "country": "us",
-    "state": "CO"
+    "name": "Cagliari Elmas Airport",
+    "city": "Cagliari",
+    "countryName": "Italy",
+    "latitude": 39.2515,
+    "longitude": 9.05428,
+    "hasScheduledService": true,
+    "icao": "LIEE",
+    "country": "it"
   },
   {
     "iata": "OLB",
@@ -53602,15 +53565,14 @@ module.exports = [
   {
     "iata": "PRG",
     "timezone": "Europe/Prague",
-    "name": "Edgar County Airport",
-    "city": "Paris",
-    "countryName": "United States",
-    "latitude": 39.7002,
-    "longitude": -87.6696,
-    "hasScheduledService": false,
-    "icao": "KPRG",
-    "country": "us",
-    "state": "IL"
+    "name": "Václav Havel Airport Prague",
+    "city": "Prague",
+    "countryName": "Czech Republic",
+    "latitude": 50.1008,
+    "longitude": 14.26,
+    "hasScheduledService": true,
+    "icao": "LKPR",
+    "country": "cz"
   },
   {
     "iata": "BRQ",
@@ -54384,13 +54346,13 @@ module.exports = [
   {
     "iata": "LRO",
     "timezone": "America/Los_Angeles",
-    "name": "Mt Pleasant Regional-Faison field",
-    "city": "Mount Pleasant",
+    "name": "Sharpe AAF",
+    "city": "Lathrop",
     "countryName": "United States",
-    "latitude": 32.8978,
-    "longitude": -79.7829,
-    "icao": "KLRO",
-    "state": "SC",
+    "latitude": 37.83792,
+    "longitude": -121.27281,
+    "icao": "LRO",
+    "state": "CA",
     "country": "us",
     "hasScheduledService": false
   },
@@ -54553,15 +54515,14 @@ module.exports = [
   {
     "iata": "LUG",
     "timezone": "Europe/Zurich",
-    "name": "Ellington Airport",
-    "city": "Lewisburg",
-    "countryName": "United States",
-    "latitude": 35.507,
-    "longitude": -86.8039,
-    "hasScheduledService": false,
-    "icao": "KLUG",
-    "country": "us",
-    "state": "TN"
+    "name": "Lugano Airport",
+    "city": "Lugano",
+    "countryName": "Switzerland",
+    "latitude": 46.0043,
+    "longitude": 8.91058,
+    "hasScheduledService": true,
+    "icao": "LSZA",
+    "country": "ch"
   },
   {
     "iata": "BRN",
@@ -54770,15 +54731,14 @@ module.exports = [
   {
     "iata": "MZH",
     "timezone": "Europe/Istanbul",
-    "name": "Moose Lake Carlton County Airport",
-    "city": "Moose Lake",
-    "countryName": "United States",
-    "latitude": 46.4188,
-    "longitude": -92.8047,
-    "hasScheduledService": false,
-    "icao": "KMZH",
-    "country": "us",
-    "state": "MN"
+    "name": "Amasya Merzifon Airport",
+    "city": "Amasya",
+    "countryName": "Turkey",
+    "latitude": 40.8294,
+    "longitude": 35.522,
+    "hasScheduledService": true,
+    "icao": "LTAP",
+    "country": "tr"
   },
   {
     "iata": "SSX",
@@ -55117,15 +55077,15 @@ module.exports = [
     "country": "tr"
   },
   {
-    "iata": "ERC",
+    "iata": "TZX",
     "timezone": "Europe/Istanbul",
-    "name": "Erzincan Airport",
-    "city": "Erzincan",
+    "name": "Trabzon International Airport",
+    "city": "Trabzon",
     "countryName": "Turkey",
-    "latitude": 39.7102,
-    "longitude": 39.527,
+    "latitude": 40.9951,
+    "longitude": 39.7897,
     "hasScheduledService": true,
-    "icao": "LTCD",
+    "icao": "LTCG",
     "country": "tr"
   },
   {
@@ -55213,15 +55173,15 @@ module.exports = [
     "country": "tr"
   },
   {
-    "iata": "UAB",
+    "iata": "ADF",
     "timezone": "Europe/Istanbul",
-    "name": "İncirlik Air Base",
-    "city": "Adana",
+    "name": "Adıyaman Airport",
+    "city": "Adıyaman",
     "countryName": "Turkey",
-    "latitude": 37.0021,
-    "longitude": 35.4259,
-    "hasScheduledService": false,
-    "icao": "LTAG",
+    "latitude": 37.7314,
+    "longitude": 38.4689,
+    "hasScheduledService": true,
+    "icao": "LTCP",
     "country": "tr"
   },
   {
@@ -55251,15 +55211,14 @@ module.exports = [
   {
     "iata": "NKT",
     "timezone": "America/New_York",
-    "name": "Cherry Point MCAS /Cunningham Field/",
-    "city": "Cherry Point",
-    "countryName": "United States",
-    "latitude": 34.9009,
-    "longitude": -76.8807,
-    "icao": "KNKT",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "NC"
+    "name": "Şırnak Şerafettin Elçi Airport",
+    "city": "Şırnak",
+    "countryName": "Turkey",
+    "latitude": 37.3647,
+    "longitude": 42.0582,
+    "icao": "LTCV",
+    "country": "tr",
+    "hasScheduledService": true
   },
   {
     "iata": "YKO",
@@ -55433,15 +55392,14 @@ module.exports = [
   {
     "iata": "LWA",
     "timezone": "America/New_York",
-    "name": "South Haven Area Regional Airport",
-    "city": "South Haven",
-    "countryName": "United States",
-    "latitude": 42.3512,
-    "longitude": -86.2557,
-    "icao": "KLWA",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "MI"
+    "name": "Lebak Rural Airport",
+    "city": "Lebak",
+    "countryName": "Philippines",
+    "latitude": 6.6739,
+    "longitude": 124.0581,
+    "icao": "LWA",
+    "country": "ph",
+    "hasScheduledService": false
   },
   {
     "iata": "OHD",
@@ -55793,30 +55751,28 @@ module.exports = [
     "country": "tc"
   },
   {
-    "iata": "XMD",
+    "iata": "MDS",
     "timezone": "America/Grand_Turk",
-    "name": "Madison Municipal Airport",
-    "city": "Madison",
-    "countryName": "United States",
-    "latitude": 44.016,
-    "longitude": -97.0859,
+    "name": "Middle Caicos Airport",
+    "city": "Middle Caicos",
+    "countryName": "Turks and Caicos Islands",
+    "latitude": 21.82602,
+    "longitude": -71.8025,
     "hasScheduledService": false,
-    "icao": "KMDS",
-    "country": "us",
-    "state": "SD"
+    "icao": "MBMC",
+    "country": "tc"
   },
   {
     "iata": "NCA",
-    "timezone": "America/New_York",
-    "name": "New River MCAS /H/ /Mccutcheon Fld/ Airport",
-    "city": "Jacksonville",
-    "countryName": "United States",
-    "latitude": 34.7084,
-    "longitude": -77.4397,
-    "hasScheduledService": false,
-    "icao": "KNCA",
-    "country": "us",
-    "state": "NC"
+    "timezone": "America/Grand_Turk",
+    "name": "North Caicos Airport",
+    "city": "North Caicos",
+    "countryName": "Turks and Caicos Islands",
+    "latitude": 21.9175,
+    "longitude": -71.9396,
+    "hasScheduledService": true,
+    "icao": "MBNC",
+    "country": "tc"
   },
   {
     "iata": "PIC",
@@ -55965,12 +55921,12 @@ module.exports = [
   {
     "iata": "EPS",
     "timezone": "America/Santo_Domingo",
-    "name": "Arroyo Barril Airport",
-    "city": "Arroyo Barril",
+    "name": "Samana El Portillo Airport",
+    "city": "Samana",
     "countryName": "Dominican Republic",
-    "latitude": 19.1986,
-    "longitude": -69.4298,
-    "icao": "MDAB",
+    "latitude": 19.32142,
+    "longitude": -69.49591,
+    "icao": "MDPO",
     "country": "do",
     "hasScheduledService": false
   },
@@ -56423,15 +56379,14 @@ module.exports = [
   {
     "iata": "RNP",
     "timezone": "Pacific/Majuro",
-    "name": "Owosso Community Airport",
-    "city": "Owosso",
-    "countryName": "United States",
-    "latitude": 42.993,
-    "longitude": -84.1389,
-    "hasScheduledService": false,
-    "icao": "KRNP",
-    "country": "us",
-    "state": "MI"
+    "name": "Rongelap Island Airport",
+    "city": "Rongelap Island",
+    "countryName": "Marshall Islands",
+    "latitude": 11.1572,
+    "longitude": 166.88699,
+    "hasScheduledService": true,
+    "icao": "MH-RNP",
+    "country": "mh"
   },
   {
     "iata": "TIC",
@@ -57671,15 +57626,15 @@ module.exports = [
     "country": "mx"
   },
   {
-    "iata": "SNF",
+    "iata": "SFH",
     "timezone": "America/Caracas",
-    "name": "Sub Teniente Nestor Arias Airport",
-    "city": "San Felipe",
-    "countryName": "Venezuela",
-    "latitude": 10.2787,
-    "longitude": -68.7552,
-    "icao": "SVSP",
-    "country": "ve",
+    "name": "San Felipe International Airport",
+    "city": "Mexicali",
+    "countryName": "Mexico",
+    "latitude": 30.9302,
+    "longitude": -114.809,
+    "icao": "MMSF",
+    "country": "mx",
     "hasScheduledService": false
   },
   {
@@ -57805,15 +57760,14 @@ module.exports = [
   {
     "iata": "MMV",
     "timezone": "America/Los_Angeles",
-    "name": "Mc Minnville Municipal Airport",
-    "city": "Mc Minnville",
-    "countryName": "United States",
-    "latitude": 45.1944,
-    "longitude": -123.136,
-    "icao": "KMMV",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "OR"
+    "name": "Mal Airport",
+    "city": "Mal Island",
+    "countryName": "Papua New Guinea",
+    "latitude": -1.39444,
+    "longitude": 144.17111,
+    "icao": "MMV",
+    "country": "pg",
+    "hasScheduledService": false
   },
   {
     "iata": "VSA",
@@ -57830,15 +57784,14 @@ module.exports = [
   {
     "iata": "VER",
     "timezone": "America/Mexico_City",
-    "name": "Jesse Viertel Memorial Airport",
-    "city": "Boonville",
-    "countryName": "United States",
-    "latitude": 38.9467,
-    "longitude": -92.6827,
-    "hasScheduledService": false,
-    "icao": "KVER",
-    "country": "us",
-    "state": "MO"
+    "name": "General Heriberto Jara International Airport",
+    "city": "Veracruz",
+    "countryName": "Mexico",
+    "latitude": 19.1459,
+    "longitude": -96.1873,
+    "hasScheduledService": true,
+    "icao": "MMVR",
+    "country": "mx"
   },
   {
     "iata": "ZCL",
@@ -58141,17 +58094,16 @@ module.exports = [
     "countryName": "Panama"
   },
   {
-    "iata": "RMY",
+    "iata": "MPI",
     "timezone": "America/Los_Angeles",
-    "name": "Mariposa Yosemite Airport",
-    "city": "Mariposa",
-    "countryName": "United States",
-    "latitude": 37.5109,
-    "longitude": -120.04,
-    "icao": "KMPI",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "CA"
+    "name": "Mamitupo Airport",
+    "city": "Mamitupo",
+    "countryName": "Panama",
+    "latitude": 9.1851,
+    "longitude": -77.9841,
+    "icao": "MPI",
+    "country": "pa",
+    "hasScheduledService": false
   },
   {
     "iata": "JQE",
@@ -58360,15 +58312,14 @@ module.exports = [
   {
     "iata": "PLD",
     "timezone": "America/Costa_Rica",
-    "name": "Portland Municipal Airport",
-    "city": "Portland",
-    "countryName": "United States",
-    "latitude": 40.4508,
-    "longitude": -84.9901,
-    "hasScheduledService": false,
-    "icao": "KPLD",
-    "country": "us",
-    "state": "IN"
+    "name": "Playa Samara/Carrillo Airport",
+    "city": "Carrillo",
+    "countryName": "Costa Rica",
+    "latitude": 9.87051,
+    "longitude": -85.4814,
+    "hasScheduledService": true,
+    "icao": "MRCR",
+    "country": "cr"
   },
   {
     "iata": "DRK",
@@ -58455,14 +58406,14 @@ module.exports = [
     "country": "cr"
   },
   {
-    "name": "Codela Airport",
-    "city": "Guapiles",
+    "name": "Mojica Airport",
+    "city": "Cañas",
     "countryName": "Costa Rica",
     "iata": "CSC",
-    "latitude": 10.414,
-    "longitude": -85.0917,
+    "latitude": 10.4307,
+    "longitude": -85.1746,
     "timezone": "America/Costa_Rica",
-    "icao": "MRCA",
+    "icao": "MRMJ",
     "country": "cr",
     "hasScheduledService": false
   },
@@ -58517,15 +58468,14 @@ module.exports = [
   {
     "iata": "PMZ",
     "timezone": "America/Costa_Rica",
-    "name": "Plymouth Municipal Airport",
-    "city": "Plymouth",
-    "countryName": "United States",
-    "latitude": 35.8084,
-    "longitude": -76.7593,
-    "hasScheduledService": false,
-    "icao": "KPMZ",
-    "country": "us",
-    "state": "NC"
+    "name": "Palmar Sur Airport",
+    "city": "Palmar Sur",
+    "countryName": "Costa Rica",
+    "latitude": 8.95103,
+    "longitude": -83.4686,
+    "hasScheduledService": true,
+    "icao": "MRPM",
+    "country": "cr"
   },
   {
     "iata": "SYQ",
@@ -58578,13 +58528,13 @@ module.exports = [
   {
     "iata": "TNO",
     "timezone": "America/Costa_Rica",
-    "name": "Cabo Velas Airport",
-    "city": "Nicoya",
+    "name": "Tamarindo Airport",
+    "city": "Tamarindo",
     "countryName": "Costa Rica",
-    "latitude": 10.3557,
-    "longitude": -85.8529,
+    "latitude": 10.3135,
+    "longitude": -85.8155,
     "hasScheduledService": false,
-    "icao": "MRCV",
+    "icao": "MRTM",
     "country": "cr"
   },
   {
@@ -58771,13 +58721,13 @@ module.exports = [
   {
     "iata": "CCC",
     "timezone": "America/Havana",
-    "name": "Cayo Coco Airport",
+    "name": "Jardines Del Rey Airport",
     "city": "Cayo Coco",
     "countryName": "Cuba",
-    "latitude": 22.5132,
-    "longitude": -78.511,
-    "hasScheduledService": false,
-    "icao": "MUOC",
+    "latitude": 22.461,
+    "longitude": -78.3284,
+    "hasScheduledService": true,
+    "icao": "MUCC",
     "country": "cu"
   },
   {
@@ -58795,15 +58745,14 @@ module.exports = [
   {
     "iata": "CYO",
     "timezone": "America/Havana",
-    "name": "Pickaway County Memorial Airport",
-    "city": "Circleville",
-    "countryName": "United States",
-    "latitude": 39.516,
-    "longitude": -82.9821,
-    "hasScheduledService": false,
-    "icao": "KCYO",
-    "country": "us",
-    "state": "OH"
+    "name": "Vilo Acuña International Airport",
+    "city": "Cayo Largo del Sur",
+    "countryName": "Cuba",
+    "latitude": 21.6165,
+    "longitude": -81.546,
+    "hasScheduledService": true,
+    "icao": "MUCL",
+    "country": "cu"
   },
   {
     "iata": "CMW",
@@ -58844,15 +58793,14 @@ module.exports = [
   {
     "iata": "GAO",
     "timezone": "America/Havana",
-    "name": "South Lafourche Leonard Miller Jr Airport",
-    "city": "Galliano",
-    "countryName": "United States",
-    "latitude": 29.4448,
-    "longitude": -90.2611,
-    "hasScheduledService": false,
-    "icao": "KGAO",
-    "country": "us",
-    "state": "LA"
+    "name": "Mariana Grajales Airport",
+    "city": "Guantánamo",
+    "countryName": "Cuba",
+    "latitude": 20.0853,
+    "longitude": -75.1583,
+    "hasScheduledService": true,
+    "icao": "MUGT",
+    "country": "cu"
   },
   {
     "iata": "HAV",
@@ -59241,15 +59189,14 @@ module.exports = [
   {
     "iata": "SCX",
     "timezone": "America/Mexico_City",
-    "name": "Scott Municipal Airport",
-    "city": "Oneida",
-    "countryName": "United States",
-    "latitude": 36.4556,
-    "longitude": -84.5857,
-    "hasScheduledService": false,
-    "icao": "KSCX",
-    "country": "us",
-    "state": "TN"
+    "name": "Salina Cruz Naval Air Station",
+    "city": "Salina Cruz",
+    "countryName": "Mexico",
+    "latitude": 16.2126,
+    "longitude": -95.2016,
+    "hasScheduledService": true,
+    "icao": "MX-SCX",
+    "country": "mx"
   },
   {
     "iata": "SGM",
@@ -59312,17 +59259,16 @@ module.exports = [
     "countryName": "Chad"
   },
   {
-    "name": "Wheeler Sack Army Air Field",
-    "city": "Fort Drum",
-    "countryName": "United States",
+    "name": "Genting Airport",
+    "city": "Genting",
+    "countryName": "Malaysia",
     "iata": "GTB",
-    "latitude": 44.0556,
-    "longitude": -75.7195,
+    "latitude": 2.11667,
+    "longitude": 111.7,
     "timezone": "America/New_York",
-    "icao": "KGTB",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "NY"
+    "icao": "MY-GTB",
+    "country": "my",
+    "hasScheduledService": false
   },
   {
     "iata": "LBP",
@@ -59481,17 +59427,16 @@ module.exports = [
     "hasScheduledService": true
   },
   {
-    "iata": "HAR",
+    "iata": "CXY",
     "timezone": "America/New_York",
-    "name": "Capital City Airport",
-    "city": "Harrisburg",
-    "countryName": "United States",
-    "latitude": 40.2171,
-    "longitude": -76.8515,
-    "icao": "KCXY",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "PA"
+    "name": "Cat Cay Airport",
+    "city": "Cat Cay",
+    "countryName": "Bahamas",
+    "latitude": 25.6,
+    "longitude": -79.267,
+    "icao": "MYCC",
+    "country": "bs",
+    "hasScheduledService": false
   },
   {
     "iata": "CRI",
@@ -59965,15 +59910,14 @@ module.exports = [
   {
     "iata": "MNF",
     "timezone": "Pacific/Fiji",
-    "name": "Mountain View Airport",
-    "city": "Mountain View",
-    "countryName": "United States",
-    "latitude": 36.9928,
-    "longitude": -91.7145,
-    "hasScheduledService": false,
-    "icao": "KMNF",
-    "country": "us",
-    "state": "MO"
+    "name": "Mana Island Airport",
+    "city": "Mana Island",
+    "countryName": "Fiji",
+    "latitude": -17.6731,
+    "longitude": 177.09801,
+    "hasScheduledService": true,
+    "icao": "NFMA",
+    "country": "fj"
   },
   {
     "iata": "MFJ",
@@ -60278,15 +60222,14 @@ module.exports = [
   {
     "iata": "PHG",
     "timezone": "Africa/Lagos",
-    "name": "Phillipsburg Municipal Airport",
-    "city": "Phillipsburg",
-    "countryName": "United States",
-    "latitude": 39.7358,
-    "longitude": -99.3171,
-    "hasScheduledService": false,
-    "icao": "KPHG",
-    "country": "us",
-    "state": "KS"
+    "name": "Port Harcourt City Airport",
+    "city": "Port Harcourt",
+    "countryName": "Nigeria",
+    "latitude": 4.84611,
+    "longitude": 7.02139,
+    "hasScheduledService": true,
+    "icao": "NG-0004",
+    "country": "ng"
   },
   {
     "iata": "BCU",
@@ -60916,15 +60859,14 @@ module.exports = [
   {
     "iata": "TKV",
     "timezone": "Pacific/Midway",
-    "name": "Tomahawk Regional Airport",
-    "city": "Tomahawk",
-    "countryName": "United States",
-    "latitude": 45.4691,
-    "longitude": -89.8057,
+    "name": "Tatakoto Airport",
+    "city": "Tatakoto",
+    "countryName": "French Polynesia",
+    "latitude": -17.3553,
+    "longitude": -138.44501,
     "hasScheduledService": false,
-    "icao": "KTKV",
-    "country": "us",
-    "state": "WI"
+    "icao": "NTGO",
+    "country": "pf"
   },
   {
     "iata": "PKP",
@@ -61071,17 +61013,16 @@ module.exports = [
     "country": "pf"
   },
   {
-    "iata": "KNT",
+    "iata": "TKX",
     "timezone": "Pacific/Tahiti",
-    "name": "Kennett Memorial Airport",
-    "city": "Kennett",
-    "countryName": "United States",
-    "latitude": 36.2259,
-    "longitude": -90.0366,
-    "hasScheduledService": false,
-    "icao": "KTKX",
-    "country": "us",
-    "state": "MO"
+    "name": "Takaroa Airport",
+    "city": "Takaroa",
+    "countryName": "French Polynesia",
+    "latitude": -14.4558,
+    "longitude": -145.02499,
+    "hasScheduledService": true,
+    "icao": "NTKR",
+    "country": "pf"
   },
   {
     "iata": "KXU",
@@ -61303,28 +61244,26 @@ module.exports = [
   {
     "iata": "MTV",
     "timezone": "Pacific/Efate",
-    "name": "Blue Ridge Airport",
-    "city": "Martinsville",
-    "countryName": "United States",
-    "latitude": 36.6307,
-    "longitude": -80.0183,
-    "hasScheduledService": false,
-    "icao": "KMTV",
-    "country": "us",
-    "state": "VA"
+    "name": "Mota Lava Airport",
+    "city": "Ablow",
+    "countryName": "Vanuatu",
+    "latitude": -13.666,
+    "longitude": 167.71201,
+    "hasScheduledService": true,
+    "icao": "NVSA",
+    "country": "vu"
   },
   {
     "iata": "SLH",
     "timezone": "Pacific/Efate",
-    "name": "Cheboygan County Airport",
-    "city": "Cheboygan",
-    "countryName": "United States",
-    "latitude": 45.6537,
-    "longitude": -84.5193,
-    "hasScheduledService": false,
-    "icao": "KSLH",
-    "country": "us",
-    "state": "MI"
+    "name": "Sola Airport",
+    "city": "Sola",
+    "countryName": "Vanuatu",
+    "latitude": -13.8517,
+    "longitude": 167.537,
+    "hasScheduledService": true,
+    "icao": "NVSC",
+    "country": "vu"
   },
   {
     "iata": "TOH",
@@ -61905,15 +61844,14 @@ module.exports = [
   {
     "iata": "CHT",
     "timezone": "Pacific/Chatham",
-    "name": "Chillicothe Municipal Airport",
-    "city": "Chillicothe",
-    "countryName": "United States",
-    "latitude": 39.7822,
-    "longitude": -93.4957,
-    "hasScheduledService": false,
-    "icao": "KCHT",
-    "country": "us",
-    "state": "MO"
+    "name": "Chatham Islands-Tuuta Airport",
+    "city": "Waitangi",
+    "countryName": "New Zealand",
+    "latitude": -43.81,
+    "longitude": -176.457,
+    "hasScheduledService": true,
+    "icao": "NZCI",
+    "country": "nz"
   },
   {
     "iata": "DUD",
@@ -61964,14 +61902,14 @@ module.exports = [
     "country": "nz"
   },
   {
-    "iata": "MON",
+    "iata": "GTN",
     "timezone": "Pacific/Auckland",
-    "name": "Mount Cook Airport",
+    "name": "Glentanner Airport",
     "city": "Glentanner Station",
     "countryName": "New Zealand",
-    "latitude": -43.765,
-    "longitude": 170.133,
-    "icao": "NZMC",
+    "latitude": -43.9067,
+    "longitude": 170.12801,
+    "icao": "NZGT",
     "country": "nz",
     "hasScheduledService": false
   },
@@ -62048,14 +61986,14 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "iata": "GTN",
+    "iata": "MON",
     "timezone": "Pacific/Auckland",
-    "name": "Glentanner Airport",
-    "city": "Glentanner Station",
+    "name": "Mount Cook Airport",
+    "city": "Glentanner",
     "countryName": "New Zealand",
-    "latitude": -43.9067,
-    "longitude": 170.12801,
-    "icao": "NZGT",
+    "latitude": -43.765,
+    "longitude": 170.133,
+    "icao": "NZMC",
     "country": "nz",
     "hasScheduledService": false
   },
@@ -63035,15 +62973,14 @@ module.exports = [
   {
     "iata": "TIF",
     "timezone": "Asia/Riyadh",
-    "name": "Thomas County Airport",
-    "countryName": "United States",
-    "latitude": 41.9622,
-    "longitude": -100.569,
-    "hasScheduledService": false,
-    "icao": "KTIF",
-    "city": "Thedford",
-    "country": "us",
-    "state": "NE"
+    "name": "Ta’if Regional Airport",
+    "countryName": "Saudi Arabia",
+    "latitude": 21.483,
+    "longitude": 40.54344,
+    "hasScheduledService": true,
+    "icao": "OETF",
+    "city": "Ta’if",
+    "country": "sa"
   },
   {
     "iata": "TUI",
@@ -63262,15 +63199,15 @@ module.exports = [
     "country": "ir"
   },
   {
-    "iata": "YEH",
+    "iata": "PGU",
     "timezone": "Asia/Tehran",
-    "name": "Asaloyeh Airport",
-    "city": "Asaloyeh",
+    "name": "Persian Gulf International Airport",
+    "city": "Asalouyeh",
     "countryName": "Iran",
-    "latitude": 27.4814,
-    "longitude": 52.6155,
-    "hasScheduledService": false,
-    "icao": "OIBI",
+    "latitude": 27.3796,
+    "longitude": 52.7377,
+    "hasScheduledService": true,
+    "icao": "OIBP",
     "country": "ir"
   },
   {
@@ -63360,15 +63297,14 @@ module.exports = [
   {
     "iata": "RAS",
     "timezone": "Asia/Tehran",
-    "name": "Mustang Beach Airport",
-    "city": "Port Aransas",
-    "countryName": "United States",
-    "latitude": 27.8118,
-    "longitude": -97.0888,
-    "hasScheduledService": false,
-    "icao": "KRAS",
-    "country": "us",
-    "state": "TX"
+    "name": "Sardar-e-Jangal Airport",
+    "city": "Rasht",
+    "countryName": "Iran",
+    "latitude": 37.32333,
+    "longitude": 49.61778,
+    "hasScheduledService": true,
+    "icao": "OIGG",
+    "country": "ir"
   },
   {
     "iata": "HDM",
@@ -63457,15 +63393,14 @@ module.exports = [
   {
     "iata": "JYR",
     "timezone": "Asia/Tehran",
-    "name": "York Municipal Airport",
-    "city": "York",
-    "countryName": "United States",
-    "latitude": 40.8968,
-    "longitude": -97.6228,
+    "name": "Jiroft Airport",
+    "city": "Jiroft",
+    "countryName": "Iran",
+    "latitude": 28.7269,
+    "longitude": 57.6703,
     "hasScheduledService": false,
-    "icao": "KJYR",
-    "country": "us",
-    "state": "NE"
+    "icao": "OIKJ",
+    "country": "ir"
   },
   {
     "iata": "KER",
@@ -63782,15 +63717,14 @@ module.exports = [
   {
     "iata": "ACP",
     "timezone": "Asia/Tehran",
-    "name": "Allen Parish Airport",
-    "city": "Oakdale",
-    "countryName": "United States",
-    "latitude": 30.7503,
-    "longitude": -92.6883,
+    "name": "Sahand Airport",
+    "city": "Maragheh",
+    "countryName": "Iran",
+    "latitude": 37.348,
+    "longitude": 46.1279,
     "hasScheduledService": false,
-    "icao": "KACP",
-    "country": "us",
-    "state": "LA"
+    "icao": "OITM",
+    "country": "ir"
   },
   {
     "iata": "PFQ",
@@ -63807,15 +63741,14 @@ module.exports = [
   {
     "iata": "OMH",
     "timezone": "Asia/Tehran",
-    "name": "Orange County Airport",
-    "city": "Orange",
-    "countryName": "United States",
-    "latitude": 38.2472,
-    "longitude": -78.0456,
-    "hasScheduledService": false,
-    "icao": "KOMH",
-    "country": "us",
-    "state": "VA"
+    "name": "Urmia Airport",
+    "city": "Urmia",
+    "countryName": "Iran",
+    "latitude": 37.6681,
+    "longitude": 45.0687,
+    "hasScheduledService": true,
+    "icao": "OITR",
+    "country": "ir"
   },
   {
     "iata": "TBZ",
@@ -63856,15 +63789,14 @@ module.exports = [
   {
     "iata": "ACZ",
     "timezone": "Asia/Tehran",
-    "name": "Henderson Field",
-    "city": "Wallace",
-    "countryName": "United States",
-    "latitude": 34.7179,
-    "longitude": -78.0036,
+    "name": "Zabol Airport",
+    "city": "Zabol",
+    "countryName": "Iran",
+    "latitude": 31.0983,
+    "longitude": 61.5439,
     "hasScheduledService": false,
-    "icao": "KACZ",
-    "country": "us",
-    "state": "NC"
+    "icao": "OIZB",
+    "country": "ir"
   },
   {
     "iata": "ZBR",
@@ -64182,15 +64114,14 @@ module.exports = [
   {
     "iata": "OMN",
     "timezone": "America/New_York",
-    "name": "Ormond Beach Municipal Airport",
-    "city": "Ormond Beach",
-    "countryName": "United States",
-    "latitude": 29.3006,
-    "longitude": -81.1136,
-    "icao": "KOMN",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "FL"
+    "name": "Osmanabad Airport",
+    "city": "Osmanabad",
+    "countryName": "India",
+    "latitude": 18.281,
+    "longitude": 76.0574,
+    "icao": "OMN",
+    "country": "in",
+    "hasScheduledService": false
   },
   {
     "iata": "RKT",
@@ -64267,15 +64198,14 @@ module.exports = [
   {
     "iata": "RNM",
     "timezone": "America/Los_Angeles",
-    "name": "Ramona Airport",
-    "city": "Ramona",
-    "countryName": "United States",
-    "latitude": 33.0392,
-    "longitude": -116.915,
-    "icao": "KRNM",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "CA"
+    "name": "Qarn Alam Airport",
+    "city": "Ghaba",
+    "countryName": "Oman",
+    "latitude": 21.383,
+    "longitude": 57.05,
+    "icao": "OOGB",
+    "country": "om",
+    "hasScheduledService": false
   },
   {
     "iata": "KHS",
@@ -64640,15 +64570,14 @@ module.exports = [
   {
     "iata": "MJD",
     "timezone": "Asia/Karachi",
-    "name": "Picayune Municipal Airport",
-    "city": "Picayune",
-    "countryName": "United States",
-    "latitude": 30.4875,
-    "longitude": -89.6512,
-    "hasScheduledService": false,
-    "icao": "KMJD",
-    "country": "us",
-    "state": "MS"
+    "name": "Moenjodaro Airport",
+    "city": "Moenjodaro",
+    "countryName": "Pakistan",
+    "latitude": 27.3352,
+    "longitude": 68.1431,
+    "hasScheduledService": true,
+    "icao": "OPMJ",
+    "country": "pk"
   },
   {
     "iata": "MPD",
@@ -64797,15 +64726,14 @@ module.exports = [
   {
     "iata": "ISB",
     "timezone": "Asia/Karachi",
-    "name": "Sibley Municipal Airport",
-    "city": "Sibley",
-    "countryName": "United States",
-    "latitude": 43.3695,
-    "longitude": -95.7598,
-    "hasScheduledService": false,
-    "icao": "KISB",
-    "country": "us",
-    "state": "IA"
+    "name": "Benazir Bhutto International Airport",
+    "city": "Islamabad",
+    "countryName": "Pakistan",
+    "latitude": 33.6167,
+    "longitude": 73.0992,
+    "hasScheduledService": true,
+    "icao": "OPRN",
+    "country": "pk"
   },
   {
     "iata": "RAZ",
@@ -66747,13 +66675,13 @@ module.exports = [
   {
     "iata": "DQH",
     "timezone": "America/New_York",
-    "name": "Douglas Municipal Airport",
-    "city": "Douglas",
+    "name": "Alpine Airstrip",
+    "city": "Deadhorse",
     "countryName": "United States",
-    "latitude": 31.4767,
-    "longitude": -82.8605,
-    "icao": "KDQH",
-    "state": "GA",
+    "latitude": 70.3443,
+    "longitude": -150.94501,
+    "icao": "PALP",
+    "state": "AK",
     "country": "us",
     "hasScheduledService": false
   },
@@ -66812,15 +66740,15 @@ module.exports = [
   {
     "iata": "MDO",
     "timezone": "America/Montevideo",
-    "name": "El Jagüel / Punta del Este Airport",
-    "city": "Maldonado",
-    "countryName": "Uruguay",
-    "latitude": -34.917,
-    "longitude": -54.917,
-    "icao": "SUPE",
+    "name": "Middleton Island Airport",
+    "city": "Middleton Island",
+    "countryName": "United States",
+    "latitude": 59.4499,
+    "longitude": -146.30701,
+    "icao": "PAMD",
     "state": "AK",
-    "country": "uy",
-    "hasScheduledService": true
+    "country": "us",
+    "hasScheduledService": false
   },
   {
     "iata": "SMK",
@@ -67033,14 +66961,14 @@ module.exports = [
   {
     "iata": "PCA",
     "timezone": "America/Mexico_City",
-    "name": "Ingeniero Juan Guillermo Villasana Airport",
+    "name": "Portage Creek Airport",
     "city": "Portage Creek",
-    "countryName": "Mexico",
-    "latitude": 20.0774,
-    "longitude": -98.7825,
-    "icao": "MMPC",
+    "countryName": "United States",
+    "latitude": 58.9065,
+    "longitude": -157.714,
+    "icao": "PAOC",
     "state": "AK",
-    "country": "mx",
+    "country": "us",
     "hasScheduledService": false
   },
   {
@@ -67267,14 +67195,14 @@ module.exports = [
   {
     "iata": "NUI",
     "timezone": "America/Anchorage",
-    "name": "Webster Nolf Airport",
-    "city": "St Inigoes",
+    "name": "Nuiqsut Airport",
+    "city": "Nuiqsut",
     "countryName": "United States",
-    "latitude": 38.146,
-    "longitude": -76.4286,
+    "latitude": 70.21,
+    "longitude": -151.006,
     "hasScheduledService": false,
-    "icao": "KNUI",
-    "state": "MD",
+    "icao": "PAQT",
+    "state": "AK",
     "country": "us"
   },
   {
@@ -67772,15 +67700,15 @@ module.exports = [
     "country": "us"
   },
   {
-    "iata": "K03",
+    "iata": "AIN",
     "timezone": "America/Anchorage",
-    "name": "Wainwright Air Station",
+    "name": "Wainwright Airport",
     "city": "Wainwright",
     "countryName": "United States",
-    "latitude": 70.6134,
-    "longitude": -159.86,
+    "latitude": 70.638,
+    "longitude": -159.995,
     "hasScheduledService": false,
-    "icao": "PAWT",
+    "icao": "PAWI",
     "state": "AK",
     "country": "us"
   },
@@ -68071,11 +67999,11 @@ module.exports = [
     "timezone": "America/Anchorage",
     "city": "Tok",
     "countryName": "United States",
-    "latitude": 63.30333,
-    "longitude": -143.00111,
-    "hasScheduledService": false,
-    "icao": "PATJ",
-    "name": "Tok Airport",
+    "latitude": 63.3295,
+    "longitude": -142.95399,
+    "hasScheduledService": true,
+    "icao": "PFTO",
+    "name": "Tok Junction Airport",
     "state": "AK",
     "country": "us"
   },
@@ -68625,13 +68553,13 @@ module.exports = [
   {
     "iata": "CGY",
     "timezone": "Asia/Manila",
-    "name": "Cagayan De Oro Airport",
-    "city": "Cagayan De Oro City",
+    "name": "Laguindingan Airport",
+    "city": "Cagayan de Oro City",
     "countryName": "Philippines",
-    "latitude": 8.41562,
-    "longitude": 124.611,
-    "hasScheduledService": false,
-    "icao": "RPML",
+    "latitude": 8.6122,
+    "longitude": 124.4565,
+    "hasScheduledService": true,
+    "icao": "PH-0001",
     "country": "ph"
   },
   {
@@ -69075,17 +69003,16 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "iata": "PPM",
+    "iata": "PMP",
     "timezone": "America/New_York",
-    "name": "Pompano Beach Airpark",
-    "city": "Pompano Beach",
-    "countryName": "United States",
-    "latitude": 26.2471,
-    "longitude": -80.1111,
-    "icao": "KPMP",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "FL"
+    "name": "Pimaga Airport",
+    "city": "Pimaga",
+    "countryName": "Papua New Guinea",
+    "latitude": -6.49917,
+    "longitude": 143.51028,
+    "icao": "PMP",
+    "country": "pg",
+    "hasScheduledService": false
   },
   {
     "iata": "PIZ",
@@ -69309,13 +69236,13 @@ module.exports = [
   {
     "iata": "DOH",
     "timezone": "Asia/Qatar",
-    "name": "Doha International Airport",
+    "name": "Hamad International Airport",
     "city": "Doha",
     "countryName": "Qatar",
-    "latitude": 25.2611,
-    "longitude": 51.5651,
-    "hasScheduledService": false,
-    "icao": "OTBD",
+    "latitude": 25.27306,
+    "longitude": 51.60806,
+    "hasScheduledService": true,
+    "icao": "QA-0001",
     "country": "qa"
   },
   {
@@ -69549,13 +69476,13 @@ module.exports = [
   {
     "iata": "PIF",
     "timezone": "Asia/Taipei",
-    "name": "Pingtung South Airport",
+    "name": "Pingtung North Airport",
     "city": "Pingtung",
     "countryName": "Taiwan",
-    "latitude": 22.6724,
-    "longitude": 120.462,
-    "hasScheduledService": false,
-    "icao": "RCDC",
+    "latitude": 22.7002,
+    "longitude": 120.482,
+    "hasScheduledService": true,
+    "icao": "RCSQ",
     "country": "tw"
   },
   {
@@ -70066,15 +69993,14 @@ module.exports = [
   {
     "iata": "NGS",
     "timezone": "Asia/Tokyo",
-    "name": "Santa Rosa Nolf Airport",
-    "city": "Milton",
-    "countryName": "United States",
-    "latitude": 30.6108,
-    "longitude": -86.94,
-    "hasScheduledService": false,
-    "icao": "KNGS",
-    "country": "us",
-    "state": "FL"
+    "name": "Nagasaki Airport",
+    "city": "Nagasaki",
+    "countryName": "Japan",
+    "latitude": 32.9169,
+    "longitude": 129.914,
+    "hasScheduledService": true,
+    "icao": "RJFU",
+    "country": "jp"
   },
   {
     "iata": "NGO",
@@ -70283,15 +70209,14 @@ module.exports = [
   {
     "iata": "MYJ",
     "timezone": "Asia/Tokyo",
-    "name": "Mexico Memorial Airport",
-    "city": "Mexico",
-    "countryName": "United States",
-    "latitude": 39.1575,
-    "longitude": -91.8183,
-    "hasScheduledService": false,
-    "icao": "KMYJ",
-    "country": "us",
-    "state": "MO"
+    "name": "Matsuyama Airport",
+    "city": "Matsuyama",
+    "countryName": "Japan",
+    "latitude": 33.8272,
+    "longitude": 132.7,
+    "hasScheduledService": true,
+    "icao": "RJOM",
+    "country": "jp"
   },
   {
     "iata": "ITM",
@@ -70392,15 +70317,14 @@ module.exports = [
   {
     "iata": "FKS",
     "timezone": "Asia/Tokyo",
-    "name": "Frankfort Dow Memorial Field",
-    "city": "Frankfort",
-    "countryName": "United States",
-    "latitude": 44.6252,
-    "longitude": -86.2008,
-    "hasScheduledService": false,
-    "icao": "KFKS",
-    "country": "us",
-    "state": "MI"
+    "name": "Fukushima Airport",
+    "city": "Sukagawa",
+    "countryName": "Japan",
+    "latitude": 37.2274,
+    "longitude": 140.431,
+    "hasScheduledService": true,
+    "icao": "RJSF",
+    "country": "jp"
   },
   {
     "iata": "HNA",
@@ -70523,17 +70447,16 @@ module.exports = [
     "country": "jp"
   },
   {
-    "iata": "HSH",
-    "timezone": "America/Los_Angeles",
-    "name": "Henderson Executive Airport",
-    "city": "Las Vegas",
-    "countryName": "United States",
-    "latitude": 35.9728,
-    "longitude": -115.134,
-    "hasScheduledService": false,
-    "icao": "KHND",
-    "country": "us",
-    "state": "NV"
+    "iata": "HND",
+    "timezone": "Asia/Tokyo",
+    "name": "Tokyo International Airport",
+    "city": "Tokyo",
+    "countryName": "Japan",
+    "latitude": 35.5523,
+    "longitude": 139.78,
+    "hasScheduledService": true,
+    "icao": "RJTT",
+    "country": "jp"
   },
   {
     "iata": "OKO",
@@ -71196,17 +71119,16 @@ module.exports = [
     "country": "ph"
   },
   {
-    "iata": "NOT",
-    "timezone": "America/Los_Angeles",
-    "name": "Marin County Airport - Gnoss Field",
-    "city": "Novato",
-    "countryName": "United States",
-    "latitude": 38.1436,
-    "longitude": -122.556,
-    "hasScheduledService": false,
-    "icao": "KDVO",
-    "country": "us",
-    "state": "CA"
+    "iata": "DVO",
+    "timezone": "Asia/Manila",
+    "name": "Francisco Bangoy International Airport",
+    "city": "Davao City",
+    "countryName": "Philippines",
+    "latitude": 7.12552,
+    "longitude": 125.646,
+    "hasScheduledService": true,
+    "icao": "RPMD",
+    "country": "ph"
   },
   {
     "iata": "BXU",
@@ -71295,13 +71217,13 @@ module.exports = [
   {
     "iata": "GES",
     "timezone": "Asia/Manila",
-    "name": "Rajah Buayan Air Base",
-    "city": "General Santos City",
+    "name": "General Santos International Airport",
+    "city": "General Santos",
     "countryName": "Philippines",
-    "latitude": 6.10644,
-    "longitude": 125.235,
-    "hasScheduledService": false,
-    "icao": "RPMB",
+    "latitude": 6.058,
+    "longitude": 125.096,
+    "hasScheduledService": true,
+    "icao": "RPMR",
     "country": "ph"
   },
   {
@@ -71413,15 +71335,15 @@ module.exports = [
     "countryName": "Philippines"
   },
   {
-    "iata": "EUQ",
+    "iata": "SJI",
     "timezone": "Asia/Manila",
-    "name": "Evelio Javier Airport",
+    "name": "San Jose Airport",
     "city": "San Jose",
     "countryName": "Philippines",
-    "latitude": 10.766,
-    "longitude": 121.933,
-    "hasScheduledService": false,
-    "icao": "RPVS",
+    "latitude": 12.3615,
+    "longitude": 121.047,
+    "hasScheduledService": true,
+    "icao": "RPUH",
     "country": "ph"
   },
   {
@@ -71619,15 +71541,14 @@ module.exports = [
   {
     "iata": "MBT",
     "timezone": "Asia/Manila",
-    "name": "Murfreesboro Municipal Airport",
-    "city": "Murfreesboro",
-    "countryName": "United States",
-    "latitude": 35.8775,
-    "longitude": -86.3775,
-    "hasScheduledService": false,
-    "icao": "KMBT",
-    "country": "us",
-    "state": "TN"
+    "name": "Moises R. Espinosa Airport",
+    "city": "Masbate",
+    "countryName": "Philippines",
+    "latitude": 12.3694,
+    "longitude": 123.629,
+    "hasScheduledService": true,
+    "icao": "RPVJ",
+    "country": "ph"
   },
   {
     "iata": "KLO",
@@ -71752,13 +71673,13 @@ module.exports = [
   {
     "iata": "GRV",
     "timezone": "Europe/Moscow",
-    "name": "Khankala Air Base",
+    "name": "Grozny North Airport",
     "city": "Grozny",
     "countryName": "Russia",
-    "latitude": 43.2981,
-    "longitude": 45.7841,
-    "hasScheduledService": false,
-    "icao": "URMG",
+    "latitude": 43.3883,
+    "longitude": 45.6986,
+    "hasScheduledService": true,
+    "icao": "RU-0035",
     "country": "ru"
   },
   {
@@ -71923,15 +71844,14 @@ module.exports = [
   {
     "iata": "ROS",
     "timezone": "America/Cordoba",
-    "name": "Rush City Regional Airport",
-    "city": "Rush City",
-    "countryName": "United States",
-    "latitude": 45.698,
-    "longitude": -92.953,
-    "hasScheduledService": false,
-    "icao": "KROS",
-    "country": "us",
-    "state": "MN"
+    "name": "Islas Malvinas Airport",
+    "city": "Rosario",
+    "countryName": "Argentina",
+    "latitude": -32.9036,
+    "longitude": -60.785,
+    "hasScheduledService": true,
+    "icao": "SAAR",
+    "country": "ar"
   },
   {
     "iata": "SFN",
@@ -72102,17 +72022,16 @@ module.exports = [
     "countryName": "Papua New Guinea"
   },
   {
-    "iata": "MDF",
+    "iata": "MDZ",
     "timezone": "America/Cordoba",
-    "name": "Taylor County Airport",
-    "city": "Medford",
-    "countryName": "United States",
-    "latitude": 45.101,
-    "longitude": -90.3033,
-    "hasScheduledService": false,
-    "icao": "KMDZ",
-    "country": "us",
-    "state": "WI"
+    "name": "El Plumerillo Airport",
+    "city": "Mendoza",
+    "countryName": "Argentina",
+    "latitude": -32.8317,
+    "longitude": -68.7929,
+    "hasScheduledService": true,
+    "icao": "SAME",
+    "country": "ar"
   },
   {
     "iata": "LGS",
@@ -72177,14 +72096,14 @@ module.exports = [
   {
     "iata": "RHD",
     "timezone": "America/Cordoba",
-    "name": "Las Termas Airport",
-    "city": "Rio Hondo",
+    "name": "Termas de Río Hondo international Airport",
+    "city": "Termas de Río Hondo",
     "countryName": "Argentina",
-    "latitude": -27.4737,
-    "longitude": -64.9055,
-    "icao": "SANH",
+    "latitude": -27.4966,
+    "longitude": -64.93595,
+    "icao": "SANR",
     "country": "ar",
-    "hasScheduledService": false
+    "hasScheduledService": true
   },
   {
     "iata": "TUC",
@@ -72885,16 +72804,15 @@ module.exports = [
   },
   {
     "iata": "MDQ",
-    "timezone": "America/Chicago",
-    "name": "Madison County Executive Airport-Tom Sharp Jr Field",
-    "city": "Huntsville",
-    "countryName": "United States",
-    "latitude": 34.8614,
-    "longitude": -86.5575,
-    "hasScheduledService": false,
-    "icao": "KMDQ",
-    "country": "us",
-    "state": "AL"
+    "timezone": "America/Cordoba",
+    "name": "Ástor Piazzola International Airport",
+    "city": "Mar del Plata",
+    "countryName": "Argentina",
+    "latitude": -37.9342,
+    "longitude": -57.5733,
+    "hasScheduledService": true,
+    "icao": "SAZM",
+    "country": "ar"
   },
   {
     "iata": "NQN",
@@ -73444,9 +73362,9 @@ module.exports = [
     "countryName": "Brazil",
     "latitude": -21.2473,
     "longitude": -56.4525,
-    "icao": "SJDB",
+    "icao": "SBDB",
     "country": "br",
-    "hasScheduledService": false
+    "hasScheduledService": true
   },
   {
     "iata": "PPB",
@@ -73463,15 +73381,14 @@ module.exports = [
   {
     "iata": "MAO",
     "timezone": "America/Boa_Vista",
-    "name": "Marion County Airport",
-    "city": "Marion",
-    "countryName": "United States",
-    "latitude": 34.1812,
-    "longitude": -79.3347,
-    "hasScheduledService": false,
-    "icao": "KMAO",
-    "country": "us",
-    "state": "SC"
+    "name": "Eduardo Gomes International Airport",
+    "city": "Manaus",
+    "countryName": "Brazil",
+    "latitude": -3.03861,
+    "longitude": -60.0497,
+    "hasScheduledService": true,
+    "icao": "SBEG",
+    "country": "br"
   },
   {
     "iata": "JCR",
@@ -73932,15 +73849,14 @@ module.exports = [
   {
     "iata": "MCZ",
     "timezone": "America/Fortaleza",
-    "name": "Martin County Airport",
-    "city": "Williamston",
-    "countryName": "United States",
-    "latitude": 35.8622,
-    "longitude": -77.1782,
-    "hasScheduledService": false,
-    "icao": "KMCZ",
-    "country": "us",
-    "state": "NC"
+    "name": "Zumbi dos Palmares Airport",
+    "city": "Maceió",
+    "countryName": "Brazil",
+    "latitude": -9.51081,
+    "longitude": -35.7917,
+    "hasScheduledService": true,
+    "icao": "SBMO",
+    "country": "br"
   },
   {
     "iata": "MCP",
@@ -74221,13 +74137,13 @@ module.exports = [
   {
     "iata": "NAT",
     "timezone": "America/Fortaleza",
-    "name": "Augusto Severo Airport",
+    "name": "Governador Aluízio Alves International Airport",
     "city": "Natal",
     "countryName": "Brazil",
-    "latitude": -5.91142,
-    "longitude": -35.2477,
-    "hasScheduledService": false,
-    "icao": "SBNT",
+    "latitude": -5.76806,
+    "longitude": -35.37611,
+    "hasScheduledService": true,
+    "icao": "SBSG",
     "country": "br"
   },
   {
@@ -74666,13 +74582,13 @@ module.exports = [
   {
     "iata": "CPO",
     "timezone": "America/Santiago",
-    "name": "Chamonate Airport",
+    "name": "Desierto de Atacama Airport",
     "city": "Copiapo",
     "countryName": "Chile",
-    "latitude": -27.2969,
-    "longitude": -70.4131,
-    "hasScheduledService": false,
-    "icao": "SCHA",
+    "latitude": -27.2612,
+    "longitude": -70.7792,
+    "hasScheduledService": true,
+    "icao": "SCAT",
     "country": "cl"
   },
   {
@@ -75000,15 +74916,15 @@ module.exports = [
     "countryName": "Chile"
   },
   {
-    "iata": "PZS",
+    "iata": "ZCO",
     "timezone": "America/Santiago",
-    "name": "Maquehue Airport",
+    "name": "La Araucanía Airport",
     "city": "Temuco",
     "countryName": "Chile",
-    "latitude": -38.7668,
-    "longitude": -72.6371,
-    "hasScheduledService": false,
-    "icao": "SCTC",
+    "latitude": -38.9259,
+    "longitude": -72.6515,
+    "hasScheduledService": true,
+    "icao": "SCQP",
     "country": "cl"
   },
   {
@@ -75195,13 +75111,13 @@ module.exports = [
   {
     "iata": "ZAL",
     "timezone": "America/Santiago",
-    "name": "Las Marías Airport",
+    "name": "Pichoy Airport",
     "city": "Valdivia",
     "countryName": "Chile",
-    "latitude": -39.7969,
-    "longitude": -73.2417,
+    "latitude": -39.65,
+    "longitude": -73.0861,
     "hasScheduledService": true,
-    "icao": "SCVL",
+    "icao": "SCVD",
     "country": "cl"
   },
   {
@@ -75666,10 +75582,10 @@ module.exports = [
     "name": "Mariscal Sucre International Airport",
     "city": "Quito",
     "countryName": "Ecuador",
-    "latitude": -0.14114,
-    "longitude": -78.4882,
+    "latitude": -0.12917,
+    "longitude": -78.3575,
     "hasScheduledService": true,
-    "icao": "SEQU",
+    "icao": "SEQM",
     "country": "ec"
   },
   {
@@ -75687,15 +75603,14 @@ module.exports = [
   {
     "iata": "SNC",
     "timezone": "America/Guayaquil",
-    "name": "Chester Airport",
-    "city": "Chester",
-    "countryName": "United States",
-    "latitude": 41.3839,
-    "longitude": -72.5059,
+    "name": "General Ulpiano Paez Airport",
+    "city": "Salinas",
+    "countryName": "Ecuador",
+    "latitude": -2.20499,
+    "longitude": -80.9889,
     "hasScheduledService": false,
-    "icao": "KSNC",
-    "country": "us",
-    "state": "CT"
+    "icao": "SESA",
+    "country": "ec"
   },
   {
     "iata": "SUQ",
@@ -75950,29 +75865,28 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "iata": "NOP",
+    "iata": "SIC",
     "timezone": "Europe/Istanbul",
-    "city": "New York",
-    "countryName": "United States",
-    "latitude": 40.591,
-    "longitude": -73.891,
+    "city": "Las Perlas",
+    "countryName": "Panama",
+    "latitude": 8.2622,
+    "longitude": -79.078,
     "hasScheduledService": false,
-    "name": "Floyd Bennett Field",
-    "icao": "KNOP",
-    "country": "us",
-    "state": "NY"
+    "name": "San José Island Airport",
+    "icao": "SIC",
+    "country": "pa"
   },
   {
     "iata": "LVR",
     "timezone": "America/Campo_Grande",
-    "name": "Fazenda Colen Airport",
-    "city": "Lucas Do Rio Verde",
+    "name": "Municipal Bom Futuro Airport",
+    "city": "Lucas do Rio Verde",
     "countryName": "Brazil",
-    "latitude": -13.31444,
-    "longitude": -56.11278,
-    "icao": "SWFE",
+    "latitude": -13.03786,
+    "longitude": -55.95025,
+    "icao": "SILC",
     "country": "br",
-    "hasScheduledService": false
+    "hasScheduledService": true
   },
   {
     "iata": "FRC",
@@ -76239,15 +76153,15 @@ module.exports = [
     "countryName": "Colombia"
   },
   {
-    "iata": "EZV",
+    "iata": "NBB",
     "timezone": "Asia/Yekaterinburg",
-    "name": "Berezovo Airport",
+    "name": "Barranco Minas Airport",
     "city": "Barranco Minas",
-    "countryName": "Russia",
-    "latitude": 63.921,
-    "longitude": 65.0305,
-    "icao": "USHB",
-    "country": "ru",
+    "countryName": "Colombia",
+    "latitude": 3.48333,
+    "longitude": -69.8,
+    "icao": "SK-209",
+    "country": "co",
     "hasScheduledService": false
   },
   {
@@ -76613,15 +76527,14 @@ module.exports = [
   {
     "iata": "CCO",
     "timezone": "America/New_York",
-    "name": "Newnan Coweta County Airport",
-    "city": "Atlanta",
-    "countryName": "United States",
-    "latitude": 33.3116,
-    "longitude": -84.7698,
-    "icao": "KCCO",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "GA"
+    "name": "Carimagua Airport",
+    "city": "Puerto López",
+    "countryName": "Colombia",
+    "latitude": 4.56417,
+    "longitude": -71.3364,
+    "icao": "SKCI",
+    "country": "co",
+    "hasScheduledService": false
   },
   {
     "iata": "CLO",
@@ -76780,17 +76693,16 @@ module.exports = [
     "hasScheduledService": true
   },
   {
-    "iata": "FCA",
+    "iata": "GPI",
     "timezone": "America/Bogota",
-    "name": "Glacier Park International Airport",
-    "city": "Kalispell",
-    "countryName": "United States",
-    "latitude": 48.3105,
-    "longitude": -114.256,
+    "name": "Juan Casiano Airport",
+    "city": "Guapi",
+    "countryName": "Colombia",
+    "latitude": 2.57013,
+    "longitude": -77.8986,
     "hasScheduledService": true,
-    "icao": "KGPI",
-    "country": "us",
-    "state": "MT"
+    "icao": "SKGP",
+    "country": "co"
   },
   {
     "iata": "CPL",
@@ -77900,15 +77812,14 @@ module.exports = [
   {
     "iata": "SRE",
     "timezone": "America/La_Paz",
-    "name": "Seminole Municipal Airport",
-    "city": "Seminole",
-    "countryName": "United States",
-    "latitude": 35.2747,
-    "longitude": -96.6752,
-    "hasScheduledService": false,
-    "icao": "KSRE",
-    "country": "us",
-    "state": "OK"
+    "name": "Juana Azurduy De Padilla Airport",
+    "city": "Sucre",
+    "countryName": "Bolivia",
+    "latitude": -19.0071,
+    "longitude": -65.2887,
+    "hasScheduledService": true,
+    "icao": "SLSU",
+    "country": "bo"
   },
   {
     "iata": "MQK",
@@ -79005,15 +78916,14 @@ module.exports = [
   {
     "iata": "REI",
     "timezone": "America/Los_Angeles",
-    "name": "Redlands Municipal Airport",
-    "city": "Redlands",
-    "countryName": "United States",
-    "latitude": 34.0853,
-    "longitude": -117.146,
-    "icao": "KREI",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "CA"
+    "name": "Regina Airport",
+    "city": "Regina",
+    "countryName": "French Guiana",
+    "latitude": 4.31472,
+    "longitude": -52.1317,
+    "icao": "SOOR",
+    "country": "gf",
+    "hasScheduledService": false
   },
   {
     "iata": "XAU",
@@ -79508,17 +79418,16 @@ module.exports = [
     "hasScheduledService": true
   },
   {
-    "iata": "VQQ",
+    "iata": "NZC",
     "timezone": "America/New_York",
-    "name": "Cecil Airport",
-    "city": "Jacksonville",
-    "countryName": "United States",
-    "latitude": 30.2187,
-    "longitude": -81.8767,
-    "icao": "KVQQ",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "FL"
+    "name": "Maria Reiche Neuman Airport",
+    "city": "Nazca",
+    "countryName": "Peru",
+    "latitude": -14.854,
+    "longitude": -74.9615,
+    "icao": "SPZA",
+    "country": "pe",
+    "hasScheduledService": true
   },
   {
     "iata": "CUZ",
@@ -80605,15 +80514,14 @@ module.exports = [
   {
     "iata": "PMV",
     "timezone": "America/Caracas",
-    "name": "Plattsmouth Municipal Airport",
-    "city": "Plattsmouth",
-    "countryName": "United States",
-    "latitude": 40.9502,
-    "longitude": -95.9179,
-    "hasScheduledService": false,
-    "icao": "KPMV",
-    "country": "us",
-    "state": "NE"
+    "name": "Del Caribe Santiago Mariño International Airport",
+    "city": "Isla Margarita",
+    "countryName": "Venezuela",
+    "latitude": 10.9126,
+    "longitude": -63.9666,
+    "hasScheduledService": true,
+    "icao": "SVMG",
+    "country": "ve"
   },
   {
     "iata": "CCS",
@@ -81253,17 +81161,16 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "iata": "STG",
+    "iata": "PBV",
     "timezone": "America/Anchorage",
-    "name": "St George Airport",
-    "city": "St George",
-    "countryName": "United States",
-    "latitude": 56.5783,
-    "longitude": -169.662,
-    "icao": "PAPB",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "AK"
+    "name": "Porto dos Gaúchos Airport",
+    "city": "Porto Dos Gaúchos",
+    "countryName": "Brazil",
+    "latitude": -11.5404,
+    "longitude": -57.3782,
+    "icao": "SWPG",
+    "country": "br",
+    "hasScheduledService": false
   },
   {
     "iata": "PIN",
@@ -81290,17 +81197,16 @@ module.exports = [
     "countryName": "Brazil"
   },
   {
-    "iata": "PVL",
+    "iata": "PBX",
     "timezone": "America/New_York",
-    "name": "Pike County-Hatcher Field",
-    "city": "Pikeville",
-    "countryName": "United States",
-    "latitude": 37.5618,
-    "longitude": -82.5664,
-    "icao": "KPBX",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "KY"
+    "name": "Fazenda Piraguassu Airport",
+    "city": "Porto Alegre Do Norte",
+    "countryName": "Brazil",
+    "latitude": -10.86111,
+    "longitude": -51.685,
+    "icao": "SWPQ",
+    "country": "br",
+    "hasScheduledService": false
   },
   {
     "iata": "SWR",
@@ -81813,15 +81719,14 @@ module.exports = [
   {
     "iata": "SDC",
     "timezone": "America/New_York",
-    "name": "Williamson Sodus Airport",
-    "city": "Williamson/Sodus",
-    "countryName": "United States",
-    "latitude": 43.2347,
-    "longitude": -77.121,
-    "icao": "KSDC",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "NY"
+    "name": "Sand Creek Airport",
+    "city": "Sand Creek",
+    "countryName": "Guyana",
+    "latitude": 2.9913,
+    "longitude": -59.51,
+    "icao": "SYSC",
+    "country": "gy",
+    "hasScheduledService": false
   },
   {
     "iata": "SZN",
@@ -83065,16 +82970,16 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "iata": "CNL",
-    "timezone": "Europe/Copenhagen",
-    "name": "Sindal Airport",
-    "city": "Sindal",
-    "countryName": "Denmark",
-    "latitude": 57.5035,
-    "longitude": 10.2294,
+    "iata": "KSN",
+    "timezone": "Asia/Qyzylorda",
+    "name": "Kostanay West Airport",
+    "city": "Kostanay",
+    "countryName": "Kazakhstan",
+    "latitude": 53.2069,
+    "longitude": 63.5503,
     "hasScheduledService": true,
-    "icao": "EKSN",
-    "country": "dk"
+    "icao": "UAUU",
+    "country": "kz"
   },
   {
     "iata": "GYD",
@@ -83716,13 +83621,13 @@ module.exports = [
   {
     "iata": "DEE",
     "timezone": "Asia/Sakhalin",
-    "name": "Cooma Hospital Helipad",
-    "city": "Cooma",
-    "countryName": "Australia",
-    "latitude": -36.24215,
-    "longitude": 149.13015,
-    "icao": "YXCM",
-    "country": "au",
+    "name": "Mendeleyevo Airport",
+    "city": "Kunashir Island",
+    "countryName": "Russia",
+    "latitude": 43.9584,
+    "longitude": 145.683,
+    "icao": "UHSM",
+    "country": "ru",
     "hasScheduledService": false
   },
   {
@@ -84460,15 +84365,14 @@ module.exports = [
   {
     "iata": "MMK",
     "timezone": "Europe/Moscow",
-    "name": "Meriden Markham Municipal Airport",
-    "city": "Meriden",
-    "countryName": "United States",
-    "latitude": 41.5087,
-    "longitude": -72.8295,
-    "hasScheduledService": false,
-    "icao": "KMMK",
-    "country": "us",
-    "state": "CT"
+    "name": "Murmansk Airport",
+    "city": "Murmansk",
+    "countryName": "Russia",
+    "latitude": 68.7817,
+    "longitude": 32.7508,
+    "hasScheduledService": true,
+    "icao": "ULMM",
+    "country": "ru"
   },
   {
     "iata": "NVR",
@@ -84605,15 +84509,14 @@ module.exports = [
   {
     "iata": "MHP",
     "timezone": "Europe/Minsk",
-    "name": "Metter Municipal Airport",
-    "city": "Metter",
-    "countryName": "United States",
-    "latitude": 32.3739,
-    "longitude": -82.0792,
-    "hasScheduledService": false,
-    "icao": "KMHP",
-    "country": "us",
-    "state": "GA"
+    "name": "Minsk 1 Airport",
+    "city": "Minsk",
+    "countryName": "Belarus",
+    "latitude": 53.8645,
+    "longitude": 27.5397,
+    "hasScheduledService": true,
+    "icao": "UMMM",
+    "country": "by"
   },
   {
     "iata": "MSQ",
@@ -84654,15 +84557,14 @@ module.exports = [
   {
     "iata": "BAX",
     "timezone": "Asia/Omsk",
-    "name": "Huron County Memorial Airport",
-    "city": "Bad Axe",
-    "countryName": "United States",
-    "latitude": 43.7802,
-    "longitude": -82.9854,
-    "hasScheduledService": false,
-    "icao": "KBAX",
-    "country": "us",
-    "state": "MI"
+    "name": "Barnaul Airport",
+    "city": "Barnaul",
+    "countryName": "Russia",
+    "latitude": 53.3638,
+    "longitude": 83.5385,
+    "hasScheduledService": true,
+    "icao": "UNBB",
+    "country": "ru"
   },
   {
     "iata": "RGK",
@@ -84919,15 +84821,14 @@ module.exports = [
   {
     "iata": "MCX",
     "timezone": "Europe/Moscow",
-    "name": "White County Airport",
-    "city": "Monticello",
-    "countryName": "United States",
-    "latitude": 40.7088,
-    "longitude": -86.7668,
-    "hasScheduledService": false,
-    "icao": "KMCX",
-    "country": "us",
-    "state": "IN"
+    "name": "Uytash Airport",
+    "city": "Makhachkala",
+    "countryName": "Russia",
+    "latitude": 42.8168,
+    "longitude": 47.6523,
+    "hasScheduledService": true,
+    "icao": "URML",
+    "country": "ru"
   },
   {
     "iata": "MRV",
@@ -85064,15 +84965,14 @@ module.exports = [
   {
     "iata": "CEK",
     "timezone": "Asia/Yekaterinburg",
-    "name": "Crete Municipal Airport",
-    "city": "Crete",
-    "countryName": "United States",
-    "latitude": 40.6179,
-    "longitude": -96.9249,
-    "hasScheduledService": false,
-    "icao": "KCEK",
-    "country": "us",
-    "state": "NE"
+    "name": "Chelyabinsk Balandino Airport",
+    "city": "Chelyabinsk",
+    "countryName": "Russia",
+    "latitude": 55.3058,
+    "longitude": 61.5033,
+    "hasScheduledService": true,
+    "icao": "USCC",
+    "country": "ru"
   },
   {
     "iata": "MQF",
@@ -85185,15 +85085,14 @@ module.exports = [
   {
     "iata": "OVS",
     "timezone": "Asia/Yekaterinburg",
-    "name": "Boscobel Airport",
-    "city": "Boscobel",
-    "countryName": "United States",
-    "latitude": 43.1602,
-    "longitude": -90.6755,
-    "hasScheduledService": false,
-    "icao": "KOVS",
-    "country": "us",
-    "state": "WI"
+    "name": "Sovetskiy Airport",
+    "city": "Sovetskiy",
+    "countryName": "Russia",
+    "latitude": 61.32662,
+    "longitude": 63.60191,
+    "hasScheduledService": true,
+    "icao": "USHS",
+    "country": "ru"
   },
   {
     "iata": "URJ",
@@ -85691,14 +85590,14 @@ module.exports = [
   {
     "iata": "KMW",
     "timezone": "Europe/Moscow",
-    "name": "Dyagilevo Air Base",
+    "name": "Kostroma Sokerkino Airport",
     "city": "Kostroma",
     "countryName": "Russia",
-    "latitude": 54.6447,
-    "longitude": 39.5704,
-    "icao": "UUBD",
+    "latitude": 57.7969,
+    "longitude": 41.0194,
+    "icao": "UUBA",
     "country": "ru",
-    "hasScheduledService": false
+    "hasScheduledService": true
   },
   {
     "iata": "BKA",
@@ -85967,15 +85866,14 @@ module.exports = [
   {
     "iata": "PEX",
     "timezone": "Europe/Moscow",
-    "name": "Paynesville Municipal Airport",
-    "city": "Paynesville",
-    "countryName": "United States",
-    "latitude": 45.3723,
-    "longitude": -94.7466,
-    "hasScheduledService": false,
-    "icao": "KPEX",
-    "country": "us",
-    "state": "MN"
+    "name": "Pechora Airport",
+    "city": "Pechora",
+    "countryName": "Russia",
+    "latitude": 65.1211,
+    "longitude": 57.1308,
+    "hasScheduledService": true,
+    "icao": "UUYP",
+    "country": "ru"
   },
   {
     "iata": "USK",
@@ -86062,17 +85960,16 @@ module.exports = [
     "country": "ru"
   },
   {
-    "iata": "BFT",
-    "timezone": "America/New_York",
-    "name": "Beaufort MCAS - Merritt Field",
-    "city": "Beaufort",
-    "countryName": "United States",
-    "latitude": 32.4774,
-    "longitude": -80.7232,
-    "hasScheduledService": false,
-    "icao": "KNBC",
-    "country": "us",
-    "state": "SC"
+    "iata": "NBC",
+    "timezone": "Europe/Moscow",
+    "name": "Begishevo Airport",
+    "city": "Nizhnekamsk",
+    "countryName": "Russia",
+    "latitude": 55.5647,
+    "longitude": 52.0925,
+    "hasScheduledService": true,
+    "icao": "UWKE",
+    "country": "ru"
   },
   {
     "iata": "JOK",
@@ -86161,15 +86058,14 @@ module.exports = [
   {
     "iata": "PEZ",
     "timezone": "Europe/Moscow",
-    "name": "Pleasanton Municipal Airport",
-    "city": "Pleasanton",
-    "countryName": "United States",
-    "latitude": 28.9542,
-    "longitude": -98.52,
-    "hasScheduledService": false,
-    "icao": "KPEZ",
-    "country": "us",
-    "state": "TX"
+    "name": "Penza Airport",
+    "city": "Penza",
+    "countryName": "Russia",
+    "latitude": 53.1106,
+    "longitude": 45.0211,
+    "hasScheduledService": true,
+    "icao": "UWPP",
+    "country": "ru"
   },
   {
     "iata": "SKX",
@@ -86595,14 +86491,14 @@ module.exports = [
   {
     "iata": "ISK",
     "timezone": "Asia/Calcutta",
-    "name": "Gandhinagar Airport",
-    "city": "Nashik",
+    "name": "Ozar Airport",
+    "city": "Nasik",
     "countryName": "India",
-    "latitude": 19.9637,
-    "longitude": 73.8076,
-    "icao": "VANR",
+    "latitude": 20.1191,
+    "longitude": 73.9129,
+    "icao": "VAOZ",
     "country": "in",
-    "hasScheduledService": true
+    "hasScheduledService": false
   },
   {
     "iata": "PNQ",
@@ -86703,15 +86599,14 @@ module.exports = [
   {
     "iata": "ACJ",
     "timezone": "America/New_York",
-    "name": "Souther Field",
-    "city": "Americus",
-    "countryName": "United States",
-    "latitude": 32.1108,
-    "longitude": -84.1889,
-    "icao": "KACJ",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "GA"
+    "name": "Anuradhapura Air Force Base",
+    "city": "Anuradhapura",
+    "countryName": "Sri Lanka",
+    "latitude": 8.30149,
+    "longitude": 80.4279,
+    "icao": "VCCA",
+    "country": "lk",
+    "hasScheduledService": false
   },
   {
     "iata": "BTC",
@@ -86930,17 +86825,16 @@ module.exports = [
     "country": "kh"
   },
   {
-    "iata": "XSD",
+    "iata": "TNX",
     "timezone": "America/Los_Angeles",
-    "name": "Tonopah Test Range Airport",
-    "city": "Tonopah",
-    "countryName": "United States",
-    "latitude": 37.7988,
-    "longitude": -116.781,
-    "icao": "KTNX",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "NV"
+    "name": "Stung Treng Airport",
+    "city": "Stung Treng",
+    "countryName": "Cambodia",
+    "latitude": 13.5319,
+    "longitude": 106.015,
+    "icao": "VDST",
+    "country": "kh",
+    "hasScheduledService": true
   },
   {
     "iata": "KOS",
@@ -87089,15 +86983,14 @@ module.exports = [
   {
     "iata": "SHL",
     "timezone": "Asia/Calcutta",
-    "city": "Sheldon",
-    "countryName": "United States",
-    "latitude": 43.2084,
-    "longitude": -95.8334,
-    "hasScheduledService": false,
-    "icao": "KSHL",
-    "name": "Sheldon Municipal Airport",
-    "country": "us",
-    "state": "IA"
+    "city": "Shillong",
+    "countryName": "India",
+    "latitude": 25.7036,
+    "longitude": 91.9787,
+    "hasScheduledService": true,
+    "icao": "VEBI",
+    "name": "Shillong Airport",
+    "country": "in"
   },
   {
     "iata": "BBI",
@@ -87162,15 +87055,14 @@ module.exports = [
   {
     "iata": "GOP",
     "timezone": "Asia/Calcutta",
-    "name": "Gatesville Municipal Airport",
-    "city": "Gatesville",
-    "countryName": "United States",
-    "latitude": 31.4213,
-    "longitude": -97.797,
-    "hasScheduledService": false,
-    "icao": "KGOP",
-    "country": "us",
-    "state": "TX"
+    "name": "Gorakhpur Airport",
+    "city": "Gorakhpur",
+    "countryName": "India",
+    "latitude": 26.7397,
+    "longitude": 83.4497,
+    "hasScheduledService": true,
+    "icao": "VEGK",
+    "country": "in"
   },
   {
     "iata": "GAU",
@@ -87283,13 +87175,13 @@ module.exports = [
   {
     "iata": "AJL",
     "timezone": "Asia/Calcutta",
-    "name": "Tuirial Airfield",
+    "name": "Lengpui Airport",
     "city": "Aizawl",
     "countryName": "India",
-    "latitude": 23.7432,
-    "longitude": 92.8024,
-    "hasScheduledService": false,
-    "icao": "VEAZ",
+    "latitude": 23.8406,
+    "longitude": 92.6197,
+    "hasScheduledService": true,
+    "icao": "VELP",
     "country": "in"
   },
   {
@@ -87595,15 +87487,14 @@ module.exports = [
   {
     "iata": "SPB",
     "timezone": "America/Los_Angeles",
-    "name": "Scappoose Industrial Airpark",
-    "city": "Scappoose",
-    "countryName": "United States",
-    "latitude": 45.771,
-    "longitude": -122.862,
-    "hasScheduledService": false,
-    "icao": "KSPB",
-    "country": "us",
-    "state": "OR"
+    "name": "Charlotte Amalie Harbor Seaplane Base",
+    "city": "Charlotte Amalie St Thomas",
+    "countryName": "Virgin Islands",
+    "latitude": 18.3386,
+    "longitude": -64.9407,
+    "hasScheduledService": true,
+    "icao": "VI22",
+    "country": "vi"
   },
   {
     "name": "Christiansted Harbor Seaplane Base",
@@ -87956,15 +87847,14 @@ module.exports = [
   {
     "iata": "HOE",
     "timezone": "Asia/Vientiane",
-    "name": "Homerville Airport",
-    "city": "Homerville",
-    "countryName": "United States",
-    "latitude": 31.0559,
-    "longitude": -82.7741,
-    "hasScheduledService": false,
-    "icao": "KHOE",
-    "country": "us",
-    "state": "GA"
+    "name": "Ban Huoeisay Airport",
+    "city": "Huay Xai",
+    "countryName": "Laos",
+    "latitude": 20.2573,
+    "longitude": 100.437,
+    "hasScheduledService": true,
+    "icao": "VLHS",
+    "country": "la"
   },
   {
     "iata": "LPQ",
@@ -88425,15 +88315,14 @@ module.exports = [
   {
     "iata": "MEY",
     "timezone": "Asia/Katmandu",
-    "city": "Mapleton",
-    "countryName": "United States",
-    "latitude": 42.1783,
-    "longitude": -95.7936,
-    "hasScheduledService": false,
-    "icao": "KMEY",
-    "name": "James G. Whiting Memorial Field",
-    "country": "us",
-    "state": "IA"
+    "city": "Meghauli",
+    "countryName": "Nepal",
+    "latitude": 27.5774,
+    "longitude": 84.22875,
+    "hasScheduledService": true,
+    "icao": "VNMG",
+    "name": "Meghauli Airport",
+    "country": "np"
   },
   {
     "iata": "XMG",
@@ -88690,13 +88579,13 @@ module.exports = [
   {
     "iata": "BLR",
     "timezone": "Asia/Calcutta",
-    "name": "HAL Airport",
+    "name": "Kempegowda International Airport",
     "city": "Bangalore",
     "countryName": "India",
-    "latitude": 12.95,
-    "longitude": 77.6682,
+    "latitude": 13.1979,
+    "longitude": 77.7063,
     "hasScheduledService": true,
-    "icao": "VOBG",
+    "icao": "VOBL",
     "country": "in"
   },
   {
@@ -88726,13 +88615,13 @@ module.exports = [
   {
     "iata": "COK",
     "timezone": "Asia/Calcutta",
-    "name": "Willingdon Island Air Base",
-    "city": "Kochi",
+    "name": "Cochin International Airport",
+    "city": "Cochin",
     "countryName": "India",
-    "latitude": 9.94739,
-    "longitude": 76.2731,
-    "hasScheduledService": false,
-    "icao": "VOCC",
+    "latitude": 10.152,
+    "longitude": 76.4019,
+    "hasScheduledService": true,
+    "icao": "VOCI",
     "country": "in"
   },
   {
@@ -88760,27 +88649,27 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "iata": "BPM",
+    "iata": "HYD",
     "timezone": "Asia/Calcutta",
+    "name": "Rajiv Gandhi International Airport",
+    "city": "Hyderabad",
+    "countryName": "India",
+    "latitude": 17.23132,
+    "longitude": 78.42986,
+    "hasScheduledService": true,
+    "icao": "VOHS",
+    "country": "in"
+  },
+  {
+    "iata": "BPM",
+    "timezone": "Asia/Kabul",
     "name": "Begumpet Airport",
     "city": "Hyderabad",
     "countryName": "India",
     "latitude": 17.4531,
     "longitude": 78.4676,
-    "hasScheduledService": false,
     "icao": "VOHY",
-    "country": "in"
-  },
-  {
-    "iata": "OAI",
-    "timezone": "Asia/Kabul",
-    "name": "Bagram Air Base",
-    "city": "Bagram",
-    "countryName": "Afghanistan",
-    "latitude": 34.9461,
-    "longitude": 69.265,
-    "icao": "OAIX",
-    "country": "af",
+    "country": "in",
     "hasScheduledService": false
   },
   {
@@ -88977,16 +88866,15 @@ module.exports = [
   },
   {
     "iata": "PBH",
-    "timezone": "America/Chicago",
-    "name": "Price County Airport",
-    "city": "Phillips",
-    "countryName": "United States",
-    "latitude": 45.709,
-    "longitude": -90.4025,
-    "hasScheduledService": false,
-    "icao": "KPBH",
-    "country": "us",
-    "state": "WI"
+    "timezone": "Asia/Thimphu",
+    "name": "Paro Airport",
+    "city": "Paro",
+    "countryName": "Bhutan",
+    "latitude": 27.4032,
+    "longitude": 89.4246,
+    "hasScheduledService": true,
+    "icao": "VQPR",
+    "country": "bt"
   },
   {
     "iata": "DRV",
@@ -89051,15 +88939,14 @@ module.exports = [
   {
     "iata": "MLE",
     "timezone": "Indian/Maldives",
-    "name": "Millard Airport",
-    "city": "Omaha",
-    "countryName": "United States",
-    "latitude": 41.196,
-    "longitude": -96.112,
-    "hasScheduledService": false,
-    "icao": "KMLE",
-    "country": "us",
-    "state": "NE"
+    "name": "Malé International Airport",
+    "city": "Malé",
+    "countryName": "Maldives",
+    "latitude": 4.19183,
+    "longitude": 73.5291,
+    "hasScheduledService": true,
+    "icao": "VRMM",
+    "country": "mv"
   },
   {
     "iata": "GKK",
@@ -89916,25 +89803,24 @@ module.exports = [
   {
     "iata": "TVY",
     "timezone": "Asia/Rangoon",
-    "city": "Tooele",
-    "countryName": "United States",
-    "latitude": 40.6123,
-    "longitude": -112.351,
-    "hasScheduledService": false,
-    "icao": "KTVY",
-    "name": "Bolinder Field Tooele Valley Airport",
-    "country": "us",
-    "state": "UT"
+    "city": "Dawei",
+    "countryName": "Burma",
+    "latitude": 14.1039,
+    "longitude": 98.2036,
+    "hasScheduledService": true,
+    "icao": "VYDW",
+    "name": "Dawei Airport",
+    "country": "mm"
   },
   {
-    "iata": "NMT",
+    "iata": "NYT",
     "timezone": "Asia/Rangoon",
-    "name": "Namtu Airport",
-    "city": "Namtu",
+    "name": "Naypyidaw Airport",
+    "city": "Pyinmana",
     "countryName": "Burma",
-    "latitude": 23.083,
-    "longitude": 97.383,
-    "icao": "VYNT",
+    "latitude": 19.6235,
+    "longitude": 96.201,
+    "icao": "VYEL",
     "country": "mm",
     "hasScheduledService": false
   },
@@ -90892,17 +90778,16 @@ module.exports = [
     "country": "id"
   },
   {
-    "iata": "TKF",
-    "timezone": "America/Los_Angeles",
-    "name": "Truckee Tahoe Airport",
-    "city": "Truckee",
-    "countryName": "United States",
-    "latitude": 39.32,
-    "longitude": -120.14,
-    "hasScheduledService": false,
-    "icao": "KTRK",
-    "country": "us",
-    "state": "CA"
+    "iata": "TRK",
+    "timezone": "Asia/Makassar",
+    "name": "Juwata Airport",
+    "city": "Tarakan Island",
+    "countryName": "Indonesia",
+    "latitude": 3.32667,
+    "longitude": 117.56944,
+    "hasScheduledService": true,
+    "icao": "WALR",
+    "country": "id"
   },
   {
     "iata": "SRI",
@@ -91735,13 +91620,13 @@ module.exports = [
   {
     "iata": "SOQ",
     "timezone": "Asia/Jayapura",
-    "name": "Jefman Airport",
+    "name": "Dominique Edward Osok Airport",
     "city": "Sorong-Papua Island",
     "countryName": "Indonesia",
-    "latitude": -0.92636,
-    "longitude": 131.121,
-    "hasScheduledService": false,
-    "icao": "WASS",
+    "latitude": -0.894,
+    "longitude": 131.287,
+    "hasScheduledService": true,
+    "icao": "WAXX",
     "country": "id"
   },
   {
@@ -91952,15 +91837,14 @@ module.exports = [
   {
     "iata": "TGC",
     "timezone": "Asia/Kuala_Lumpur",
-    "name": "Gibson County Airport",
-    "city": "Trenton",
-    "countryName": "United States",
-    "latitude": 35.9325,
-    "longitude": -88.8489,
+    "name": "Tanjung Manis Airport",
+    "city": "Tanjung Manis",
+    "countryName": "Malaysia",
+    "latitude": 2.17784,
+    "longitude": 111.202,
     "hasScheduledService": false,
-    "icao": "KTGC",
-    "country": "us",
-    "state": "TN"
+    "icao": "WBGT",
+    "country": "my"
   },
   {
     "iata": "LSU",
@@ -92492,27 +92376,27 @@ module.exports = [
     "country": "id"
   },
   {
-    "iata": "KNO",
+    "iata": "MES",
     "timezone": "Asia/Jakarta",
-    "name": "Kualanamu International Airport",
+    "name": "Soewondo Air Force Base",
     "city": "Medan-Sumatra Island",
     "countryName": "Indonesia",
-    "latitude": 3.64222,
-    "longitude": 98.88528,
+    "latitude": 3.55917,
+    "longitude": 98.67111,
     "hasScheduledService": false,
-    "icao": "WIMM",
+    "icao": "WIMK",
     "country": "id"
   },
   {
     "iata": "KNO",
     "timezone": "Europe/Brussels",
-    "name": "Westkapelle heliport",
-    "city": "Knokke-Heist",
-    "countryName": "Belgium",
-    "latitude": 51.32222,
-    "longitude": 3.29306,
-    "icao": "EBKW",
-    "country": "be",
+    "name": "Kualanamu International Airport",
+    "city": "Knokke",
+    "countryName": "Indonesia",
+    "latitude": 3.64222,
+    "longitude": 98.88528,
+    "icao": "WIMM",
+    "country": "id",
     "hasScheduledService": false
   },
   {
@@ -92650,15 +92534,14 @@ module.exports = [
   {
     "iata": "BKS",
     "timezone": "Asia/Jakarta",
-    "name": "Brooks County Airport",
-    "city": "Falfurrias",
-    "countryName": "United States",
-    "latitude": 27.2068,
-    "longitude": -98.1212,
-    "hasScheduledService": false,
-    "icao": "KBKS",
-    "country": "us",
-    "state": "TX"
+    "name": "Fatmawati Soekarno Airport",
+    "city": "Bengkulu-Sumatra Island",
+    "countryName": "Indonesia",
+    "latitude": -3.8637,
+    "longitude": 102.339,
+    "hasScheduledService": true,
+    "icao": "WIPL",
+    "country": "id"
   },
   {
     "iata": "PLM",
@@ -93399,15 +93282,14 @@ module.exports = [
   {
     "iata": "GYL",
     "timezone": "Australia/Perth",
-    "name": "Glencoe Municipal Airport",
-    "city": "Glencoe",
-    "countryName": "United States",
-    "latitude": 44.756,
-    "longitude": -94.0812,
-    "hasScheduledService": false,
-    "icao": "KGYL",
-    "country": "us",
-    "state": "MN"
+    "name": "Argyle Airport",
+    "city": "Argyle",
+    "countryName": "Australia",
+    "latitude": -16.6369,
+    "longitude": 128.451,
+    "hasScheduledService": true,
+    "icao": "YARG",
+    "country": "au"
   },
   {
     "iata": "ARM",
@@ -93916,15 +93798,14 @@ module.exports = [
   {
     "iata": "BUY",
     "timezone": "America/New_York",
-    "name": "Burlington Alamance Regional Airport",
+    "name": "Bunbury Airport",
     "city": "Burlington",
-    "countryName": "United States",
-    "latitude": 36.0485,
-    "longitude": -79.4749,
-    "icao": "KBUY",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "NC"
+    "countryName": "Australia",
+    "latitude": -33.3783,
+    "longitude": 115.677,
+    "icao": "YBUN",
+    "country": "au",
+    "hasScheduledService": false
   },
   {
     "iata": "WEI",
@@ -94025,15 +93906,14 @@ module.exports = [
   {
     "iata": "CNC",
     "timezone": "Australia/Brisbane",
-    "name": "Chariton Municipal Airport",
-    "city": "Chariton",
-    "countryName": "United States",
-    "latitude": 41.0196,
-    "longitude": -93.3597,
-    "hasScheduledService": false,
-    "icao": "KCNC",
-    "country": "us",
-    "state": "IA"
+    "name": "Coconut Island Airport",
+    "city": "Coconut Island",
+    "countryName": "Australia",
+    "latitude": -10.05,
+    "longitude": 143.07001,
+    "hasScheduledService": true,
+    "icao": "YCCT",
+    "country": "au"
   },
   {
     "iata": "CNJ",
@@ -94385,17 +94265,16 @@ module.exports = [
     "country": "au"
   },
   {
-    "iata": "RUI",
+    "iata": "SRR",
     "timezone": "America/Denver",
-    "name": "Sierra Blanca Regional Airport",
-    "city": "Ruidoso",
-    "countryName": "United States",
-    "latitude": 33.4628,
-    "longitude": -105.535,
-    "icao": "KSRR",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "NM"
+    "name": "Dunwich Airport",
+    "city": "Stradbroke Island",
+    "countryName": "Australia",
+    "latitude": -27.5167,
+    "longitude": 153.42799,
+    "icao": "YDUN",
+    "country": "au",
+    "hasScheduledService": false
   },
   {
     "iata": "WDA",
@@ -94626,14 +94505,14 @@ module.exports = [
     "icao": "YGDW"
   },
   {
-    "name": "Golden Airport",
-    "city": "Golden",
+    "name": "Gorge Harbour Seaplane Base",
+    "city": "Gorge Harbour",
     "countryName": "Canada",
     "iata": "YGE",
-    "latitude": 51.2992,
-    "longitude": -116.982,
+    "latitude": 50.0994,
+    "longitude": -125.0235,
     "timezone": "America/Edmonton",
-    "icao": "CYGE",
+    "icao": "YGE",
     "state": "BC",
     "country": "ca",
     "hasScheduledService": false
@@ -94761,15 +94640,14 @@ module.exports = [
   {
     "iata": "GTE",
     "timezone": "Australia/Darwin",
-    "name": "Quinn Field",
-    "city": "Gothenburg",
-    "countryName": "United States",
-    "latitude": 40.9263,
-    "longitude": -100.148,
-    "hasScheduledService": false,
-    "icao": "KGTE",
-    "country": "us",
-    "state": "NE"
+    "name": "Groote Eylandt Airport",
+    "city": "Groote Eylandt",
+    "countryName": "Australia",
+    "latitude": -13.975,
+    "longitude": 136.46001,
+    "hasScheduledService": true,
+    "icao": "YGTE",
+    "country": "au"
   },
   {
     "iata": "GFF",
@@ -94906,15 +94784,14 @@ module.exports = [
   {
     "iata": "INJ",
     "timezone": "America/Chicago",
-    "name": "Hillsboro Municipal Airport",
-    "city": "Hillsboro",
-    "countryName": "United States",
-    "latitude": 32.0835,
-    "longitude": -97.0972,
-    "icao": "KINJ",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "TX"
+    "name": "Injune Airport",
+    "city": "Injune",
+    "countryName": "Australia",
+    "latitude": -25.851,
+    "longitude": 148.5497,
+    "icao": "YINJ",
+    "country": "au",
+    "hasScheduledService": false
   },
   {
     "iata": "IVW",
@@ -94977,16 +94854,16 @@ module.exports = [
     "country": "au"
   },
   {
-    "iata": "KUF",
+    "iata": "KBY",
     "timezone": "Europe/Moscow",
-    "name": "Kurumoch International Airport",
+    "name": "Streaky Bay Airport",
     "city": "Samara",
-    "countryName": "Russia",
-    "latitude": 53.5049,
-    "longitude": 50.1643,
-    "icao": "UWWW",
-    "country": "ru",
-    "hasScheduledService": true
+    "countryName": "Australia",
+    "latitude": -32.8358,
+    "longitude": 134.293,
+    "icao": "YKBY",
+    "country": "au",
+    "hasScheduledService": false
   },
   {
     "iata": "KBJ",
@@ -95796,15 +95673,14 @@ module.exports = [
   {
     "iata": "NRA",
     "timezone": "Australia/Sydney",
-    "name": "Coupeville Nolf Airport",
-    "city": "Coupeville",
-    "countryName": "United States",
-    "latitude": 48.1883,
-    "longitude": -122.632,
-    "hasScheduledService": false,
-    "icao": "KNRA",
-    "country": "us",
-    "state": "WA"
+    "name": "Narrandera Airport",
+    "city": "Narrandera",
+    "countryName": "Australia",
+    "latitude": -34.7022,
+    "longitude": 146.51199,
+    "hasScheduledService": true,
+    "icao": "YNAR",
+    "country": "au"
   },
   {
     "iata": "NAA",
@@ -96134,15 +96010,14 @@ module.exports = [
   {
     "iata": "GOV",
     "timezone": "Australia/Darwin",
-    "name": "Grayling Army Air Field",
-    "city": "Grayling",
-    "countryName": "United States",
-    "latitude": 44.6803,
-    "longitude": -84.7289,
-    "hasScheduledService": false,
-    "icao": "KGOV",
-    "country": "us",
-    "state": "MI"
+    "name": "Gove Airport",
+    "city": "Nhulunbuy",
+    "countryName": "Australia",
+    "latitude": -12.2694,
+    "longitude": 136.81799,
+    "hasScheduledService": true,
+    "icao": "YPGV",
+    "country": "au"
   },
   {
     "iata": "JAD",
@@ -96386,15 +96261,15 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "iata": "XRH",
+    "iata": "RCM",
     "timezone": "Australia/Sydney",
-    "name": "RAAF Base Richmond",
+    "name": "Richmond Airport",
     "city": "Richmond",
     "countryName": "Australia",
-    "latitude": -33.6006,
-    "longitude": 150.78101,
-    "hasScheduledService": false,
-    "icao": "YSRI",
+    "latitude": -20.7019,
+    "longitude": 143.11501,
+    "hasScheduledService": true,
+    "icao": "YRMD",
     "country": "au"
   },
   {
@@ -96482,17 +96357,16 @@ module.exports = [
     "country": "au"
   },
   {
-    "iata": "TZC",
+    "iata": "CFS",
     "timezone": "Australia/Sydney",
-    "name": "Tuscola Area Airport",
-    "city": "Caro",
-    "countryName": "United States",
-    "latitude": 43.4588,
-    "longitude": -83.4455,
-    "hasScheduledService": false,
-    "icao": "KCFS",
-    "country": "us",
-    "state": "MI"
+    "name": "Coffs Harbour Airport",
+    "city": "Coffs Harbour",
+    "countryName": "Australia",
+    "latitude": -30.3206,
+    "longitude": 153.116,
+    "hasScheduledService": true,
+    "icao": "YSCH",
+    "country": "au"
   },
   {
     "iata": "CDU",
@@ -96783,17 +96657,16 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "name": "Taunton Municipal King Field",
+    "name": "Tangalooma Airport",
     "city": "Taunton",
-    "countryName": "United States",
+    "countryName": "Australia",
     "iata": "TAN",
-    "latitude": 41.8744,
-    "longitude": -71.0166,
+    "latitude": -27.13,
+    "longitude": 153.36301,
     "timezone": "America/New_York",
-    "icao": "KTAN",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "MA"
+    "icao": "YTGA",
+    "country": "au",
+    "hasScheduledService": false
   },
   {
     "iata": "XTG",
@@ -97487,14 +97360,14 @@ module.exports = [
   {
     "iata": "NAY",
     "timezone": "Asia/Chongqing",
-    "name": "Beijing Xijiao Airport",
+    "name": "Beijing Nanyuan Airport",
     "city": "Beijing",
     "countryName": "China",
-    "latitude": 39.9608,
-    "longitude": 116.257,
-    "icao": "ZBBB",
+    "latitude": 39.7828,
+    "longitude": 116.388,
+    "icao": "ZBNY",
     "country": "cn",
-    "hasScheduledService": false
+    "hasScheduledService": true
   },
   {
     "iata": "BAV",
@@ -98097,17 +97970,16 @@ module.exports = [
     "country": "cn"
   },
   {
-    "iata": "HHH",
+    "iata": "HXD",
     "timezone": "America/New_York",
-    "name": "Hilton Head Airport",
-    "city": "Hilton Head Island",
-    "countryName": "United States",
-    "latitude": 32.2244,
-    "longitude": -80.6975,
-    "icao": "KHXD",
-    "country": "us",
-    "hasScheduledService": false,
-    "state": "SC"
+    "name": "Delingha Airport",
+    "city": "Delingha",
+    "countryName": "China",
+    "latitude": 37.12529,
+    "longitude": 97.26866,
+    "icao": "ZLDL",
+    "country": "cn",
+    "hasScheduledService": true
   },
   {
     "iata": "GOQ",
@@ -98182,17 +98054,16 @@ module.exports = [
     "country": "cn"
   },
   {
-    "iata": "LIY",
-    "timezone": "America/New_York",
-    "name": "Wright Aaf (Fort Stewart)/Midcoast Regional Airport",
-    "city": "Fort Stewart(Hinesville)",
-    "countryName": "United States",
-    "latitude": 31.8891,
-    "longitude": -81.5623,
-    "hasScheduledService": false,
-    "icao": "KLHW",
-    "country": "us",
-    "state": "GA"
+    "iata": "LHW",
+    "timezone": "Asia/Chongqing",
+    "name": "Lanzhou Zhongchuan Airport",
+    "city": "Lanzhou",
+    "countryName": "China",
+    "latitude": 36.5152,
+    "longitude": 103.62,
+    "hasScheduledService": true,
+    "icao": "ZLLL",
+    "country": "cn"
   },
   {
     "iata": "IQN",
@@ -98377,15 +98248,14 @@ module.exports = [
   {
     "iata": "COQ",
     "timezone": "Asia/Ulaanbaatar",
-    "name": "Cloquet Carlton County Airport",
-    "city": "Cloquet",
-    "countryName": "United States",
-    "latitude": 46.7011,
-    "longitude": -92.5036,
+    "name": "Choibalsan Airport",
+    "city": "Choibalsan",
+    "countryName": "Mongolia",
+    "latitude": 48.1357,
+    "longitude": 114.646,
     "hasScheduledService": false,
-    "icao": "KCOQ",
-    "country": "us",
-    "state": "MN"
+    "icao": "ZMCD",
+    "country": "mn"
   },
   {
     "iata": "ZMD",
@@ -98414,15 +98284,14 @@ module.exports = [
   {
     "iata": "DLZ",
     "timezone": "Asia/Ulaanbaatar",
-    "name": "Delaware Municipal Airport",
-    "city": "Delaware",
-    "countryName": "United States",
-    "latitude": 40.2797,
-    "longitude": -83.1148,
-    "hasScheduledService": false,
-    "icao": "KDLZ",
-    "country": "us",
-    "state": "OH"
+    "name": "Dalanzadgad Airport",
+    "city": "Dalanzadgad",
+    "countryName": "Mongolia",
+    "latitude": 43.5917,
+    "longitude": 104.43,
+    "hasScheduledService": true,
+    "icao": "ZMDZ",
+    "country": "mn"
   },
   {
     "iata": "HJT",
@@ -98572,15 +98441,14 @@ module.exports = [
   {
     "iata": "LUM",
     "timezone": "Asia/Chongqing",
-    "name": "Menomonie Municipal Score Field",
-    "city": "Menomonie",
-    "countryName": "United States",
-    "latitude": 44.8923,
-    "longitude": -91.8679,
-    "hasScheduledService": false,
-    "icao": "KLUM",
-    "country": "us",
-    "state": "WI"
+    "name": "Mangshi Airport",
+    "city": "Luxi",
+    "countryName": "China",
+    "latitude": 24.4011,
+    "longitude": 98.5317,
+    "hasScheduledService": true,
+    "icao": "ZPLX",
+    "country": "cn"
   },
   {
     "iata": "KMG",
@@ -98775,15 +98643,15 @@ module.exports = [
     "country": "cn"
   },
   {
-    "iata": "JZH",
+    "iata": "JUZ",
     "timezone": "Asia/Chongqing",
-    "name": "Jiuzhai Huanglong Airport",
-    "city": "Jiuzhaigou",
+    "name": "Quzhou Airport",
+    "city": "Quzhou",
     "countryName": "China",
-    "latitude": 32.85333,
-    "longitude": 103.68222,
+    "latitude": 28.9658,
+    "longitude": 118.899,
     "hasScheduledService": true,
-    "icao": "ZUJZ",
+    "icao": "ZSJU",
     "country": "cn"
   },
   {
@@ -98873,15 +98741,14 @@ module.exports = [
   {
     "iata": "PVG",
     "timezone": "Asia/Chongqing",
-    "name": "Hampton Roads Executive Airport",
-    "city": "Norfolk",
-    "countryName": "United States",
-    "latitude": 36.7802,
-    "longitude": -76.4488,
-    "hasScheduledService": false,
-    "icao": "KPVG",
-    "country": "us",
-    "state": "VA"
+    "name": "Shanghai Pudong International Airport",
+    "city": "Shanghai",
+    "countryName": "China",
+    "latitude": 31.1434,
+    "longitude": 121.805,
+    "hasScheduledService": true,
+    "icao": "ZSPD",
+    "country": "cn"
   },
   {
     "iata": "TAO",
@@ -99784,17 +99651,16 @@ module.exports = [
     "country": "cn"
   },
   {
-    "iata": "DLL",
+    "iata": "DLC",
     "timezone": "Asia/Chongqing",
-    "name": "Dillon County Airport",
-    "city": "Dillon",
-    "countryName": "United States",
-    "latitude": 34.4491,
-    "longitude": -79.3686,
-    "hasScheduledService": false,
-    "icao": "KDLC",
-    "country": "us",
-    "state": "SC"
+    "name": "Zhoushuizi Airport",
+    "city": "Dalian",
+    "countryName": "China",
+    "latitude": 38.9657,
+    "longitude": 121.539,
+    "hasScheduledService": true,
+    "icao": "ZYTL",
+    "country": "cn"
   },
   {
     "iata": "TNH",
@@ -99869,17 +99735,16 @@ module.exports = [
     "hasScheduledService": false
   },
   {
-    "name": "South Indian Lake Airport",
-    "city": "South Indian Lake",
-    "countryName": "Canada",
-    "iata": "XSI",
-    "latitude": 56.7928,
-    "longitude": -98.9072,
-    "timezone": "America/Winnipeg",
+    "name": "Stendal-Borstel Airport",
+    "city": "Stendal",
+    "countryName": "Germany",
+    "iata": "ZSN",
+    "latitude": 52.62889,
+    "longitude": 11.81861,
+    "timezone": "Europe/Berlin",
     "hasScheduledService": false,
-    "icao": "CZSN",
-    "country": "ca",
-    "state": "MB"
+    "icao": "EDOV",
+    "country": "de"
   },
   {
     "name": "Koblenz-Winningen Airport",
@@ -101027,15 +100892,14 @@ module.exports = [
   {
     "iata": "TSO",
     "timezone": "Europe/London",
-    "city": "Carrollton",
-    "countryName": "United States",
-    "latitude": 40.5619,
-    "longitude": -81.0775,
+    "city": "Tresco",
+    "countryName": "United Kingdom",
+    "latitude": 49.9456,
+    "longitude": -6.33139,
     "hasScheduledService": false,
-    "icao": "KTSO",
-    "name": "Carroll County-Tolson Airport",
-    "country": "us",
-    "state": "OH"
+    "icao": "EGHT",
+    "name": "Tresco Heliport",
+    "country": "gb"
   },
   {
     "name": "Destin Executive Airport",

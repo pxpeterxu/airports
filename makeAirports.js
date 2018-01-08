@@ -155,15 +155,15 @@ files.forEach(function(file) {
     var iataAirport = iata && airportsByIATA[iata];
 
     if (icaoAirport && iataAirport) {
-      if (icaoAirport !== iataAirport) {
-        // Merge the two, giving precedence to icaoAirport
-        iataAirport = Object.assign({}, iataAirport, icaoAirport);
+      if (icaoAirport !== iataAirport && iataAirport.iata === icaoAirport.iata) {
+        // Merge the two, giving precedence to iataAirport
+        iataAirport = Object.assign({}, icaoAirport, iataAirport);
         icaoAirport = iataAirport;
       }
     }
 
     // At this point, icaoAirport === iataAirport if they're both present
-    var airport = icaoAirport || iataAirport || {};
+    var airport = iataAirport || icaoAirport || {};
 
     // Merge fields
     airport = Object.assign({}, fileAirport, airport);
