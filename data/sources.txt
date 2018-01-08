@@ -1,7 +1,7 @@
 Sources:
 
 airports.dat
-https://github.com/jpatokal/openflights/master/data/airports.dat
+https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat
 
 iata_airport_list_20160428.csv
 https://github.com/opentraveldata/opentraveldata/blob/master/data/IATA/iata_airport_list_20160428.csv

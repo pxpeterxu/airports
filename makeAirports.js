@@ -6,112 +6,225 @@ var _ = require('lodash');
 var rlSync = require('readline-sync');
 
 var nameToCode = require('./data/countries');
-var airportsJSON = require('./data/airports.json');
+var codeToName = {};
+
+// Use the first country for codeToName
+_.forOwn(nameToCode, function(code, name) {
+  if (!codeToName[code]) {
+    codeToName[code] = name;
+  }
+});
 
 var exportAsObject = process.argv[2] === '--object';
 
-// Use airports.dat to start
-function readAirportsDat() {
+//
+// Data import section
+//
+
+// airports.json import
+var airportsJSON = require('./data/airports.json');
+
+// airports.dat (OpenFlights) import
+function readOpenFlights() {
   var data = fs.readFileSync(__dirname + '/data/airports.dat');
-  return parse(data, {
+  var parsed = parse(data, {
     columns: ['id', 'name', 'city', 'country', 'iata', 'icao', 'latitude', 'longitude', 'altitude', 'utcOffset', 'dst', 'timezone']
   });
+  parsed.forEach(function(entry) {
+    _.forOwn(entry, function(value, key) {
+      if (value === '\\N') {
+        delete entry[key];
+      }
+    });
+  });
+
+  return parsed;
 }
 
-function isValidAirport(entry) {
-  return entry.iata && entry.timezone && entry.timezone !== '\\N';
-}
+var openFlights = readOpenFlights();
 
-var airports = readAirportsDat().filter(isValidAirport);
-
-// Get country codes countries.js
-var countries = _.uniq(_.map(airports, 'country'));
-countries.forEach(function(country) {
-  if (!nameToCode[country]) {
-    var code = rlSync.question('Enter the country code for ' + country);
-    nameToCode[country] = code;
-  }
-});
-
-// Get hasScheduledService from the airports.csv file from OurAirports
 var ourAirportsRaw = fs.readFileSync(__dirname + '/data/airports.csv');
-var ourAirportsRows = parse(ourAirportsRaw, { columns: true });
-var hasScheduledService = {};
-var states = {};
-ourAirportsRows.forEach(function(airport) {
-  var iata = airport.iata_code;
-  if (!iata) return;
+var ourAirports = parse(ourAirportsRaw, { columns: true });
 
-  hasScheduledService[iata] = hasScheduledService[iata] ||
-    airport.scheduled_service === 'yes';
-
-  states[iata] = airport.iso_region;
+var iataTzmapRaw = _.filter(fs.readFileSync(__dirname + '/data/iata.tzmap').toString('utf8').split('\n'));
+var iataTzmap = iataTzmapRaw.map(function(row) {
+  var parts = row.split('\t');
+  return {
+    iata: parts[0],
+    timezone: parts[1].trim(),
+  };
 });
 
-var countryNames = {};
-
-airports = airports.map(function(airport) {
-  airport.hasScheduledService = !!hasScheduledService[airport.iata];
-  airport.countryName = airport.country;
-  airport.country = nameToCode[airport.country];
-  countryNames[airport.country] = countryNames[airport.country] || nameToCode[airport.country];
-  airport.state = states[airport.iata] ? states[airport.iata].substr(3).toLowerCase() : null;
-
-  return _.pick(airport, ['name', 'city', 'country', 'iata',
-    'latitude', 'longitude', 'timezone', 'hasScheduledService',
-    'countryName', 'state']);
-});
-
-// Key airports to be combined with airports.json
-var airportsKeyed = {};
-airports.forEach(function(airport) {
-  if (!airport.country) return;
-
-  if (!airportsKeyed[airport.iata] ||
-      airport.hasScheduledService) {
-    airportsKeyed[airport.iata] = airport;
+/**
+ * Get the country name from the country code (prompting if not recognized)
+ * @param {string} countryName
+ */
+function getCountryCode(countryName) {
+  if (!nameToCode[countryName]) {
+    var code = rlSync.question('Enter the country code for ' + countryName);
+    nameToCode[countryName] = code;
   }
-});
+  return nameToCode[countryName];
+}
 
-airportsJSON.forEach(function(airport) {
-  // keys: code, lat, lon, name, city, state (full), country (full),
-  //       tz, type, direct_flights
-  var iata = airport.code;
-  if (!airportsKeyed[iata]) {
-    var requiredKeys = ['code', 'lat', 'lon', 'name', 'city', 'country', 'tz'];
-    // Skip airports with missing data
-    if (!_.every(_.values(_.pick(airport, requiredKeys)))) {
-      return;
+//
+// Data merge section
+//
+var fields = {
+  ourAirports: {
+    name: 'name',
+    city: 'municipality',
+    state: function(entry) {
+      if (entry.iso_country === 'US' || entry.iso_country === 'CA') {
+        return entry.iso_region.split('-')[1];
+      }
+      return null;
+    },
+    country: 'iso_country',
+    iata: 'iata_code',
+    latitude: 'latitude_deg',
+    longitude: 'longitude_deg',
+    hasScheduledService: function(entry) {
+      return entry.scheduled_service === 'yes';
+    },
+    icao: 'ident',
+  },
+  openFlights: {
+    name: 'name',
+    city: 'city',
+    countryName: 'country',
+    iata: 'iata',
+    latitude: 'latitude',
+    longitude: 'longitude',
+    timezone: 'timezone',
+    icao: 'icao',
+  },
+  airportsJSON: {
+    name: 'name',
+    city: 'city',
+    countryName: 'country',
+    iata: 'code',
+    latitude: 'lat',
+    longitude: 'lon',
+    timezone: 'tz',
+    hasScheduledService: function(entry) {
+      return entry.direct_flights !== '0';
+    },
+    icao: 'icao',
+  },
+  iataTzmap: {
+    iata: 'iata',
+    timezone: 'timezone',
+  },
+};
+
+var files = ['ourAirports', 'openFlights', 'airportsJSON', 'iataTzmap'];
+var rawData = {
+  ourAirports: ourAirports,
+  openFlights: openFlights,
+  airportsJSON: airportsJSON,
+  iataTzmap: iataTzmap,
+};
+
+var airportsByIATA = {};
+var airportsByICAO = {};
+
+// Add data to airports objects with earlier files taking
+// precedence over later files
+files.forEach(function(file) {
+  var fileData = rawData[file];
+  var fileFields = fields[file];
+  fileData.forEach(function(entry) {
+    var fileAirport = {};
+    _.forOwn(fileFields, function(field, key) {
+      var value;
+      if (typeof field === 'function') {
+        value = field(entry);
+      } else if (typeof field === 'string') {
+        value = entry[field];
+      }
+
+      if (value != null && value !== '') {
+        fileAirport[key] = value;
+      }
+    });
+
+    var icao = fileAirport.icao;
+    var iata = fileAirport.iata;
+    var icaoAirport = icao && airportsByICAO[icao];
+    var iataAirport = iata && airportsByIATA[iata];
+
+    if (icaoAirport && iataAirport) {
+      if (icaoAirport !== iataAirport) {
+        // Merge the two, giving precedence to icaoAirport
+        iataAirport = Object.assign({}, iataAirport, icaoAirport);
+        icaoAirport = iataAirport;
+      }
     }
 
-    var country = nameToCode[airport.country];
-    var countryName = countryNames[country] || airport.country;
+    // At this point, icaoAirport === iataAirport if they're both present
+    var airport = icaoAirport || iataAirport || {};
 
-    airportsKeyed[iata] = {
-      name: airport.name,
-      city: airport.city,
-      state: null,
-      country: country,
-      countryName: countryName,
-      iata: iata,
-      latitude: airport.lat,
-      longitude: airport.lon,
-      timezone: airport.tz,
-      hasScheduledService: airport.direct_flights !== '0'
-    };
-  }
+    // Merge fields
+    airport = Object.assign({}, fileAirport, airport);
+
+    // Small universal updates
+    airport.country = airport.country && airport.country.toLowerCase();
+
+    // Infer countries from country names and vice versa
+    if (airport.countryName && !airport.country) {
+      airport.country = getCountryCode(airport.countryName);
+    }
+
+    airport.countryName = codeToName[airport.country];
+    airport.country = airport.country ? airport.country.toLowerCase() : null;
+
+    if (icao) {
+      airportsByICAO[icao] = airport;
+    }
+    if (iata) {
+      airportsByIATA[iata] = airport;
+    }
+  });
 });
 
-airports = _.values(airportsKeyed);
+var airports = _.uniq(_.values(airportsByIATA));
+var requiredFields = [
+  'name',
+  'city',
+  // 'state',
+  'country',
+  'iata',
+  'latitude',
+  'longitude',
+  'timezone',
+  'hasScheduledService',
+  'icao',
+];
+
+airports = airports.filter(function(airport) {
+  return requiredFields.every(function(field) {
+    return airport[field] != null;
+  });
+}).map(function(airport) {
+  // Discard unneeded precision
+  airport.latitude = Math.round(parseFloat(airport.latitude) * 100000) / 100000;
+  airport.longitude = Math.round(parseFloat(airport.longitude) * 100000) / 100000;
+  return airport;
+});
+
+var airportsKeyed = _.fromPairs(airports.map(function(airport) {
+  return [airport.iata, airport];
+}));
 
 if (exportAsObject) {
   console.log([
     '/* eslint-disable */',
-    'module.exports = ' + JSON.stringify(airportsKeyed, null, 2)
+    'module.exports = ' + JSON.stringify(airportsKeyed, null, 2) + ';'
   ].join('\n'));
 } else {
   console.log([
     '/* eslint-disable */',
-    'module.exports = ' + JSON.stringify(airports, null, 2)
+    'module.exports = ' + JSON.stringify(airports, null, 2) + ';'
   ].join('\n'));
 }

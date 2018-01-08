@@ -1,6 +1,6 @@
 {
   "name": "myrtlelime-airports",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Airports data collected from various sources for completeness",
   "main": "index.js",
   "repository": {
