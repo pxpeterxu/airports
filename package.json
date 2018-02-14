@@ -1,6 +1,6 @@
 {
   "name": "myrtlelime-airports",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Airports data collected from various sources for completeness",
   "main": "index.js",
   "repository": {
@@ -27,6 +27,7 @@
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.2.0",
     "lodash": "^4.17.4",
-    "readline-sync": "^1.4.7"
+    "readline-sync": "^1.4.7",
+    "tz-lookup": "^6.1.6"
   }
 }

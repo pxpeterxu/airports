@@ -4,6 +4,8 @@ var parse = require('csv-parse/lib/sync');
 var fs = require('fs');
 var _ = require('lodash');
 var rlSync = require('readline-sync');
+var tzlookup = require('tz-lookup');
+
 
 var nameToCode = require('./data/countries');
 var codeToName = {};
@@ -201,6 +203,20 @@ var requiredFields = [
   'hasScheduledService',
   'icao',
 ];
+
+airports.forEach(function(airport) {
+  if (!airport.timezone && airport.latitude && airport.longitude) {
+    var timezone = null;
+    try {
+      timezone = tzlookup(parseFloat(airport.latitude), parseFloat(airport.longitude));
+    } catch (err) {
+      // Swallow error
+    }
+    if (timezone) {
+      airport.timezone = timezone;
+    }
+  }
+});
 
 airports = airports.filter(function(airport) {
   return requiredFields.every(function(field) {
