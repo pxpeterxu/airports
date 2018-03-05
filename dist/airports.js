@@ -106271,6 +106271,17 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "Dusseldorf Hauptbahnhof",
+    "city": "Dusseldorf",
+    "countryName": "Germany",
+    "iata": "QDU",
+    "latitude": 51.22028,
+    "longitude": 6.79278,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
     "name": "Bourg-Ceyzériat Airport",
     "city": "Bourg/Ceyzériat",
     "countryName": "France",
@@ -106377,6 +106388,17 @@ module.exports = [
     "icao": "OIAI",
     "country": "ir",
     "hasScheduledService": false
+  },
+  {
+    "name": "Lyon Part-Dieu Railway",
+    "city": "Lyon",
+    "countryName": "France",
+    "iata": "XYD",
+    "latitude": 46,
+    "longitude": 5,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
   },
   {
     "name": "Chitose Air Base",
@@ -106904,6 +106926,28 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "Cologne Railway",
+    "city": "Cologne",
+    "countryName": "Germany",
+    "iata": "QKL",
+    "latitude": 50.9425,
+    "longitude": 6.95806,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
+    "name": "Stuttgart Railway Station",
+    "city": "Stuttgart",
+    "countryName": "Germany",
+    "iata": "ZWS",
+    "latitude": 48.78361,
+    "longitude": 9.18167,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
     "name": "Port O'Connor Private Airport",
     "city": "Port O'Connor",
     "countryName": "United States",
@@ -106953,6 +106997,17 @@ module.exports = [
     "state": "CA",
     "country": "us",
     "hasScheduledService": false
+  },
+  {
+    "name": "Washington Union Station",
+    "city": "Washington",
+    "countryName": "United States",
+    "iata": "ZWU",
+    "latitude": 38.89746,
+    "longitude": -77.00643,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
   },
   {
     "iata": "WAE",
@@ -107064,6 +107119,28 @@ module.exports = [
     "country": "cn"
   },
   {
+    "name": "New Haven Rail Station",
+    "city": "New Haven",
+    "countryName": "United States",
+    "iata": "ZVE",
+    "latitude": 41.29867,
+    "longitude": -72.92599,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Fort William Heliport",
+    "city": "Fort William",
+    "countryName": "United Kingdom",
+    "iata": "FWM",
+    "latitude": 56.81667,
+    "longitude": -5.11667,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
     "name": "Lutsk Airport",
     "city": "Lutsk",
     "countryName": "Ukraine",
@@ -107088,6 +107165,39 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "iata": "NZH",
+    "timezone": "Asia/Chongqing",
+    "name": "Manzhouli",
+    "city": "Manzhouli",
+    "countryName": "China",
+    "latitude": 49.56667,
+    "longitude": 117.32944,
+    "hasScheduledService": true,
+    "country": "cn"
+  },
+  {
+    "city": "Baltimore",
+    "countryName": "United States",
+    "iata": "ZBP",
+    "latitude": 39.30722,
+    "longitude": -76.61556,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "name": "Penn Station",
+    "country": "us"
+  },
+  {
+    "name": "Penn Station",
+    "city": "New York",
+    "countryName": "United States",
+    "iata": "ZYP",
+    "latitude": 40.7505,
+    "longitude": -73.9935,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
     "name": "Malad City Airport",
     "city": "Malad City",
     "countryName": "United States",
@@ -107099,6 +107209,17 @@ module.exports = [
     "state": "ID",
     "country": "us",
     "hasScheduledService": false
+  },
+  {
+    "name": "Philadelphia 30th St Station",
+    "city": "Philadelphia",
+    "countryName": "United States",
+    "iata": "ZFV",
+    "latitude": 39.9557,
+    "longitude": -75.182,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
   },
   {
     "name": "Great Bend Municipal Airport",
@@ -107140,6 +107261,50 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "Hartford Union Station",
+    "city": "Hartford",
+    "countryName": "United States",
+    "iata": "ZRT",
+    "latitude": 41.76888,
+    "longitude": -72.6815,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "city": "Stamford",
+    "countryName": "United States",
+    "iata": "ZTF",
+    "latitude": 41.04694,
+    "longitude": -73.54149,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "name": "Stamford Amtrak Station",
+    "country": "us"
+  },
+  {
+    "name": "Newark Penn Station",
+    "city": "Newark",
+    "countryName": "United States",
+    "iata": "ZRP",
+    "latitude": 40.73472,
+    "longitude": -74.16417,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Grand Canyon Heliport",
+    "city": "Grand Canyon",
+    "countryName": "United States",
+    "iata": "JGC",
+    "latitude": 35.96667,
+    "longitude": -112.13333,
+    "timezone": "America/Phoenix",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
     "iata": "MTH",
     "timezone": "America/New_York",
     "name": "The Florida Keys Marathon Airport",
@@ -107166,6 +107331,17 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "iata": "MNT",
+    "timezone": "America/Anchorage",
+    "name": "Minto Airport",
+    "city": "Minto",
+    "countryName": "United States",
+    "latitude": 65.14361,
+    "longitude": -149.37,
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
     "iata": "NUL",
     "timezone": "America/Anchorage",
     "name": "Nulato Airport",
@@ -107176,6 +107352,17 @@ module.exports = [
     "hasScheduledService": false,
     "icao": "PANU",
     "state": "AK",
+    "country": "us"
+  },
+  {
+    "iata": "RMP",
+    "timezone": "America/Anchorage",
+    "name": "Rampart Airport",
+    "city": "Rampart",
+    "countryName": "United States",
+    "latitude": 65.50778,
+    "longitude": -150.14083,
+    "hasScheduledService": true,
     "country": "us"
   },
   {
@@ -107202,6 +107389,39 @@ module.exports = [
     "hasScheduledService": false,
     "icao": "PAMM",
     "state": "AK",
+    "country": "us"
+  },
+  {
+    "iata": "OLH",
+    "timezone": "America/Anchorage",
+    "name": "Old Harbor Airport",
+    "city": "Old Harbor",
+    "countryName": "United States",
+    "latitude": 57.21806,
+    "longitude": -153.26972,
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "iata": "ORI",
+    "timezone": "America/Anchorage",
+    "city": "Port Lions",
+    "countryName": "United States",
+    "latitude": 57.88528,
+    "longitude": -152.84611,
+    "hasScheduledService": true,
+    "name": "Port Lions Airport",
+    "country": "us"
+  },
+  {
+    "iata": "KMY",
+    "timezone": "America/Anchorage",
+    "name": "Moser Bay Seaplane Base",
+    "city": "Moser Bay",
+    "countryName": "United States",
+    "latitude": 57.02556,
+    "longitude": -154.14583,
+    "hasScheduledService": true,
     "country": "us"
   },
   {
@@ -107270,6 +107490,17 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "Brussels Gare du Midi",
+    "city": "Brussels",
+    "countryName": "Belgium",
+    "iata": "ZYR",
+    "latitude": 50.8,
+    "longitude": 4.4,
+    "timezone": "Europe/Brussels",
+    "hasScheduledService": true,
+    "country": "be"
+  },
+  {
     "iata": "PLD",
     "timezone": "America/Costa_Rica",
     "name": "Playa Samara/Carrillo Airport",
@@ -107280,6 +107511,72 @@ module.exports = [
     "icao": "MRCR",
     "country": "cr",
     "hasScheduledService": true
+  },
+  {
+    "name": "Munich Railway",
+    "city": "Munich",
+    "countryName": "Germany",
+    "iata": "ZMU",
+    "latitude": 48.1408,
+    "longitude": 11.555,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
+    "name": "Nuernberg Railway",
+    "city": "Nuernberg",
+    "countryName": "Germany",
+    "iata": "ZAQ",
+    "latitude": 49.44639,
+    "longitude": 11.08194,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
+    "name": "Edinburgh Waverly Station",
+    "city": "Edinburgh",
+    "countryName": "United Kingdom",
+    "iata": "ZXE",
+    "latitude": 55.952,
+    "longitude": -3.189,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Central Railway Station",
+    "city": "Montreal",
+    "countryName": "Canada",
+    "iata": "YMY",
+    "latitude": 45.49972,
+    "longitude": -73.56611,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Union Station",
+    "city": "Toronto",
+    "countryName": "Canada",
+    "iata": "YBZ",
+    "latitude": 43.64528,
+    "longitude": -79.38056,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Lille",
+    "city": "Lille",
+    "countryName": "France",
+    "iata": "XDB",
+    "latitude": 50.56333,
+    "longitude": 3.08805,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
   },
   {
     "iata": "TSO",
@@ -107294,6 +107591,17 @@ module.exports = [
     "country": "gb"
   },
   {
+    "name": "Macau Ferry Pier",
+    "city": "Macau",
+    "countryName": "Macau",
+    "iata": "XZM",
+    "latitude": 22.19708,
+    "longitude": 113.55891,
+    "timezone": "Asia/Macau",
+    "hasScheduledService": true,
+    "country": "mo"
+  },
+  {
     "name": "Destin Executive Airport",
     "city": "Destin",
     "countryName": "United States",
@@ -107305,6 +107613,17 @@ module.exports = [
     "state": "FL",
     "country": "us",
     "hasScheduledService": false
+  },
+  {
+    "name": "Mainz Finthen",
+    "city": "Mainz",
+    "countryName": "Germany",
+    "iata": "QFZ",
+    "latitude": 0,
+    "longitude": 0,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
   },
   {
     "name": "Borongan Airport",
@@ -107330,6 +107649,17 @@ module.exports = [
     "state": "UT",
     "country": "us",
     "hasScheduledService": false
+  },
+  {
+    "name": "Paddington Station",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "QQP",
+    "latitude": 51.51583,
+    "longitude": -0.17611,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
   },
   {
     "name": "Scottsdale Airport",
@@ -107369,6 +107699,39 @@ module.exports = [
     "state": "WY",
     "country": "us",
     "hasScheduledService": false
+  },
+  {
+    "name": "Gare du Nord",
+    "city": "Paris",
+    "countryName": "France",
+    "iata": "XPG",
+    "latitude": 48.88093,
+    "longitude": 2.35532,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Saint-Pierre-des-Corps",
+    "city": "Tours",
+    "countryName": "France",
+    "iata": "XSH",
+    "latitude": 47.38563,
+    "longitude": 0.72335,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Amsterdam Centraal",
+    "city": "Amsterdam",
+    "countryName": "Netherlands",
+    "iata": "ZYA",
+    "latitude": 52.37833,
+    "longitude": 4.9,
+    "timezone": "Europe/Amsterdam",
+    "hasScheduledService": true,
+    "country": "nl"
   },
   {
     "name": "Cobb County-Mc Collum Field",
@@ -107511,6 +107874,83 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "Train Station",
+    "city": "Ottawa",
+    "countryName": "Canada",
+    "iata": "XDS",
+    "latitude": 45.4164,
+    "longitude": -75.6517,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Train Station",
+    "city": "Belleville",
+    "countryName": "Canada",
+    "iata": "XVV",
+    "latitude": 44.1793,
+    "longitude": -77.3747,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Train Station",
+    "city": "Edmonton",
+    "countryName": "Canada",
+    "iata": "XZL",
+    "latitude": 53.5789,
+    "longitude": -113.5307,
+    "timezone": "America/Edmonton",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Train Station",
+    "city": "Richmond",
+    "countryName": "United States",
+    "iata": "ZRD",
+    "latitude": 37.5343,
+    "longitude": -77.42945,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Sentral",
+    "city": "Kuala Lumpur",
+    "countryName": "Malaysia",
+    "iata": "XKL",
+    "latitude": 3.134,
+    "longitude": 101.686,
+    "timezone": "Asia/Kuala_Lumpur",
+    "hasScheduledService": true,
+    "country": "my"
+  },
+  {
+    "name": "Train Station",
+    "city": "Churchill",
+    "countryName": "Canada",
+    "iata": "XAD",
+    "latitude": 58.76775,
+    "longitude": -94.17425,
+    "timezone": "America/Winnipeg",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Train Station",
+    "city": "Winnipeg",
+    "countryName": "Canada",
+    "iata": "XEF",
+    "latitude": 49.8889,
+    "longitude": -97.1342,
+    "timezone": "America/Winnipeg",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
     "name": "Gila Bend Municipal Airport",
     "city": "Gila Bend",
     "countryName": "United States",
@@ -107522,6 +107962,28 @@ module.exports = [
     "state": "AZ",
     "country": "us",
     "hasScheduledService": false
+  },
+  {
+    "name": "Frankfurt-Main Hauptbahnhof",
+    "city": "Frankfurt",
+    "countryName": "Germany",
+    "iata": "ZRB",
+    "latitude": 50.10703,
+    "longitude": 8.66276,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
+    "name": "St Pancras Railway Station",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "QQS",
+    "latitude": 51.53252,
+    "longitude": -0.1263,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
   },
   {
     "name": "Radom Airport",
@@ -107587,6 +108049,17 @@ module.exports = [
     "country": "ca"
   },
   {
+    "name": "Dorval Railway Station",
+    "city": "Dorval",
+    "countryName": "Canada",
+    "iata": "XAX",
+    "latitude": 45.44861,
+    "longitude": -73.74111,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
     "name": "Crisp County Cordele Airport",
     "city": "Cordele",
     "countryName": "United States",
@@ -107636,6 +108109,17 @@ module.exports = [
     "icao": "KXFL",
     "state": "FL",
     "country": "us"
+  },
+  {
+    "name": "Angers St Laud",
+    "city": "Angers",
+    "countryName": "France",
+    "iata": "QXG",
+    "latitude": 47.46471,
+    "longitude": -0.55641,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
   },
   {
     "iata": "FPR",
@@ -107937,6 +108421,61 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "Central Station",
+    "city": "Stockholm",
+    "countryName": "Sweden",
+    "iata": "XEV",
+    "latitude": 59.33,
+    "longitude": 18.05806,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Central Station",
+    "city": "Uppsala",
+    "countryName": "Sweden",
+    "iata": "QYX",
+    "latitude": 59.85833,
+    "longitude": 17.64611,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Centraal",
+    "city": "Rotterdam",
+    "countryName": "Netherlands",
+    "iata": "QRH",
+    "latitude": 51.92444,
+    "longitude": 4.46944,
+    "timezone": "Europe/Amsterdam",
+    "hasScheduledService": true,
+    "country": "nl"
+  },
+  {
+    "name": "Central",
+    "city": "Copenhagen",
+    "countryName": "Denmark",
+    "iata": "ZGH",
+    "latitude": 55.67278,
+    "longitude": 12.56444,
+    "timezone": "Europe/Copenhagen",
+    "hasScheduledService": true,
+    "country": "dk"
+  },
+  {
+    "countryName": "Belgium",
+    "iata": "ZWE",
+    "latitude": 51.21722,
+    "longitude": 4.42111,
+    "timezone": "Europe/Brussels",
+    "hasScheduledService": true,
+    "name": "Centraal",
+    "city": "Antwerp",
+    "country": "be"
+  },
+  {
     "name": "Jesup Wayne County Airport",
     "city": "Jesup",
     "countryName": "United States",
@@ -108119,6 +108658,50 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "Springfield Amtrak Station",
+    "city": "Springfield MA",
+    "countryName": "United States",
+    "iata": "ZSF",
+    "latitude": 42.106,
+    "longitude": -72.59305,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "London - Kings Cross",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "QQK",
+    "latitude": 51.5326,
+    "longitude": 0.1233,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Stevenage Railway Station",
+    "city": "Stevenage",
+    "countryName": "United Kingdom",
+    "iata": "XVJ",
+    "latitude": 51.902,
+    "longitude": 0.207,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Peterborough Railway Station",
+    "city": "Peterborough",
+    "countryName": "United Kingdom",
+    "iata": "XVH",
+    "latitude": 52.5748,
+    "longitude": -0.2502,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
     "name": "Waupaca Municipal Airport",
     "city": "Waupaca",
     "countryName": "United States",
@@ -108145,6 +108728,17 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "Liege-Guillemins Railway Station",
+    "city": "Liege",
+    "countryName": "Belgium",
+    "iata": "XHN",
+    "latitude": 50.6333,
+    "longitude": 5.56667,
+    "timezone": "Europe/Brussels",
+    "hasScheduledService": true,
+    "country": "be"
+  },
+  {
     "name": "Hardwick Field",
     "city": "Cleveland",
     "countryName": "United States",
@@ -108156,6 +108750,17 @@ module.exports = [
     "state": "TN",
     "country": "us",
     "hasScheduledService": false
+  },
+  {
+    "name": "Hamburg Hbf",
+    "city": "Hamburg",
+    "countryName": "Germany",
+    "iata": "ZMB",
+    "latitude": 53.55278,
+    "longitude": 10.00668,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
   },
   {
     "name": "Georgetown Municipal Airport",
@@ -108262,6 +108867,17 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "city": "Boston",
+    "countryName": "United States",
+    "iata": "ZTY",
+    "latitude": 42.3478,
+    "longitude": -71.075,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "name": "Boston Back Bay Station",
+    "country": "us"
+  },
+  {
     "name": "Atlanta South Regional Airport/Tara Field",
     "city": "Hampton",
     "countryName": "United States",
@@ -108273,6 +108889,17 @@ module.exports = [
     "state": "GA",
     "country": "us",
     "hasScheduledService": false
+  },
+  {
+    "name": "Wilmington Amtrak Station",
+    "city": "Wilmington",
+    "countryName": "United States",
+    "iata": "ZWI",
+    "latitude": 39.73667,
+    "longitude": -75.55167,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
   },
   {
     "iata": "KGN",
@@ -108443,6 +109070,39 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "Central Station",
+    "city": "Glasgow",
+    "countryName": "United Kingdom",
+    "iata": "ZGG",
+    "latitude": 55.858,
+    "longitude": -4.258,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Euston Station",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "QQU",
+    "latitude": 51.5284,
+    "longitude": -0.1331,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Waterloo International",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "QQW",
+    "latitude": 51.5031,
+    "longitude": -0.1147,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
     "iata": "KVM",
     "timezone": "Asia/Magadan",
     "name": "Markovo Airport",
@@ -108611,6 +109271,28 @@ module.exports = [
     "hasScheduledService": false
   },
   {
+    "name": "United Kingdom",
+    "city": "Bradford",
+    "countryName": "United Kingdom",
+    "iata": "BRF",
+    "latitude": 54.3139,
+    "longitude": -2.23218,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Brighton Airport",
+    "city": "Brighton",
+    "countryName": "United Kingdom",
+    "iata": "BSH",
+    "latitude": 50.8333,
+    "longitude": -0.13333,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
     "name": "Ipswich Airport",
     "city": "Ipswich",
     "countryName": "United Kingdom",
@@ -108621,6 +109303,39 @@ module.exports = [
     "hasScheduledService": true,
     "icao": "EGSE",
     "country": "gb"
+  },
+  {
+    "name": "England",
+    "city": "Milton Keynes",
+    "countryName": "United Kingdom",
+    "iata": "KYN",
+    "latitude": 52.8833,
+    "longitude": -1.97685,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Lake Minchumina",
+    "city": "Lake Minchumina",
+    "countryName": "United States",
+    "iata": "LMA",
+    "latitude": 63.8825,
+    "longitude": -152.313,
+    "timezone": "America/Anchorage",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Naukiti Airport",
+    "city": "Naukiti",
+    "countryName": "United States",
+    "iata": "NKI",
+    "latitude": 55.8556,
+    "longitude": -133.183,
+    "timezone": "America/Anchorage",
+    "hasScheduledService": true,
+    "country": "us"
   },
   {
     "iata": "ONL",
@@ -108636,6 +109351,941 @@ module.exports = [
     "country": "us"
   },
   {
+    "iata": "OSM",
+    "timezone": "Asia/Baghdad",
+    "name": "Mosul Airport",
+    "city": "Mosul",
+    "countryName": "Iraq",
+    "latitude": 36.3086,
+    "longitude": 43.1458,
+    "hasScheduledService": true,
+    "country": "iq"
+  },
+  {
+    "name": "Pailin Airport",
+    "city": "Pailin",
+    "countryName": "Cambodia",
+    "iata": "PAI",
+    "latitude": 12.85,
+    "longitude": 102.583,
+    "timezone": "Asia/Phnom_Penh",
+    "hasScheduledService": true,
+    "country": "kh"
+  },
+  {
+    "iata": "PCE",
+    "timezone": "America/Anchorage",
+    "name": "Painter Creek",
+    "city": "Painter Creek",
+    "countryName": "United States",
+    "latitude": 57.093,
+    "longitude": -157.258,
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Ashford International Rail Station",
+    "city": "Ashford",
+    "countryName": "United Kingdom",
+    "iata": "QDH",
+    "latitude": 51.08,
+    "longitude": 0.53,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Freiburg Hauptbahnhof",
+    "city": "Freiburg",
+    "countryName": "Germany",
+    "iata": "QFB",
+    "latitude": 47.9986,
+    "longitude": 7.84964,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
+    "name": "Cheju International Airport",
+    "city": "Jeju-Si",
+    "countryName": "South Korea",
+    "iata": "QJY",
+    "latitude": 33.5056,
+    "longitude": 126.495,
+    "timezone": "Asia/Seoul",
+    "hasScheduledService": true,
+    "country": "kr"
+  },
+  {
+    "name": "France",
+    "city": "Nantes",
+    "countryName": "France",
+    "iata": "QJZ",
+    "latitude": 46.7124,
+    "longitude": 1.71832,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Dover Rail Station",
+    "city": "Dover",
+    "countryName": "United Kingdom",
+    "iata": "QQD",
+    "latitude": 51.07,
+    "longitude": 1.19,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Harwich Rail Station",
+    "city": "Harwich",
+    "countryName": "United Kingdom",
+    "iata": "QQH",
+    "latitude": 51.9389,
+    "longitude": 1.28162,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Manchester International Airport",
+    "city": "Manchester",
+    "countryName": "United Kingdom",
+    "iata": "QQM",
+    "latitude": 53.365,
+    "longitude": -2.27089,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Birmingham International Airport",
+    "city": "Birmingham",
+    "countryName": "United Kingdom",
+    "iata": "QQN",
+    "latitude": 52.4531,
+    "longitude": -1.73847,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Bath Rail Service",
+    "city": "Bath",
+    "countryName": "United Kingdom",
+    "iata": "QQX",
+    "latitude": 51.3851,
+    "longitude": -2.36116,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Birmingham International Airport",
+    "city": "York",
+    "countryName": "United Kingdom",
+    "iata": "QQY",
+    "latitude": 52.4531,
+    "longitude": -1.73847,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Afonso Pena International Airport",
+    "city": "Sao Jose dos Pinhais",
+    "countryName": "Brazil",
+    "iata": "QWB",
+    "latitude": -25.5275,
+    "longitude": -49.1731,
+    "timezone": "America/Sao_Paulo",
+    "hasScheduledService": true,
+    "country": "br"
+  },
+  {
+    "name": "Gavleborg",
+    "city": "Gefle",
+    "countryName": "Sweden",
+    "iata": "QYU",
+    "latitude": 61.2661,
+    "longitude": 15.9858,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "iata": "RBH",
+    "timezone": "America/Anchorage",
+    "name": "Brooks Lodge",
+    "city": "Brooks Lodge",
+    "countryName": "United States",
+    "latitude": 64.7381,
+    "longitude": -155.489,
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "iata": "SPL",
+    "timezone": "Atlantic/Azores",
+    "name": "Santa Maria Airport",
+    "city": "Vila do Porto",
+    "countryName": "Portugal",
+    "latitude": 36.9658,
+    "longitude": -25.1714,
+    "hasScheduledService": true,
+    "country": "pt"
+  },
+  {
+    "name": "Segrate Airport",
+    "city": "Trezzano sul Naviglio",
+    "countryName": "Italy",
+    "iata": "SWK",
+    "latitude": 45.4738,
+    "longitude": 9.2986,
+    "timezone": "Europe/Rome",
+    "hasScheduledService": true,
+    "country": "it"
+  },
+  {
+    "iata": "TBI",
+    "timezone": "America/Nassau",
+    "name": "The Bight Airport",
+    "city": "New Bight",
+    "countryName": "Bahamas",
+    "latitude": 24.315,
+    "longitude": -75.4536,
+    "hasScheduledService": true,
+    "country": "bs"
+  },
+  {
+    "name": "Thursday Island Airport",
+    "city": "Kubin Village",
+    "countryName": "Australia",
+    "iata": "TIS",
+    "latitude": -10.586,
+    "longitude": 142.293,
+    "timezone": "Australia/Brisbane",
+    "hasScheduledService": true,
+    "country": "au"
+  },
+  {
+    "iata": "TWT",
+    "timezone": "Asia/Manila",
+    "name": "Tawitawi",
+    "city": "Tawitawi",
+    "countryName": "Philippines",
+    "latitude": 7.1,
+    "longitude": 124.65,
+    "hasScheduledService": true,
+    "country": "ph"
+  },
+  {
+    "iata": "TZN",
+    "timezone": "America/Nassau",
+    "name": "South Andros Airport",
+    "city": "Mangrove Cay",
+    "countryName": "Bahamas",
+    "latitude": 24.1543,
+    "longitude": -77.5885,
+    "hasScheduledService": true,
+    "country": "bs"
+  },
+  {
+    "name": "Metropolitan Area",
+    "city": "Wiesbaden",
+    "countryName": "Germany",
+    "iata": "UWE",
+    "latitude": 51.4997,
+    "longitude": -2.54595,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
+    "iata": "VBM",
+    "timezone": "America/Nome",
+    "name": "Alaska",
+    "city": "Blue Mountain",
+    "countryName": "United States",
+    "latitude": 62.8903,
+    "longitude": -149.054,
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Capreol Rail Service",
+    "city": "Capreol",
+    "countryName": "Canada",
+    "iata": "XAW",
+    "latitude": 46.7052,
+    "longitude": -80.9219,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Cambellton",
+    "city": "Cambellton",
+    "countryName": "Canada",
+    "iata": "XAZ",
+    "latitude": 47.9955,
+    "longitude": -66.6672,
+    "timezone": "America/Halifax",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Ontario",
+    "city": "Oro-Medonte",
+    "countryName": "Canada",
+    "iata": "XCI",
+    "latitude": 49.3771,
+    "longitude": -84.7493,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Halifax Rail Service",
+    "city": "Halifax",
+    "countryName": "Canada",
+    "iata": "XDG",
+    "latitude": 44.6462,
+    "longitude": -63.5739,
+    "timezone": "America/Halifax",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Drummondville Airport",
+    "city": "Drummondville",
+    "countryName": "Canada",
+    "iata": "XDM",
+    "latitude": 45.8527,
+    "longitude": -72.3912,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Moncton Rail Service",
+    "city": "Moncton",
+    "countryName": "Canada",
+    "iata": "XDP",
+    "latitude": 46.0884,
+    "longitude": -64.7783,
+    "timezone": "America/Halifax",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "London Ontario Rail Service",
+    "city": "London",
+    "countryName": "Canada",
+    "iata": "XDQ",
+    "latitude": 42.9869,
+    "longitude": -81.2462,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Canada",
+    "city": "Prince Rupert",
+    "countryName": "Canada",
+    "iata": "XDW",
+    "latitude": 62.3587,
+    "longitude": -96.5821,
+    "timezone": "America/Vancouver",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Sarina Rail Station",
+    "city": "Sarina",
+    "countryName": "Canada",
+    "iata": "XDX",
+    "latitude": 62.3587,
+    "longitude": -96.5821,
+    "timezone": "America/Resolute",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "The Pas Rail Service",
+    "city": "The Pas",
+    "countryName": "Canada",
+    "iata": "XDZ",
+    "latitude": 53.8134,
+    "longitude": -101.25,
+    "timezone": "America/Winnipeg",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Vancouver Rail Service",
+    "city": "Vancouver",
+    "countryName": "Canada",
+    "iata": "XEA",
+    "latitude": 49.2604,
+    "longitude": -123.114,
+    "timezone": "America/Vancouver",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Windsor Ontario Rail Service",
+    "city": "Windsor",
+    "countryName": "Canada",
+    "iata": "XEC",
+    "latitude": 42.3178,
+    "longitude": -83.0339,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Disneyland Railway Station",
+    "city": "Paris",
+    "countryName": "France",
+    "iata": "XED",
+    "latitude": 48.8669,
+    "longitude": 2.78194,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Lac Edouard Rail Service",
+    "city": "Lac Edouard",
+    "countryName": "Canada",
+    "iata": "XEE",
+    "latitude": 47.6602,
+    "longitude": -72.2718,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Ladysmith Rail Service",
+    "city": "Ladysmith",
+    "countryName": "Canada",
+    "iata": "XEH",
+    "latitude": 48.9974,
+    "longitude": -123.821,
+    "timezone": "America/Vancouver",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Saskatchewan",
+    "city": "Melville",
+    "countryName": "Canada",
+    "iata": "XEK",
+    "latitude": 54.4994,
+    "longitude": -105.684,
+    "timezone": "America/Regina",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Quebec",
+    "city": "New Carlisle",
+    "countryName": "Canada",
+    "iata": "XEL",
+    "latitude": 53.8901,
+    "longitude": -68.4293,
+    "timezone": "America/Montreal",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Strasbourg Bus Station",
+    "city": "Strasbourg",
+    "countryName": "France",
+    "iata": "XER",
+    "latitude": 48.5851,
+    "longitude": 7.73643,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "London City Airport",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "XET",
+    "latitude": 51.5039,
+    "longitude": 0.04981,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Sodertalje",
+    "city": "Sodertalje",
+    "countryName": "Sweden",
+    "iata": "XEZ",
+    "latitude": 59.1972,
+    "longitude": 17.624,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Stratford",
+    "city": "Stratford",
+    "countryName": "Canada",
+    "iata": "XFD",
+    "latitude": 43.3701,
+    "longitude": -80.9819,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Parent Rail Service",
+    "city": "Parent",
+    "countryName": "Canada",
+    "iata": "XFE",
+    "latitude": 47.9204,
+    "longitude": -74.6246,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Perce Rail Service",
+    "city": "Perce",
+    "countryName": "Canada",
+    "iata": "XFG",
+    "latitude": 48.5247,
+    "longitude": -64.2139,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Eskilstuna Station",
+    "city": "Eskilstuna",
+    "countryName": "Sweden",
+    "iata": "XFJ",
+    "latitude": 59.3723,
+    "longitude": 16.5165,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Senneterre Rail Service",
+    "city": "Senneterre",
+    "countryName": "Canada",
+    "iata": "XFK",
+    "latitude": 48.3907,
+    "longitude": -77.2423,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Shawnigan Rail Service",
+    "city": "Cowichan Valley",
+    "countryName": "Canada",
+    "iata": "XFM",
+    "latitude": 48.6537,
+    "longitude": -123.615,
+    "timezone": "America/Vancouver",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Malmö Station",
+    "city": "Malmo",
+    "countryName": "Sweden",
+    "iata": "XFP",
+    "latitude": 55.5966,
+    "longitude": 13.0016,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Weymont Rail Service",
+    "city": "Weymont",
+    "countryName": "Canada",
+    "iata": "XFQ",
+    "latitude": 47.9,
+    "longitude": -73.75,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Malmo South Railway",
+    "city": "Malmo",
+    "countryName": "Sweden",
+    "iata": "XFR",
+    "latitude": 55.6034,
+    "longitude": 13.0008,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Alexandria",
+    "city": "Alexandria",
+    "countryName": "Canada",
+    "iata": "XFS",
+    "latitude": 45.3116,
+    "longitude": -74.6366,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Tierp Station",
+    "city": "Tierp",
+    "countryName": "Sweden",
+    "iata": "XFU",
+    "latitude": 60.3432,
+    "longitude": 17.5143,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Brantford",
+    "city": "Brantford",
+    "countryName": "Canada",
+    "iata": "XFV",
+    "latitude": 43.1414,
+    "longitude": -80.2617,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Sainte Foy Rail Service",
+    "city": "Quebec",
+    "countryName": "Canada",
+    "iata": "XFY",
+    "latitude": 46.7869,
+    "longitude": -71.3708,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Charny",
+    "city": "Charny",
+    "countryName": "Canada",
+    "iata": "XFZ",
+    "latitude": 46.7137,
+    "longitude": -71.2715,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Lund",
+    "city": "Lund",
+    "countryName": "Sweden",
+    "iata": "XGC",
+    "latitude": 55.7062,
+    "longitude": 13.1876,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Cobourg Rail Station",
+    "city": "Cobourg",
+    "countryName": "Canada",
+    "iata": "XGJ",
+    "latitude": 39.8753,
+    "longitude": 20.005,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Coteau Rail Station",
+    "city": "Coteau",
+    "countryName": "Canada",
+    "iata": "XGK",
+    "latitude": 47.8382,
+    "longitude": -64.5545,
+    "timezone": "America/Halifax",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "England",
+    "city": "Grantham",
+    "countryName": "United Kingdom",
+    "iata": "XGM",
+    "latitude": 52.8833,
+    "longitude": -1.97685,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Ontario",
+    "city": "Grimsby",
+    "countryName": "Canada",
+    "iata": "XGY",
+    "latitude": 49.3771,
+    "longitude": -84.7493,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Railway Station",
+    "city": "Aix La Chapelle",
+    "countryName": "Germany",
+    "iata": "XHJ",
+    "latitude": 50.7781,
+    "longitude": 6.08849,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
+    "name": "Valence Station",
+    "city": "Valence",
+    "countryName": "France",
+    "iata": "XHK",
+    "latitude": 44.9913,
+    "longitude": 4.97828,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Georgetown Rail Station",
+    "city": "Georgetown",
+    "countryName": "Canada",
+    "iata": "XHM",
+    "latitude": 46.1847,
+    "longitude": -62.5339,
+    "timezone": "America/Halifax",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "British Columbia",
+    "city": "Chemainus",
+    "countryName": "Canada",
+    "iata": "XHS",
+    "latitude": 54.4857,
+    "longitude": -126.556,
+    "timezone": "America/Vancouver",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Guelph Airport",
+    "city": "Guelph",
+    "countryName": "Canada",
+    "iata": "XIA",
+    "latitude": 43.5661,
+    "longitude": -80.1989,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Ontario",
+    "city": "Ingersoll",
+    "countryName": "Canada",
+    "iata": "XIB",
+    "latitude": 49.3771,
+    "longitude": -84.7493,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Maxville Rail Station",
+    "city": "Maxville",
+    "countryName": "Canada",
+    "iata": "XID",
+    "latitude": 45.2906,
+    "longitude": -74.8516,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Ontario",
+    "city": "Napanee",
+    "countryName": "Canada",
+    "iata": "XIF",
+    "latitude": 49.3771,
+    "longitude": -84.7493,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Quebec",
+    "city": "Saint Hyacinthe",
+    "countryName": "Canada",
+    "iata": "XIM",
+    "latitude": 53.8901,
+    "longitude": -68.4293,
+    "timezone": "America/Montreal",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "St Marys Rail Station",
+    "city": "St Marys",
+    "countryName": "Canada",
+    "iata": "XIO",
+    "latitude": 46.1445,
+    "longitude": -66.6164,
+    "timezone": "America/Halifax",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Woodstock Rail Service",
+    "city": "Woodstock",
+    "countryName": "Canada",
+    "iata": "XIP",
+    "latitude": 43.1301,
+    "longitude": -80.7566,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "London City Airport",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "XIT",
+    "latitude": 51.5039,
+    "longitude": 0.04981,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Quebec",
+    "city": "Joliette",
+    "countryName": "Canada",
+    "iata": "XJL",
+    "latitude": 53.8901,
+    "longitude": -68.4293,
+    "timezone": "America/Montreal",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Jonquiere Rail Station",
+    "city": "Jonquiere",
+    "countryName": "Canada",
+    "iata": "XJQ",
+    "latitude": 48.4339,
+    "longitude": -71.3432,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Sackville Rail Station",
+    "city": "Sackville",
+    "countryName": "Canada",
+    "iata": "XKV",
+    "latitude": 45.8997,
+    "longitude": -64.3746,
+    "timezone": "America/Halifax",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Quebec Stn. Rail Svce.",
+    "city": "Quebec",
+    "countryName": "Canada",
+    "iata": "XLJ",
+    "latitude": 46.8,
+    "longitude": -71.25,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "St Lambert Rail Svce.",
+    "city": "Montreal",
+    "countryName": "Canada",
+    "iata": "XLM",
+    "latitude": 45.5,
+    "longitude": -73.5833,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Ontario",
+    "city": "Niagara Falls",
+    "countryName": "Canada",
+    "iata": "XLV",
+    "latitude": 49.3771,
+    "longitude": -84.7493,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Aldershot Rail Station",
+    "city": "Aldershot",
+    "countryName": "Canada",
+    "iata": "XLY",
+    "latitude": 62.3587,
+    "longitude": -96.5821,
+    "timezone": "America/Resolute",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Nova Scotia",
+    "city": "Truro",
+    "countryName": "Canada",
+    "iata": "XLZ",
+    "latitude": 44.7274,
+    "longitude": -63.5876,
+    "timezone": "America/Halifax",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Sinop Airport",
+    "city": "Santo Antônio do Içá",
+    "countryName": "Brazil",
+    "iata": "XNB",
+    "latitude": -3.08333,
+    "longitude": -67.9333,
+    "timezone": "America/Porto_Velho",
+    "hasScheduledService": true,
+    "country": "br"
+  },
+  {
+    "name": "Nottingham Airport",
+    "city": "Nottingham",
+    "countryName": "United Kingdom",
+    "iata": "XNM",
+    "latitude": 52.9206,
+    "longitude": -1.075,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
     "city": "North",
     "countryName": "United States",
     "iata": "XNO",
@@ -108647,6 +110297,259 @@ module.exports = [
     "name": "North Af Aux Airport",
     "state": "SC",
     "country": "us"
+  },
+  {
+    "name": "Nuneaton Rail Station",
+    "city": "Nuneaton",
+    "countryName": "United Kingdom",
+    "iata": "XNV",
+    "latitude": 52.5214,
+    "longitude": -1.46445,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "York",
+    "city": "New York",
+    "countryName": "United States",
+    "iata": "XNY",
+    "latitude": 42.8767,
+    "longitude": -77.8826,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Ontario",
+    "city": "Oakville",
+    "countryName": "Canada",
+    "iata": "XOK",
+    "latitude": 49.3771,
+    "longitude": -84.7493,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Poitou-Charentes",
+    "city": "Poitiers",
+    "countryName": "France",
+    "iata": "XOP",
+    "latitude": 46.1325,
+    "longitude": -0.17616,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Parksville Rail Service",
+    "city": "Parksville",
+    "countryName": "Canada",
+    "iata": "XPB",
+    "latitude": 49.3203,
+    "longitude": -124.322,
+    "timezone": "America/Vancouver",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Penrith Rail Station",
+    "city": "Penrith",
+    "countryName": "United Kingdom",
+    "iata": "XPF",
+    "latitude": 54.6643,
+    "longitude": -2.75747,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Montpellier Railway Station",
+    "city": "Montpellier",
+    "countryName": "France",
+    "iata": "XPJ",
+    "latitude": 45.6333,
+    "longitude": -0.75,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Preston Rail Station",
+    "city": "Preston",
+    "countryName": "United Kingdom",
+    "iata": "XPT",
+    "latitude": 53.758,
+    "longitude": -2.70573,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Pointe-aux-Trembles Rail Station",
+    "city": "Pointe-aux-Trembles",
+    "countryName": "Canada",
+    "iata": "XPX",
+    "latitude": 45.6585,
+    "longitude": -73.5484,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "United Kingdom",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "XQE",
+    "latitude": 54.3139,
+    "longitude": -2.23218,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Berwick Station",
+    "city": "Berwick",
+    "countryName": "United Kingdom",
+    "iata": "XQG",
+    "latitude": 55.7714,
+    "longitude": -2.00702,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "United Kingdom",
+    "city": "Nottingham",
+    "countryName": "United Kingdom",
+    "iata": "XQH",
+    "latitude": 54.3139,
+    "longitude": -2.23218,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Lancaster Rail Station",
+    "city": "Lancaster",
+    "countryName": "United Kingdom",
+    "iata": "XQL",
+    "latitude": 54.0445,
+    "longitude": -2.79903,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Runcorn Rail Station",
+    "city": "Runcorn",
+    "countryName": "United Kingdom",
+    "iata": "XRC",
+    "latitude": 53.3304,
+    "longitude": -2.70902,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Marseille Railway",
+    "city": "Marseille",
+    "countryName": "France",
+    "iata": "XRF",
+    "latitude": 43.4844,
+    "longitude": 5.37588,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Pine Ridge Rail Station",
+    "city": "Pine Ridge",
+    "countryName": "Canada",
+    "iata": "XRP",
+    "latitude": 46.4864,
+    "longitude": -65.0255,
+    "timezone": "America/Halifax",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Rugby Rail Station",
+    "city": "Rugby",
+    "countryName": "United Kingdom",
+    "iata": "XRU",
+    "latitude": 52.3703,
+    "longitude": -1.26071,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "England",
+    "city": "Salisbury",
+    "countryName": "United Kingdom",
+    "iata": "XSR",
+    "latitude": 52.8833,
+    "longitude": -1.97685,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "England",
+    "city": "Thirsk",
+    "countryName": "United Kingdom",
+    "iata": "XTK",
+    "latitude": 52.8833,
+    "longitude": -1.97685,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Strathroy Rail Station",
+    "city": "Strathroy",
+    "countryName": "Canada",
+    "iata": "XTY",
+    "latitude": 42.9432,
+    "longitude": -81.6198,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "England",
+    "city": "Stockport",
+    "countryName": "United Kingdom",
+    "iata": "XVA",
+    "latitude": 52.8833,
+    "longitude": -1.97685,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "England",
+    "city": "Stafford",
+    "countryName": "United Kingdom",
+    "iata": "XVB",
+    "latitude": 52.8833,
+    "longitude": -1.97685,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "United Kingdom",
+    "city": "Crewe",
+    "countryName": "United Kingdom",
+    "iata": "XVC",
+    "latitude": 54.3139,
+    "longitude": -2.23218,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
   },
   {
     "name": "Longville Municipal Airport",
@@ -108662,6 +110565,479 @@ module.exports = [
     "country": "us"
   },
   {
+    "name": "Durham Rail Station",
+    "city": "Durham",
+    "countryName": "United Kingdom",
+    "iata": "XVU",
+    "latitude": 54.7775,
+    "longitude": -1.57461,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Wakefield Westgate Rail Station",
+    "city": "Wakefield Westgate",
+    "countryName": "United Kingdom",
+    "iata": "XWD",
+    "latitude": 54.7447,
+    "longitude": -2.14264,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Stroke on Trent Rail Station",
+    "city": "Stroke on Trent",
+    "countryName": "United Kingdom",
+    "iata": "XWH",
+    "latitude": 53.0294,
+    "longitude": -2.17507,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Karlskrona Rail Svc.",
+    "city": "Karlskrona",
+    "countryName": "Sweden",
+    "iata": "XWK",
+    "latitude": 56.2667,
+    "longitude": 15.2667,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Gothenburg",
+    "city": "Gothenburg",
+    "countryName": "Sweden",
+    "iata": "XWL",
+    "latitude": 57.7013,
+    "longitude": 11.9669,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Hallsberg Rail Station",
+    "city": "Hallsberg",
+    "countryName": "Sweden",
+    "iata": "XWM",
+    "latitude": 59.0667,
+    "longitude": 15.1126,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "England",
+    "city": "Warrington",
+    "countryName": "United Kingdom",
+    "iata": "XWN",
+    "latitude": 52.8833,
+    "longitude": -1.97685,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Sweden",
+    "city": "Enkoping",
+    "countryName": "Sweden",
+    "iata": "XWQ",
+    "latitude": 62.1984,
+    "longitude": 17.5514,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Orebro Railway Station",
+    "city": "Orebro",
+    "countryName": "Sweden",
+    "iata": "XWR",
+    "latitude": 59.2707,
+    "longitude": 15.2175,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "United Kingdom",
+    "city": "Swindon",
+    "countryName": "United Kingdom",
+    "iata": "XWS",
+    "latitude": 54.3139,
+    "longitude": -2.23218,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Varberg Rail Station",
+    "city": "Varberg",
+    "countryName": "Sweden",
+    "iata": "XWV",
+    "latitude": 57.1079,
+    "longitude": 12.249,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Wyoming Rail Station",
+    "city": "Wyoming",
+    "countryName": "Canada",
+    "iata": "XWY",
+    "latitude": 42.9414,
+    "longitude": -82.1204,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Sweden",
+    "city": "Nykoping",
+    "countryName": "Sweden",
+    "iata": "XWZ",
+    "latitude": 62.1984,
+    "longitude": 17.5514,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Sweden",
+    "city": "Alvesta",
+    "countryName": "Sweden",
+    "iata": "XXA",
+    "latitude": 62.1984,
+    "longitude": 17.5514,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Degerfors Rail Station",
+    "city": "Degerfors",
+    "countryName": "Sweden",
+    "iata": "XXD",
+    "latitude": 59.2359,
+    "longitude": 14.4305,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Katrineholm",
+    "city": "Katrineholm",
+    "countryName": "Sweden",
+    "iata": "XXK",
+    "latitude": 59.0167,
+    "longitude": 16.2167,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Leksand Rail Station",
+    "city": "Leksand",
+    "countryName": "Sweden",
+    "iata": "XXO",
+    "latitude": 60.7313,
+    "longitude": 14.9974,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Sophia Antipolis Heliport",
+    "city": "Valbonne",
+    "countryName": "France",
+    "iata": "XXT",
+    "latitude": 43.6167,
+    "longitude": 7.05,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Sweden",
+    "city": "Hedemora",
+    "countryName": "Sweden",
+    "iata": "XXU",
+    "latitude": 62.1984,
+    "longitude": 17.5514,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Sundsvall Railway Station",
+    "city": "Sundsvall",
+    "countryName": "Sweden",
+    "iata": "XXZ",
+    "latitude": 62.3889,
+    "longitude": 17.3069,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Borlange",
+    "city": "Borlänge",
+    "countryName": "Sweden",
+    "iata": "XYB",
+    "latitude": 60.4838,
+    "longitude": 15.4344,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Sweden",
+    "city": "Herrljunga",
+    "countryName": "Sweden",
+    "iata": "XYC",
+    "latitude": 62.1984,
+    "longitude": 17.5514,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Falkoping Rail Station",
+    "city": "Falkoping",
+    "countryName": "Sweden",
+    "iata": "XYF",
+    "latitude": 58.1621,
+    "longitude": 13.5548,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Helsingborg Railway",
+    "city": "Helsingborg",
+    "countryName": "Sweden",
+    "iata": "XYH",
+    "latitude": 56.0439,
+    "longitude": 12.6959,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Sweden",
+    "city": "Flen",
+    "countryName": "Sweden",
+    "iata": "XYI",
+    "latitude": 62.1984,
+    "longitude": 17.5514,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Norrkoping Railway Service",
+    "city": "Norrkoping",
+    "countryName": "Sweden",
+    "iata": "XYK",
+    "latitude": 58.5844,
+    "longitude": 16.1925,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Kristinehamn",
+    "city": "Kristinehamn",
+    "countryName": "Sweden",
+    "iata": "XYN",
+    "latitude": 59.3091,
+    "longitude": 14.1061,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Kyrlbo",
+    "city": "Avesta Krylbo",
+    "countryName": "Sweden",
+    "iata": "XYP",
+    "latitude": 60.1269,
+    "longitude": 16.2161,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Angelholm Railway Svc.",
+    "city": "Angelholm/Helsingborg",
+    "countryName": "Sweden",
+    "iata": "XYQ",
+    "latitude": 59.6833,
+    "longitude": 15.8167,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Sala",
+    "city": "Sala",
+    "countryName": "Sweden",
+    "iata": "XYX",
+    "latitude": 59.92,
+    "longitude": 16.606,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Arvika Airport",
+    "city": "Arvika",
+    "countryName": "Sweden",
+    "iata": "XYY",
+    "latitude": 59.6767,
+    "longitude": 12.6425,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Harnosand Rail Station",
+    "city": "Harnosand",
+    "countryName": "Sweden",
+    "iata": "XYZ",
+    "latitude": 62.6335,
+    "longitude": 17.9377,
+    "timezone": "Europe/Stockholm",
+    "hasScheduledService": true,
+    "country": "se"
+  },
+  {
+    "name": "Casselman Rail Station",
+    "city": "Casselman",
+    "countryName": "Canada",
+    "iata": "XZB",
+    "latitude": 45.3135,
+    "longitude": -75.089,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Avignon",
+    "city": "Avignon",
+    "countryName": "France",
+    "iata": "XZN",
+    "latitude": 43.9487,
+    "longitude": 4.80601,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Oslo Central Station",
+    "city": "Oslo",
+    "countryName": "Norway",
+    "iata": "XZO",
+    "latitude": 59.9123,
+    "longitude": 10.75,
+    "timezone": "Europe/Oslo",
+    "hasScheduledService": true,
+    "country": "no"
+  },
+  {
+    "name": "Off line Point",
+    "city": "Rail (Generic)",
+    "countryName": "United States",
+    "iata": "XZU",
+    "latitude": 37.2997,
+    "longitude": -92.3047,
+    "timezone": "America/Chicago",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "TGV Station",
+    "city": "Toulon",
+    "countryName": "France",
+    "iata": "XZV",
+    "latitude": 46.4833,
+    "longitude": -0.63333,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "iata": "YHG",
+    "timezone": "America/St_Johns",
+    "name": "Charlottetown Airport",
+    "city": "St. Anthony",
+    "countryName": "Canada",
+    "latitude": 52.7667,
+    "longitude": -56.1,
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Switzerland",
+    "city": "Basel",
+    "countryName": "Switzerland",
+    "iata": "ZBA",
+    "latitude": 47.5487,
+    "longitude": 7.58768,
+    "timezone": "Europe/Zurich",
+    "hasScheduledService": false,
+    "country": "ch"
+  },
+  {
+    "name": "Australia",
+    "city": "Biloela",
+    "countryName": "Australia",
+    "iata": "ZBL",
+    "latitude": -24.3903,
+    "longitude": 150.519,
+    "timezone": "Australia/Brisbane",
+    "hasScheduledService": true,
+    "country": "au"
+  },
+  {
+    "name": "Basel SBB station",
+    "city": "Basel",
+    "countryName": "Switzerland",
+    "iata": "ZDH",
+    "latitude": 47.5487,
+    "longitude": 7.58768,
+    "timezone": "Europe/Zurich",
+    "hasScheduledService": true,
+    "country": "ch"
+  },
+  {
+    "name": "Kingsford Smith Airport",
+    "city": "Sydney",
+    "countryName": "Australia",
+    "iata": "ZDN",
+    "latitude": -33.9344,
+    "longitude": 151.168,
+    "timezone": "Australia/Sydney",
+    "hasScheduledService": true,
+    "country": "au"
+  },
+  {
+    "name": "London City Airport",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "ZDU",
+    "latitude": 51.5039,
+    "longitude": 0.04981,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
     "name": "Kelsey Airport",
     "city": "Kelsey",
     "countryName": "Canada",
@@ -108673,5 +111049,357 @@ module.exports = [
     "icao": "CZEE",
     "state": "MB",
     "country": "ca"
+  },
+  {
+    "name": "England",
+    "city": "Chesterfield",
+    "countryName": "United Kingdom",
+    "iata": "ZFI",
+    "latitude": 52.8833,
+    "longitude": -1.97685,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "France",
+    "city": "Rennes",
+    "countryName": "France",
+    "iata": "ZFJ",
+    "latitude": 46.7124,
+    "longitude": 1.71832,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "France",
+    "city": "Bordeaux",
+    "countryName": "France",
+    "iata": "ZFQ",
+    "latitude": 46.7124,
+    "longitude": 1.71832,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "New York",
+    "city": "Buffalo",
+    "countryName": "United States",
+    "iata": "ZFZ",
+    "latitude": 40.7145,
+    "longitude": -74.0071,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "New London",
+    "city": "Groton",
+    "countryName": "United States",
+    "iata": "ZGD",
+    "latitude": 41.3564,
+    "longitude": -72.0965,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Zhongshan Ferry Port",
+    "city": "Zhongshan",
+    "countryName": "China",
+    "iata": "ZGN",
+    "latitude": 22.5167,
+    "longitude": 113.367,
+    "timezone": "Asia/Shanghai",
+    "hasScheduledService": true,
+    "country": "cn"
+  },
+  {
+    "name": "Gotha",
+    "city": "Gotha",
+    "countryName": "Germany",
+    "iata": "ZGO",
+    "latitude": 50.9496,
+    "longitude": 10.7087,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
+    "iata": "ZGS",
+    "timezone": "America/Blanc-Sablon",
+    "name": "Gethsemani Airport",
+    "city": "Havre-St-Pierre",
+    "countryName": "Canada",
+    "latitude": 50.3016,
+    "longitude": -60.6776,
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "iata": "ZHO",
+    "timezone": "America/Chicago",
+    "name": "Bus Station",
+    "city": "Houston",
+    "countryName": "United States",
+    "latitude": 29.7605,
+    "longitude": -95.3698,
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Fallowfield Railway",
+    "city": "Ottawa",
+    "countryName": "Canada",
+    "iata": "ZIF",
+    "latitude": 45.4167,
+    "longitude": -75.7,
+    "timezone": "America/Toronto",
+    "hasScheduledService": true,
+    "country": "ca"
+  },
+  {
+    "name": "Inverness Rail Station",
+    "city": "Inverness",
+    "countryName": "United Kingdom",
+    "iata": "ZIV",
+    "latitude": 57.48,
+    "longitude": -4.22347,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Le Mans",
+    "city": "Le Mans",
+    "countryName": "France",
+    "iata": "ZLN",
+    "latitude": 48.0081,
+    "longitude": 0.19784,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "England",
+    "city": "London",
+    "countryName": "United Kingdom",
+    "iata": "ZLS",
+    "latitude": 52.8833,
+    "longitude": -1.97685,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Albany International Airport",
+    "city": "Albany",
+    "countryName": "United States",
+    "iata": "ZLY",
+    "latitude": 42.7426,
+    "longitude": -73.809,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "New Jersey",
+    "city": "Newark",
+    "countryName": "United States",
+    "iata": "ZME",
+    "latitude": 40.1428,
+    "longitude": -74.7267,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Huangpu Harbour",
+    "city": "Huangpu",
+    "countryName": "China",
+    "iata": "ZMY",
+    "latitude": 43.8321,
+    "longitude": 4.36677,
+    "timezone": "Asia/Shanghai",
+    "hasScheduledService": false,
+    "country": "cn"
+  },
+  {
+    "name": "Sinop Airport",
+    "city": "Santo Antônio do Içá",
+    "countryName": "Brazil",
+    "iata": "ZNB",
+    "latitude": -3.08333,
+    "longitude": -67.9333,
+    "timezone": "America/Porto_Velho",
+    "hasScheduledService": true,
+    "country": "br"
+  },
+  {
+    "name": "Lancaster",
+    "city": "Lancaster",
+    "countryName": "United States",
+    "iata": "ZRL",
+    "latitude": 40.038,
+    "longitude": -76.3013,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Providence",
+    "city": "Providence",
+    "countryName": "United States",
+    "iata": "ZRV",
+    "latitude": 41.8238,
+    "longitude": -71.412,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Humen Port",
+    "city": "Humen",
+    "countryName": "China",
+    "iata": "ZTI",
+    "latitude": 22.8267,
+    "longitude": 113.672,
+    "timezone": "Asia/Shanghai",
+    "hasScheduledService": true,
+    "country": "cn"
+  },
+  {
+    "name": "New Jersey",
+    "city": "Princeton",
+    "countryName": "United States",
+    "iata": "ZTJ",
+    "latitude": 40.1428,
+    "longitude": -74.7267,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Louisville International Airport",
+    "city": "Louisville",
+    "countryName": "United States",
+    "iata": "ZTV",
+    "latitude": 38.1865,
+    "longitude": -85.7462,
+    "timezone": "America/Kentucky/Louisville",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Utica",
+    "city": "Utica",
+    "countryName": "United States",
+    "iata": "ZUA",
+    "latitude": 43.0958,
+    "longitude": -75.2428,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Hannover Hauptbahnhof",
+    "city": "Hanover",
+    "countryName": "Germany",
+    "iata": "ZVR",
+    "latitude": 52.3778,
+    "longitude": 9.74213,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true,
+    "country": "de"
+  },
+  {
+    "name": "Williamsburg Rail",
+    "city": "Hampton",
+    "countryName": "United States",
+    "iata": "ZWB",
+    "latitude": 37.0294,
+    "longitude": -76.3467,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Illinois",
+    "city": "Glenview",
+    "countryName": "United States",
+    "iata": "ZWV",
+    "latitude": 39.7393,
+    "longitude": -89.5041,
+    "timezone": "America/Chicago",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Newport News",
+    "city": "Hampton",
+    "countryName": "United States",
+    "iata": "ZWW",
+    "latitude": 36.9805,
+    "longitude": -76.4295,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Aberdeen railway station",
+    "city": "Aberdeen",
+    "countryName": "United Kingdom",
+    "iata": "ZXA",
+    "latitude": 57.1538,
+    "longitude": -2.10679,
+    "timezone": "Europe/London",
+    "hasScheduledService": true,
+    "country": "gb"
+  },
+  {
+    "name": "Shekou Port",
+    "city": "Shekou",
+    "countryName": "China",
+    "iata": "ZYK",
+    "latitude": 30.7,
+    "longitude": 114.35,
+    "timezone": "Asia/Shanghai",
+    "hasScheduledService": true,
+    "country": "cn"
+  },
+  {
+    "name": "Nimes Rail Station",
+    "city": "Nimes",
+    "countryName": "France",
+    "iata": "ZYN",
+    "latitude": 43.8321,
+    "longitude": 4.36677,
+    "timezone": "Europe/Paris",
+    "hasScheduledService": true,
+    "country": "fr"
+  },
+  {
+    "name": "Syracuse",
+    "city": "Syracuse",
+    "countryName": "United States",
+    "iata": "ZYQ",
+    "latitude": 43.05,
+    "longitude": -76.1474,
+    "timezone": "America/New_York",
+    "hasScheduledService": true,
+    "country": "us"
+  },
+  {
+    "name": "Berchem Railway Stn.",
+    "city": "Antwerp",
+    "countryName": "Belgium",
+    "iata": "ZYZ",
+    "latitude": 51.1992,
+    "longitude": 4.43246,
+    "timezone": "Europe/Brussels",
+    "hasScheduledService": true,
+    "country": "be"
   }
 ];

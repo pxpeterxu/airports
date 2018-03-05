@@ -6,7 +6,6 @@ var _ = require('lodash');
 var rlSync = require('readline-sync');
 var tzlookup = require('tz-lookup');
 
-
 var nameToCode = require('./data/countries');
 var codeToName = {};
 
@@ -201,7 +200,6 @@ var requiredFields = [
   'longitude',
   'timezone',
   'hasScheduledService',
-  'icao',
 ];
 
 airports.forEach(function(airport) {
