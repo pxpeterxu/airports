@@ -227,6 +227,20 @@ airports = airports.filter(function(airport) {
   return airport;
 });
 
+// Add custom airports:
+// QYG: German railroad stations
+airports.push({
+  name: 'German railway station',
+  city: 'Unknown city',
+  country: 'de',
+  countryName: 'Germany',
+  iata: 'QYG',
+  latitude: 52.52,
+  longitude: 13.405,
+  timezone: 'Europe/Berlin',
+  hasScheduledService: true,
+});
+
 var airportsKeyed = _.fromPairs(airports.map(function(airport) {
   return [airport.iata, airport];
 }));

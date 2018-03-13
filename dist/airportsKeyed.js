@@ -110869,5 +110869,16 @@ module.exports = {
     "timezone": "Europe/Brussels",
     "hasScheduledService": true,
     "country": "be"
+  },
+  "QYG": {
+    "name": "German railway station",
+    "city": "Unknown city",
+    "country": "de",
+    "countryName": "Germany",
+    "iata": "QYG",
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "timezone": "Europe/Berlin",
+    "hasScheduledService": true
   }
 };
